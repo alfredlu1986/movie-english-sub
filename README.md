@@ -1,5 +1,6 @@
 # movie-english-sub
 https://yts-subs.com/movie-imdb/tt0399201
+https://www.subtitlecat.com/subs/91/Ray.2004.1080p.BluRay.x264.YIFY.html
 
 以下為您的遊戲帳號之取得證明，請妥善保管此頁資訊.
 接著，您可以關閉此視窗進入金庸群俠傳至尊版的世界囉！！
