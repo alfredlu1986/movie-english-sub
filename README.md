@@ -2,6 +2,10 @@
 https://yts-subs.com/movie-imdb/tt0399201
 https://www.subtitlecat.com/subs/91/Ray.2004.1080p.BluRay.x264.YIFY.html
 
+大學專業科目/Architecture_IT_terms_master.csv
+高中/大學指考7000單字.pdf
+國中/國中2000字-依字母序1(列印版).pdf
+
 以下為您的遊戲帳號之取得證明，請妥善保管此頁資訊.
 接著，您可以關閉此視窗進入金庸群俠傳至尊版的世界囉！！
 
