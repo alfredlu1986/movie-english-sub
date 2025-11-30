@@ -1,0 +1,4225 @@
+Term,Category
+#P,IT
+A* search,IT
+ABAC,IT
+ABS,IT
+absorption,Architecture
+abstract syntax tree,IT
+abstraction,IT
+abstraction refinement,IT
+abutment,Architecture
+ac,IT
+accelerator,Architecture
+accept,IT
+Accept-Encoding,IT
+Accept-Language,IT
+acceptable use policy,IT
+acceptance criteria,IT
+acceptance test,IT
+acceptance test-driven development,IT
+acceptance testing,IT
+Accepted,IT
+access control list,IT
+access road,Architecture
+accountability,IT
+accumulator,IT
+ACID,IT
+acoustic ceiling,Architecture
+acoustic door,Architecture
+acoustic insulation,Architecture
+acrylic sealant,Architecture
+actions on objectives,IT
+Active Directory,IT
+active earth pressure,Architecture
+activity diagram,IT
+actor–critic,IT
+ad-hoc polymorphism,IT
+Ada,IT
+AdaBoost,IT
+adapter pattern,IT
+adaptive adversary,IT
+address sanitizer,IT
+address space,IT
+admixture,Architecture
+adversary model,IT
+adware,IT
+aerated block,Architecture
+aerial photo,Architecture
+affine type,IT
+affinity scheduling,IT
+affordance,IT
+after-action review,IT
+AGE,IT
+aggregate,Architecture
+aggregate analysis,IT
+aggregate signature,IT
+AH,IT
+ahead-of-time compilation,IT
+Aho–Corasick,IT
+air curing,Architecture
+air duct,Architecture
+air handling unit,Architecture
+air hose,Architecture
+air release valve,Architecture
+air-entraining agent,Architecture
+Airflow,IT
+alert fatigue,IT
+alert triage,IT
+algorithm,IT
+alias,IT
+alias analysis,IT
+aliasing,IT
+ALL,IT
+allowable bearing capacity,Architecture
+alluvium,Architecture
+ALTER,IT
+aluminum frame,Architecture
+AM,IT
+Amdahl's law,IT
+Amdahl’s law,IT
+amortized analysis,IT
+analysis,IT
+analytics,IT
+anchor bolt,Architecture
+anchor head,Architecture
+anchorage length,Architecture
+anchors bolt,Architecture
+anchors head,Architecture
+angle grinder,Architecture
+angle of friction,Architecture
+annotative text,Architecture
+anomaly detection,IT
+ANSI C,IT
+Ansible,IT
+anti join,IT
+anti-aliasing,IT
+anti-corrosion coating,Architecture
+anti-corruption layer,IT
+anti-debugging,IT
+anti-entropy,IT
+ANY,IT
+anycast,IT
+anycast DNS,IT
+APFS,IT
+API,IT
+APN,IT
+application gateway,IT
+application layer,IT
+applicative,IT
+approximate consensus,IT
+approximate query processing,IT
+approximation algorithm,IT
+approximation ratio,IT
+arbiter,IT
+arc welding,Architecture
+ArchiMate,IT
+ArchiMate application view,IT
+ArchiMate motivation view,IT
+ArchiMate technology view,IT
+architect,Architecture
+architectural plan,Architecture
+architectural style,IT
+architecture decision record,IT
+architecture description,IT
+architecture framework,IT
+Argon2,IT
+ARIES,IT
+arithmetic coding,IT
+arithmetic logic unit,IT
+ARP,IT
+array,IT
+ARRAY_AGG,IT
+artifact repository,IT
+artificial intelligence,IT
+as-built documentation,Architecture
+as-built drawing,Architecture
+as-built network,Architecture
+as-built survey,Architecture
+ASCII,IT
+ASLR bypass,IT
+ASN.1,IT
+asphalt paver,Architecture
+asphalt shingle,Architecture
+assembly drawing,Architecture
+asset management,IT
+asymmetric encryption,IT
+asynchronous,IT
+asynchronous I/O,IT
+asynchronous replication,IT
+at-least-once semantics,IT
+at-most-once semantics,IT
+at-rest pressure,Architecture
+ATM,IT
+atomic broadcast,IT
+atomic multicast,IT
+atomic operation,IT
+atomicity,IT
+attack surface,IT
+attention mechanism,IT
+Atterberg limits,Architecture
+attribute,IT
+attribute-based access control,IT
+audit trail,IT
+auditing,IT
+authenticated encryption,IT
+authenticated key exchange,IT
+authentication,IT
+authorization,IT
+auto scaling,IT
+autoencoder,IT
+automatic level,Architecture
+automation,IT
+availability,IT
+availability management,IT
+availability measurement,IT
+availability target,IT
+availability zone,IT
+average precision,IT
+AVG,IT
+AVL tree,IT
+Avro,IT
+awk,IT
+ax,IT
+axonometric drawing,Architecture
+azimuth,Architecture
+Azuma inequality,IT
+Azuma–Hoeffding inequality,IT
+B* tree,IT
+B+ tree,IT
+B-spline,IT
+B-tree,IT
+B-tree index,IT
+backend,IT
+backer board,Architecture
+backer rod,Architecture
+backfill,Architecture
+backhoe loader,Architecture
+backpressure,IT
+backpressure (systems),IT
+backpropagation,IT
+backsight,Architecture
+backtracking,IT
+backup,IT
+backward chaining,IT
+BACnet,IT
+Bad Gateway,IT
+Bad Request,IT
+baggage,IT
+balanced scorecard,IT
+balancing traverse,Architecture
+Ball tree,IT
+ball valve,Architecture
+ballooning,IT
+balustrade,Architecture
+bandwidth,IT
+bank conflict,IT
+banker’s algorithm,IT
+banker’s method,IT
+bar chair,Architecture
+barricade,Architecture
+barrier,IT
+bars,Architecture
+basalt fiber,Architecture
+BASE,IT
+base plate,Architecture
+baseboard,Architecture
+baseline,Both
+baseline management,IT
+baseline program,Architecture
+basement beam,Architecture
+basement slab,Architecture
+basement wall,Architecture
+Bash,IT
+batch verification,IT
+batching,Architecture
+batter board,Architecture
+battery bank,Architecture
+Bayes theorem,IT
+Bazel,IT
+bcrypt,IT
+beam,Architecture
+beam detail,Architecture
+beam layout,Architecture
+beam schedule,Architecture
+beams,Architecture
+bearing,Architecture
+bearing capacity,Architecture
+bearing pad,Architecture
+bedrock,Architecture
+behavior-driven development,IT
+behavioral analytics,IT
+Bellman equation,IT
+Bellman–Ford algorithm,IT
+Bell–LaPadula model,IT
+bench grinder,Architecture
+benchmark,Architecture
+benchmarking,IT
+benchmarks,Architecture
+benefits realization,IT
+bent bar,Architecture
+BER encoding,IT
+Berkeley algorithm,IT
+BETWEEN,IT
+BFD,IT
+BFS,IT
+bg,IT
+BGP,IT
+bias–variance tradeoff,IT
+Biba model,IT
+Big Endian,IT
+Big-O notation,IT
+bigint,IT
+bigserial,IT
+bill of quantities,Architecture
+binary,IT
+binary heap,IT
+binary operation,IT
+binary search,IT
+binary transparency,IT
+bind,IT
+binomial heap,IT
+biometric authentication,IT
+BIOS,IT
+bipartite matching,IT
+bit mask,IT
+BIT_LENGTH,IT
+bitmap index,IT
+bituminous membrane,Architecture
+bitwise,IT
+BK-tree index,IT
+blacklisting,IT
+BLAKE2,IT
+BLAKE3,IT
+blameless postmortem,IT
+bleeding,Architecture
+blended cement,Architecture
+block,Architecture
+block attribute,Architecture
+block cipher,IT
+blockwork beam,Architecture
+blockwork column,Architecture
+blockwork connection,Architecture
+blockwork core,Architecture
+blockwork footing,Architecture
+blockwork foundation,Architecture
+blockwork frame,Architecture
+blockwork girder,Architecture
+blockwork joint,Architecture
+blockwork pile,Architecture
+blockwork slab,Architecture
+blockwork stair,Architecture
+blockwork truss,Architecture
+blockwork wall,Architecture
+Bloom filter,IT
+blue team,IT
+blue teaming,IT
+blue-green deployment,IT
+blueprint,Architecture
+Bluetooth,IT
+blue–green deployment,IT
+BM25,IT
+BMS,Architecture
+BNF,IT
+bolted connection,Architecture
+Boneh–Franklin IBE,IT
+boolean,IT
+boom pump,Architecture
+booster pump,Architecture
+boot sequence,IT
+bootkit,IT
+border,Architecture
+bored pile,Architecture
+borehole,Architecture
+boreholes,Architecture
+borelog,Architecture
+borelogs,Architecture
+botnet,IT
+bottle jack,Architecture
+boulder,Architecture
+boundary element,Architecture
+boundary value analysis,IT
+bounded context,IT
+bounded model checking,IT
+bounded staleness,IT
+box,IT
+Boyce–Codd normal form,IT
+Boyer–Moore,IT
+BPMN,IT
+BPMN collaboration diagram,IT
+BPP,IT
+braced frame,Architecture
+bracing,Architecture
+bracing system,Architecture
+bracket,Architecture
+branch and bound,IT
+branch coverage,IT
+branch prediction,IT
+branch predictor,IT
+breadth-first search,IT
+break line,Architecture
+breakpoint,IT
+brick,Architecture
+brick trowel,Architecture
+brickwork beam,Architecture
+brickwork column,Architecture
+brickwork connection,Architecture
+brickwork core,Architecture
+brickwork footing,Architecture
+brickwork foundation,Architecture
+brickwork frame,Architecture
+brickwork girder,Architecture
+brickwork joint,Architecture
+brickwork pile,Architecture
+brickwork slab,Architecture
+brickwork stair,Architecture
+brickwork truss,Architecture
+brickwork wall,Architecture
+bridge deck,Architecture
+bridge pattern,IT
+BRIN,IT
+BRIN index,IT
+brittleness,Architecture
+brk,IT
+broadcast,IT
+broom finish,Architecture
+brownout (systems),IT
+brute force attack,IT
+Btrfs,IT
+bubble sort,IT
+Buck,IT
+buckling,Architecture
+buffer overflow,IT
+build pipeline,IT
+builder pattern,IT
+building automation,Architecture
+building corner stake,Architecture
+bulk density,Architecture
+bulkhead isolation,IT
+bull float,Architecture
+bulldozer,Architecture
+Bulletproofs,IT
+buoyancy,Architecture
+burn rate,IT
+Burrows–Wheeler transform,IT
+bus arbitration,IT
+bus topology,IT
+busbar,Architecture
+business case,IT
+business continuity plan,IT
+business glossary,IT
+business intelligence,IT
+business model canvas,IT
+business process modeling,IT
+butterfly valve,Architecture
+bytea,IT
+bytecode,IT
+Byzantine adversary,IT
+Byzantine agreement,IT
+Byzantine fault tolerance,IT
+bzip2,IT
+Bézier curve,IT
+C,IT
+C#,IT
+C++,IT
+C++11,IT
+C++14,IT
+C++17,IT
+C++20,IT
+C++23,IT
+C11,IT
+C17,IT
+C2 beaconing,IT
+C23,IT
+C99,IT
+cable tray,Architecture
+cache coherence,IT
+cache hierarchy,IT
+cache hit,IT
+cache line,IT
+cache line alignment,IT
+cache miss,IT
+Cache-Control,IT
+CAD layer,Architecture
+cadastral network,Architecture
+cadastral survey,Architecture
+callback,IT
+callback channel,IT
+camber,Architecture
+camera view,Architecture
+canary release,IT
+candidate key,IT
+cantilever beam,Architecture
+cantilever wall,Architecture
+CAP theorem,IT
+capability,IT
+capability map,IT
+capability model,IT
+capacity management,IT
+capacity planning,IT
+cardinality,IT
+cardinality estimation,IT
+Cargo,IT
+carpet roll,Architecture
+carpet tile,Architecture
+Cartesian tree,IT
+CASE,IT
+CAST,IT
+cat,IT
+catalog,IT
+category theory (in programming),IT
+caulk,Architecture
+causal consistency,IT
+causal consistency model,IT
+causal ordering,IT
+CBOR,IT
+cd,IT
+CEGAR,IT
+CEIL,IT
+ceiling layout,Architecture
+ceiling tile,Architecture
+cement,Architecture
+cement board,Architecture
+cementitious waterproofing,Architecture
+center of excellence,IT
+centerline,Architecture
+centerline stake,Architecture
+Ceph,IT
+ceramic tile,Architecture
+certificate authority,IT
+certificate pinning,IT
+certificate revocation list,IT
+certificate transparency,IT
+cgroup,IT
+ChaCha20,IT
+chain of custody,IT
+chain of responsibility,IT
+chain surveying,Architecture
+chalk line,Architecture
+chamfer,Architecture
+change control,IT
+change data capture,IT
+change enablement,IT
+change management,IT
+change order,Architecture
+channel coding theorem,IT
+chaos engineering (concept),IT
+chaos experiment,IT
+char,IT
+CHAR_LENGTH,IT
+characteristic function,IT
+CHECK,IT
+check line,Architecture
+check valve,Architecture
+checkpoint,IT
+checksum,IT
+chemical admixture,Architecture
+Chernoff bound,IT
+chiller,Architecture
+Chinese wall policy,IT
+chmod,IT
+Chord,IT
+chown,IT
+chroot,IT
+chute,Architecture
+CIDR,IT
+cipher block chaining,IT
+cipher mode,IT
+circle,IT
+circuit breaker,Both
+circuit breaker pattern,IT
+circular buffer,IT
+circular saw,Architecture
+circulation pump,Architecture
+CIS benchmark,IT
+CIS Controls,IT
+cladding,Architecture
+claims-based identity,IT
+clamp,Architecture
+Clark–Wilson model,IT
+class,IT
+class diagram,IT
+clay,Architecture
+clay brick,Architecture
+clay tile,Architecture
+clean architecture,IT
+clear cover,Architecture
+clerk of works,Architecture
+clickjacking,IT
+client,Architecture
+clock algorithm,IT
+clock drift,IT
+clock skew,IT
+clock_gettime,IT
+Clojure,IT
+clone,IT
+close,IT
+closed traverse,Architecture
+closure,IT
+cloud computing,IT
+cluster autoscaler,IT
+cluster node,IT
+clustered index,IT
+CMake,IT
+co-NP,IT
+COALESCE,IT
+coarse aggregate,Architecture
+coarse-grained soil,Architecture
+cobbles,Architecture
+COBIT,IT
+COBOL,IT
+code churn,IT
+code coverage,IT
+code coverage analysis,IT
+code coverage criterion,IT
+code injection,IT
+code review,IT
+code signing,IT
+code smell,IT
+cohesion,Both
+cold data,IT
+cold joint,Architecture
+cold water,Architecture
+collaboration platform,IT
+colluvium,Architecture
+colored concrete,Architecture
+column,Architecture
+column detail,Architecture
+column grid,Architecture
+column layout,Architecture
+column schedule,Architecture
+column-level encryption,IT
+columnar storage,IT
+columns,Architecture
+combinational logic,IT
+combinatorial testing,IT
+combinatorics,IT
+combined footing,Architecture
+command and control,IT
+command and control server,IT
+command injection,IT
+command interpreter,IT
+command pattern,IT
+command query responsibility segregation,IT
+commissioning,Architecture
+COMMIT,IT
+commitment scheme,IT
+commitment scheme binding,IT
+commitment scheme hiding,IT
+commit–reveal scheme,IT
+Common Lisp,IT
+common subexpression elimination,IT
+common table expression,IT
+communication complexity,IT
+communication diagram,IT
+communication plan,IT
+compacting collector,IT
+compaction,Both
+compactor,Architecture
+compare-and-swap,IT
+compensating control,IT
+compensation transaction,IT
+competitive analysis,IT
+competitive ratio,IT
+compiler,IT
+compiler construction,IT
+compilers,IT
+component diagram,IT
+composite index,IT
+composite key,IT
+composite pattern,IT
+composition,IT
+compression ratio,IT
+compressive strength,Architecture
+compressor,Architecture
+computability theory,IT
+computation model,IT
+computational complexity,IT
+computer architecture,IT
+computer graphics,IT
+computer networks,IT
+computer vision,IT
+CONCAT,IT
+concern,IT
+concolic testing,IT
+concrete,Architecture
+concrete backfilling,Architecture
+concrete batching plant,Architecture
+concrete beam,Architecture
+concrete block,Architecture
+concrete column,Architecture
+concrete compacting,Architecture
+concrete connection,Architecture
+concrete core,Architecture
+concrete curing,Architecture
+concrete footing,Architecture
+concrete foundation,Architecture
+concrete frame,Architecture
+concrete girder,Architecture
+concrete joint,Architecture
+concrete mixer,Architecture
+concrete pile,Architecture
+concrete placing,Architecture
+concrete pouring,Architecture
+concrete pump,Architecture
+concrete slab,Architecture
+concrete stair,Architecture
+concrete stripping,Architecture
+concrete tile,Architecture
+concrete truss,Architecture
+concrete vibrator,Architecture
+concrete wall,Architecture
+concurrency,IT
+concurrency control,IT
+concurrent GC,IT
+condensate drain,Architecture
+condenser,Architecture
+condition coverage,IT
+condition number,IT
+condition variable,IT
+conduit,Architecture
+cone penetration test,Architecture
+confidentiality,IT
+config map,IT
+configuration as code,IT
+configuration item,IT
+configuration management,IT
+configuration management database,IT
+configuration management plan,IT
+Conflict,IT
+conflict resolution,IT
+conflict serializability,IT
+conflict-free replicated data type,IT
+congestion avoidance,IT
+congestion control,IT
+connect,IT
+connection,Both
+connection detail,Architecture
+connection layout,Architecture
+connection schedule,Architecture
+connections,Architecture
+consensus,IT
+consensus protocol,IT
+consistency,IT
+consistent hashing,IT
+consistent hashing ring,IT
+consolidation,Architecture
+constant,IT
+constant air volume,Architecture
+constant folding,IT
+constant propagation,IT
+CONSTRAINT,IT
+construction joint,Architecture
+construction line,Architecture
+construction manager,Architecture
+construction network,Architecture
+construction site,Architecture
+construction survey,Architecture
+"Construction Vocabulary – Drafting, Concrete, Surveying (2000 terms)",Architecture
+constructor,IT
+Consul,IT
+consultant,Architecture
+container,IT
+containerization,IT
+containment,IT
+content delivery network,IT
+content management system,IT
+Content-Disposition,IT
+Content-Encoding,IT
+Content-Language,IT
+Content-Length,IT
+Content-Location,IT
+Content-Range,IT
+Content-Security-Policy,IT
+Content-Type,IT
+context diagram,IT
+context propagation,IT
+context switch,IT
+context switching,IT
+context-free grammar,IT
+contingency plan,IT
+Continue,IT
+continuous beam,Architecture
+continuous delivery,IT
+continuous deployment,IT
+continuous integration,IT
+contour,Architecture
+contour interval,Architecture
+contour map,Architecture
+contours,Architecture
+contractor,Architecture
+control flow,IT
+control flow graph,IT
+control hazard,IT
+control joint,Architecture
+control network,Architecture
+control panel,Architecture
+control point,Architecture
+control survey,Architecture
+controls point,Architecture
+convolution,IT
+convolutional neural network,IT
+Cookie,IT
+cooling tower,Architecture
+cooperative scheduling,IT
+coordinate point,Architecture
+coordinate system,Architecture
+coordinated vulnerability disclosure,IT
+coordinator,IT
+copper pipe,Architecture
+copy-on-write,IT
+copy-on-write fork,IT
+copying collector,IT
+corbel,Architecture
+core drill,Architecture
+core test,Architecture
+core wall,Architecture
+cornice,Architecture
+coroutine,IT
+corrective maintenance,Architecture
+correlation,IT
+cosine similarity,IT
+COSO framework,IT
+cost-based optimizer,IT
+cost–benefit analysis,IT
+COUNT,IT
+count-min sketch,IT
+counter mode,IT
+counterexample-guided abstraction refinement,IT
+counterfort wall,Architecture
+counting sort,IT
+count–min sketch,IT
+coupling,Both
+covariance,IT
+cover sheet,Architecture
+cover tree,IT
+covering index,IT
+coving,Architecture
+cp,IT
+CPT,Architecture
+CPU cycle,IT
+CPVC pipe,Architecture
+CQRS,IT
+Cramer–Shoup cryptosystem,IT
+cranes,Architecture
+crash fault,IT
+crawler crane,Architecture
+crazing,Architecture
+CRDT,IT
+CREATE,IT
+Created,IT
+credential stuffing,IT
+creep,Architecture
+crisis management,IT
+Cristian’s algorithm,IT
+critical path,Architecture
+critical path method,IT
+critical section,IT
+cross bracing,Architecture
+cross section,Architecture
+cross-sectioning,Architecture
+cross-site request forgery,IT
+cross-site scripting,IT
+cross-validation,IT
+crowbar,Architecture
+cryptography,IT
+cryptojacking,IT
+CSP (process algebra),IT
+CSPRNG,IT
+CSS3,IT
+CSV,IT
+CTL,IT
+cube test,Architecture
+cuckoo filter,IT
+cuckoo hashing,IT
+curing,Architecture
+curl,IT
+current state,IT
+CURRENT_DATE,IT
+CURRENT_TIME,IT
+CURRENT_TIMESTAMP,IT
+currying,IT
+curse of dimensionality,IT
+cursor,IT
+curtain wall,Architecture
+Curve25519,IT
+customer journey map,IT
+customer relationship management,IT
+cut,IT
+cut and fill,Architecture
+cut line,Architecture
+cut-off saw,Architecture
+cut-resistant glove,Architecture
+cyber-physical systems,IT
+cyclomatic complexity,IT
+cylinder test,Architecture
+D orbit,Architecture
+daemon,IT
+daemon set,IT
+daily report,Architecture
+Damerau–Levenshtein distance,IT
+damp proof course,Architecture
+damp proof membrane,Architecture
+damping,Architecture
+data anonymization,IT
+data binding,IT
+data catalog,IT
+data classification,IT
+data dictionary,IT
+data ethics,IT
+data exfiltration,IT
+data flow analysis,IT
+data flow diagram,IT
+data fragmentation,IT
+data governance,IT
+data hazard,IT
+data integrity,IT
+data lake,IT
+data lifecycle management,IT
+data lineage,IT
+data link layer,IT
+data locality,IT
+data mart,IT
+data masking,IT
+data mining,IT
+data model,IT
+data parallelism,IT
+data protection impact assessment,IT
+data protection officer,IT
+data quality,IT
+data race,IT
+data race detection,IT
+data retention policy,IT
+data stewardship,IT
+data warehouse,IT
+database,IT
+database systems,IT
+Datalog,IT
+date,IT
+DATE_PART,IT
+DATE_TRUNC,IT
+datum,Architecture
+dbt,IT
+DCL,IT
+DCS,IT
+DDL,IT
+DDoS mitigation,IT
+DDR3,IT
+DDR4,IT
+DDR5,IT
+dead load,Architecture
+dead-letter queue,IT
+deadline miss,IT
+deadline scheduler,IT
+deadlock,IT
+deadlock detection,IT
+deadlock prevention,IT
+debugging,IT
+decimal,IT
+decision tree,IT
+declination,Architecture
+decorator pattern,IT
+deduplication,IT
+deep mixing,Architecture
+deep packet inspection,IT
+DEFAULT,IT
+defect density,IT
+defect discovery rate,IT
+defect triage,IT
+defects liability,Architecture
+defense in depth,IT
+deflate,IT
+deflection,Architecture
+degree of saturation,Architecture
+Dekker’s algorithm,IT
+DELETE,IT
+delivery,IT
+delivery hose,Architecture
+delta debugging,IT
+delta lake,IT
+delta parameter,IT
+deluge system,Architecture
+demand paging,IT
+denormalization,IT
+denotational semantics,IT
+DEP bypass,IT
+dependency graph,IT
+dependency injection,IT
+dependency inversion,IT
+dependency inversion principle,IT
+dependency preservation,IT
+dependent typing,IT
+deployment,IT
+deployment diagram,IT
+depth-first search,IT
+deque,IT
+DER encoding,IT
+description logic,IT
+deserialization vulnerability,IT
+design pattern,IT
+destructor,IT
+detail callout,Architecture
+detail drawing,Architecture
+development length,Architecture
+device driver,IT
+device interface,IT
+device posture,IT
+devirtualization,IT
+DevOps,IT
+dewatering,Architecture
+df,IT
+DFS,IT
+DHCP,IT
+diagonal brace,Architecture
+dictionary attack,IT
+differential backup,IT
+differential privacy,IT
+differential settlement,Architecture
+Diffie–Hellman,IT
+DiffServ,IT
+diffuser,Architecture
+dig,IT
+digital circuit,IT
+digital elevation model,Architecture
+digital level,Architecture
+digital logic,IT
+digital signature,IT
+digital terrain model,Architecture
+digital transformation,IT
+Dijkstra’s algorithm,IT
+Dilithium,IT
+dimension line,Architecture
+dimension string,Architecture
+dimension table,IT
+Dinic’s algorithm,IT
+direct memory access,IT
+direct shear test,Architecture
+directory traversal,IT
+directory-based coherence,IT
+dirty read,IT
+dirty write,IT
+disaster recovery,IT
+disaster recovery plan,IT
+discrete cosine transform,IT
+discrete mathematics,IT
+discretionary access control,IT
+disjoint set,IT
+disk forensics,IT
+dispatcher,IT
+DISTINCT,IT
+distributed consensus,IT
+distributed system,IT
+distributed systems,IT
+distributed tracing,IT
+distribution,IT
+divide and conquer,IT
+DKIM,IT
+DMA controller,IT
+DMARC,IT
+DML,IT
+DNP3,IT
+DNS,IT
+DNS tunneling,IT
+DNSSEC,IT
+Docker,IT
+document management system,IT
+document store,IT
+domain event,IT
+domain generation algorithm,IT
+domain integrity,IT
+domain model,IT
+domain name,IT
+domain relational calculus,IT
+door closer,Architecture
+door frame,Architecture
+door hardware,Architecture
+door leaf,Architecture
+door schedule,Architecture
+door stopper,Architecture
+door tag,Architecture
+double glazing,Architecture
+double precision,IT
+doubly linked list,IT
+dowel bar,Architecture
+doweling,Architecture
+downlight,Architecture
+drainage,Architecture
+drawing index,Architecture
+drawing number,Architecture
+drawing scale,Architecture
+drawings,Architecture
+drill,Architecture
+driven pile,Architecture
+DROP,IT
+drop panel,Architecture
+dropout,IT
+dropper,IT
+drying shrinkage,Architecture
+drywall,Architecture
+DSCP,IT
+DTLS,IT
+du,IT
+dual-core,IT
+duck typing,IT
+duct,Architecture
+ductility,Architecture
+dump truck,Architecture
+dumpy level,Architecture
+dup,IT
+dup2,IT
+durability,IT
+dust mask,Architecture
+dynamic analysis,IT
+dynamic array,IT
+dynamic compaction,Architecture
+dynamic linking,IT
+dynamic load,Architecture
+dynamic programming,IT
+ear protection,Architecture
+earliest deadline first,IT
+early stopping,IT
+earmuff,Architecture
+earplug,Architecture
+earth pressure coefficient,Architecture
+earth rod,Architecture
+earthing,Architecture
+earthing bar,Architecture
+earthquake load,Architecture
+earthwork quantity,Architecture
+eastings,Architecture
+EBNF,IT
+ECC memory,IT
+eccentric footing,Architecture
+ECDSA,IT
+ECMAScript 5,IT
+ECMAScript 6,IT
+ECMP,IT
+ECN,IT
+Ed25519,IT
+EdDSA,IT
+EDF,IT
+edge computing,IT
+edit distance,IT
+EDM instrument,Architecture
+Edmonds–Karp,IT
+Edmonds–Karp algorithm,IT
+EDNS0,IT
+effect system,IT
+effective stress,Architecture
+effort estimation,IT
+eigenvalue,IT
+eigenvector,IT
+EIGRP,IT
+elastic net,IT
+elasticity,Both
+elastomeric bearing,Architecture
+elbow,Architecture
+electrical plan,Architecture
+electrical system,Architecture
+electronic distance measurement,Architecture
+elevation,Architecture
+elevation mark,Architecture
+elevator shaft,Architecture
+ElGamal,IT
+elicitation,IT
+Elixir,IT
+ELK stack,IT
+ellipsoidal height,Architecture
+elliptic-curve cryptography,IT
+ELSE,IT
+ELT,IT
+embedded plate,Architecture
+embedded system,IT
+embedded systems,IT
+emergency light,Architecture
+emergency power,Architecture
+employer,Architecture
+enamel paint,Architecture
+encapsulation,IT
+END,IT
+endianness,IT
+engineer,Architecture
+engineered fill,Architecture
+engineering surveying,Architecture
+ENISA guideline,IT
+enterprise architecture,IT
+enterprise resource planning,IT
+enterprise risk management,IT
+enterprise search,IT
+entity integrity,IT
+entity resolution,IT
+entity–relationship diagram,IT
+entity–relationship model,IT
+entropy,IT
+enum,IT
+enumerable,IT
+environmental load,Architecture
+Envoy,IT
+epidemic protocol,IT
+epoll,IT
+epoll_ctl,IT
+epoll_wait,IT
+epoxy coating,Architecture
+epsilon-differential privacy,IT
+equi-join,IT
+equivalence partitioning,IT
+eradication,IT
+erasure coding,IT
+ergodicity,IT
+Erlang,IT
+error budget,IT
+error budget burn,IT
+error correcting code,IT
+error of closure,Architecture
+error-correcting code,IT
+errors,IT
+escape analysis,IT
+ESP,IT
+ETag,IT
+etcd,IT
+Ethernet,IT
+EtherNet/IP,IT
+ETL,IT
+Eulerian path,IT
+evasion technique,IT
+event ordering,IT
+event sourcing,IT
+event-driven architecture,IT
+eventual consistency,IT
+evidence preservation,IT
+EVPN,IT
+exactly-once semantics,IT
+excavator,Architecture
+EXCEPT,IT
+exception,IT
+exchange property,IT
+exclusive cache,IT
+exclusive lock,IT
+exec,IT
+execution plan,IT
+execve,IT
+exFAT,IT
+EXISTS,IT
+exit,IT
+exit sign,Architecture
+EXP,IT
+expanded polystyrene,Architecture
+expansion joint,Architecture
+expansion joint device,Architecture
+expansion loop,Architecture
+expansive agent,Architecture
+expectation,IT
+Expectation Failed,IT
+expectation–maximization,IT
+Expires,IT
+explicit congestion notification,IT
+exploded view,Architecture
+exploit,IT
+exploit chain,IT
+exploitation,IT
+exponential backoff,IT
+exponential mechanism,IT
+export,IT
+exposed aggregate,Architecture
+EXPTIME,IT
+ext4,IT
+extend,Architecture
+extension ladder,Architecture
+extension line,Architecture
+external reference,Architecture
+external vibrator,Architecture
+EXTRACT,IT
+extruded polystyrene,Architecture
+F#,IT
+F1 score,IT
+F2FS,IT
+FaaS,IT
+facade pattern,IT
+face shield,Architecture
+facility management,Architecture
+fact table,IT
+factor of safety,Architecture
+factory pattern,IT
+fail-stop,IT
+failback,IT
+Failed Dependency,IT
+failover,IT
+failure detector,IT
+failure detector accuracy,IT
+failure detector completeness,IT
+failure suspicion,IT
+fair scheduler,IT
+false negative,IT
+false positive,IT
+falsework,Architecture
+fan coil unit,Architecture
+Fano inequality,IT
+fast flux,IT
+fast recovery,IT
+fast retransmit,IT
+FAT32,IT
+fatigue,Architecture
+fault injection,IT
+fault tolerance,IT
+fault tolerance testing,IT
+fchmod,IT
+fchown,IT
+fdatasync,IT
+feasibility study,IT
+feature flag,IT
+feature toggle,IT
+federated identity,IT
+feedback,IT
+Fenwick tree,IT
+fetch–decode–execute,IT
+fg,IT
+Fiat–Shamir transform,IT
+Fibonacci heap,IT
+field book,Architecture
+field notes,Architecture
+fifth normal form,IT
+file descriptor,IT
+file metadata,IT
+file system,IT
+filesystems,IT
+fill material,Architecture
+fillet,Architecture
+filter,Architecture
+final account,Architecture
+find,IT
+fine aggregate,Architecture
+fine-grained soil,Architecture
+finishes schedule,Architecture
+finishing,Architecture
+finite automaton,IT
+finite field,IT
+finite state machine,IT
+FIPS 140-3,IT
+fire alarm,Architecture
+fire alarm panel,Architecture
+fire damper,Architecture
+fire door,Architecture
+fire hydrant,Architecture
+fire protection,Architecture
+fire protection plan,Architecture
+fire pump,Architecture
+fireproof coating,Architecture
+firewall,IT
+firmware,IT
+firmware update,IT
+first normal form,IT
+fishbone diagram,IT
+fitting,Architecture
+Fitts’s law,IT
+five whys,IT
+fixed-end beam,Architecture
+flagman,Architecture
+flange,Architecture
+flat slab,Architecture
+FlatBuffers,IT
+flexible duct,Architecture
+flexural strength,Architecture
+Flink,IT
+float,Architecture
+float valve,Architecture
+floating point,IT
+floating-point precision,IT
+floating-point unit,IT
+FLOOR,IT
+floor drain,Architecture
+floor plan,Architecture
+floor tile,Architecture
+flooring,Architecture
+flow control,IT
+flow control (systems),IT
+flow net,Architecture
+flow table,Architecture
+Floyd–Warshall algorithm,IT
+FLP impossibility,IT
+flush door,Architecture
+flyweight pattern,IT
+fog computing,IT
+footing detail,Architecture
+footing layout,Architecture
+footing schedule,Architecture
+footings,Architecture
+Forbidden,IT
+force/no-force,IT
+Ford–Fulkerson,IT
+foreign key,IT
+foreman,Architecture
+forensic analysis,IT
+foresight,Architecture
+fork,IT
+fork–join model,IT
+form liner,Architecture
+form oil,Architecture
+form pressure,Architecture
+form release agent,Architecture
+form tie,Architecture
+formal methods,IT
+formal verification,IT
+format string vulnerability,IT
+formwork,Architecture
+formwork backfilling,Architecture
+formwork compacting,Architecture
+formwork curing,Architecture
+formwork placing,Architecture
+formwork pouring,Architecture
+formwork stripping,Architecture
+formwork table,Architecture
+Fortran,IT
+forward chaining,IT
+forward secrecy,IT
+Found,IT
+foundation detail,Architecture
+foundation layout,Architecture
+foundation plan,Architecture
+foundation schedule,Architecture
+foundations,Architecture
+fountain code,IT
+Fourier series,IT
+Fourier transform,IT
+fourth normal form,IT
+fragmentation overlap,IT
+frame,Architecture
+frame buffer,IT
+Frame Relay,IT
+frame scaffold,Architecture
+frames,Architecture
+framework,IT
+free,IT
+FROM,IT
+fstat,IT
+fsync,IT
+FTP,IT
+ftruncate,IT
+full backup,IT
+FULL OUTER JOIN,IT
+full scale,Architecture
+full-text index,IT
+FUNCTION,IT
+function point,IT
+functional dependency,IT
+functional requirement,IT
+functor,IT
+furniture layout,Architecture
+fuzz testing,IT
+fuzzer,IT
+fuzzy checkpoint,IT
+G,IT
+G-Counter,IT
+Galois counter mode,IT
+gantry,Architecture
+gantry crane,Architecture
+Gantt chart,IT
+gap analysis,IT
+gap lock,IT
+gap-graded soil,Architecture
+garage door,Architecture
+garbage collection,IT
+garbage collector,IT
+garbage collectors,IT
+gas cutting,Architecture
+gate valve,Architecture
+Gateway Timeout,IT
+Gaussian mechanism,IT
+Gaussian mixture model,IT
+GDDR6,IT
+GDPR,IT
+general arrangement drawing,Architecture
+general notes,Architecture
+generational collection,IT
+generational collector,IT
+generator,Architecture
+generator set,Architecture
+generics,IT
+genetic algorithm,IT
+geodetic survey,Architecture
+geofencing,IT
+geoid,Architecture
+geotechnical investigation,Architecture
+GET,IT
+getegid,IT
+geteuid,IT
+getgid,IT
+getpid,IT
+getppid,IT
+getsockopt,IT
+getuid,IT
+GIN,IT
+GIN index,IT
+girder,Architecture
+GiST,IT
+GiST index,IT
+GitHub Actions,IT
+GitLab CI,IT
+glass fiber,Architecture
+glass tile,Architecture
+glass wool,Architecture
+global value numbering,IT
+globe valve,Architecture
+GNSS calibration,Architecture
+GNSS setup,Architecture
+GNSS survey,Architecture
+GNSS surveying,Architecture
+Go,IT
+goggles,Architecture
+golden file,IT
+golden signals,IT
+GOMS model,IT
+Gone,IT
+gossip dissemination,IT
+gossip protocol,IT
+Gouraud shading,IT
+governance,IT
+governance board,IT
+GPS calibration,Architecture
+GPS setup,Architecture
+GPS survey,Architecture
+GPS surveying,Architecture
+GPU acceleration,IT
+graceful degradation,IT
+graceful degradation (pattern),IT
+graceful shutdown,IT
+gradation,Architecture
+grade rod,Architecture
+grade stake,Architecture
+grader,Architecture
+gradient boosting,IT
+gradient descent,IT
+grading curve,Architecture
+grading plan,Architecture
+Gradle,IT
+gradual typing,IT
+Grafana,IT
+grain size distribution,Architecture
+granite,Architecture
+GRANT,IT
+graph algorithm,IT
+graph coloring,IT
+graph database,IT
+graph query language,IT
+graph theory,IT
+GraphQL,IT
+gravel,Architecture
+gravity wall,Architecture
+GRE,IT
+grease trap,Architecture
+GREATEST,IT
+greedy algorithm,IT
+greedy choice property,IT
+grep,IT
+grid line,Architecture
+grid north,Architecture
+grid quorum,IT
+grille,Architecture
+Groth16,IT
+ground anchor,Architecture
+ground beam,Architecture
+ground control point,Architecture
+ground improvement,Architecture
+ground model,Architecture
+ground slab,Architecture
+ground wall,Architecture
+grounding,Architecture
+groundwater,Architecture
+GROUP BY,IT
+group commit,IT
+grouting,Architecture
+gRPC,IT
+GRU,IT
+guardrail,Architecture
+gully,Architecture
+gully trap,Architecture
+gusset plate,Architecture
+Gustafson's law,IT
+Gustafson’s law,IT
+gypsum board,Architecture
+gzip,IT
+Hadoop,IT
+Halstead metrics,IT
+Hamiltonian cycle,IT
+Hamming code,IT
+Hamming distance,IT
+hand mixer,Architecture
+hand tool,Architecture
+handle,Architecture
+handover,Architecture
+handrail,Architecture
+hanger,Architecture
+happened-before relation,IT
+happens-before,IT
+happens-before analysis,IT
+hard disk platter,IT
+hard hat,Architecture
+hard link,IT
+hardening,IT
+hardware abstraction,IT
+hardware interrupt,IT
+hardware root of trust,IT
+hardware security module,IT
+hardware token,IT
+hardware-assisted virtualization,IT
+hardwood flooring,Architecture
+hash function,IT
+hash index,IT
+hash join,IT
+hash partition,IT
+hash table,IT
+hashing,IT
+hashing with chaining,IT
+hashing with open addressing,IT
+Haskell,IT
+hatch boundary,Architecture
+hatching,Architecture
+haul road,Architecture
+haunch,Architecture
+HAVING,IT
+HDFS,IT
+HDPE pipe,Architecture
+HEAD,IT
+health check endpoint,IT
+heap allocation,IT
+heap overflow,IT
+heap sort,IT
+heap spraying,IT
+heartbeat,IT
+heat detector,Architecture
+hedged requests,IT
+height of instrument,Architecture
+Helm,IT
+HEPA filter,Architecture
+heuristic,IT
+hexagonal architecture,IT
+Hick–Hyman law,IT
+hidden line,Architecture
+high availability,IT
+high cohesion,IT
+high-performance concrete,Architecture
+high-strength concrete,Architecture
+high-visibility vest,Architecture
+higher-order function,IT
+hinge,Architecture
+HIPAA,IT
+histogram,IT
+HKDF,IT
+HMAC,IT
+HMI,IT
+Hoare logic,IT
+Hoeffding bound,IT
+Hoeffding inequality,IT
+hoist,Architecture
+HOLAP,IT
+hollow block,Architecture
+hollow brick,Architecture
+hollow-core slab,Architecture
+homomorphic encryption,IT
+homomorphism,IT
+honest-but-curious,IT
+honeycombing,Architecture
+hook,Architecture
+hoop,Architecture
+hopper,Architecture
+horizontal angle,Architecture
+horizontal control,Architecture
+horizontal distance,Architecture
+horizontal scaling,IT
+Horn clause,IT
+hose reel,Architecture
+Host,IT
+host controller,IT
+host IDS,IT
+hot data,IT
+hot path,IT
+hot shard,IT
+hot standby,IT
+hot water,Architecture
+HTML5,IT
+HTTP,IT
+HTTP tunneling,IT
+HTTP Version Not Supported,IT
+HTTP/2,IT
+HTTP/3,IT
+HTTPS,IT
+Huffman coding,IT
+huge pages,IT
+human resource information system,IT
+human–computer interaction,IT
+humidity sensor,Architecture
+HVAC,Architecture
+HVAC plan,Architecture
+hybrid automata,IT
+hydration,Architecture
+hydration heat,Architecture
+hydraulic conductivity,Architecture
+hydraulic jack,Architecture
+hydrographic survey,Architecture
+hydrometer analysis,Architecture
+hygienic macros,IT
+HyperLogLog,IT
+hypervisor,IT
+I'm a teapot,IT
+I/O controller,IT
+I/O scheduler,IT
+IaaS,IT
+ICMP,IT
+idempotency,IT
+idempotency key,IT
+idempotent operation,IT
+identity and access management,IT
+identity governance,IT
+identity provider,IT
+identity-based encryption,IT
+IEC 60870-5-104,IT
+IEC 61850,IT
+IEEE 1012,IT
+IEEE 14764,IT
+IEEE 1588,IT
+IEEE 1633,IT
+IEEE 730,IT
+IEEE 754,IT
+IEEE 802.11,IT
+IEEE 802.1AX,IT
+IEEE 802.1D,IT
+IEEE 802.1Qbv,IT
+IEEE 802.1Qci,IT
+IEEE 802.1W,IT
+IEEE 802.3,IT
+IEEE 829,IT
+IETF BCP 14,IT
+If-Match,IT
+If-Modified-Since,IT
+If-None-Match,IT
+If-Range,IT
+If-Unmodified-Since,IT
+IGMP,IT
+IKEv2,IT
+ILIKE,IT
+IMAP,IT
+immutability,IT
+immutable,IT
+immutable deployment,IT
+immutable infrastructure,IT
+impact analysis,IT
+impact drill,Architecture
+impact load,Architecture
+imposed load,Architecture
+IN,IT
+in-situ density,Architecture
+incident management,IT
+incident response,IT
+inclination,Architecture
+inclusion dependency,IT
+inclusive cache,IT
+incremental backup,IT
+incremental GC,IT
+incremental model,IT
+incremental view maintenance,IT
+index,IT
+index scan,IT
+index tuning,IT
+indicator of attack,IT
+indicator of compromise,IT
+induction,IT
+induction variable elimination,IT
+inductive invariant,IT
+inet,IT
+information entropy,IT
+information flow control,IT
+information hiding,IT
+information retrieval,IT
+information security,IT
+information security policy,IT
+information system,IT
+information technology,IT
+information theory,IT
+infrastructure as code,IT
+ingress controller,IT
+inheritance,IT
+init system,IT
+INITCAP,IT
+initialization vector,IT
+inline mode,IT
+inlining,IT
+inner join,IT
+inode,IT
+insecure deserialization,IT
+INSERT,IT
+insertion sort,IT
+inspection,Architecture
+inspection chamber,Architecture
+inspection request,Architecture
+instability,Architecture
+installation,IT
+instruction pointer,IT
+instruction scheduling,IT
+instruction set,IT
+instruction-level parallelism,IT
+Insufficient Storage,IT
+insulated glass unit,Architecture
+insulation,Architecture
+integer,IT
+integer overflow,IT
+integration test,IT
+integration testing,IT
+integrity,IT
+intention lock,IT
+interactive proof,IT
+interface,IT
+interface segregation,IT
+interface segregation principle,IT
+interim payment,Architecture
+intermediate representation,IT
+intermediate sight,Architecture
+intermediate switch,Architecture
+internal rate of return,IT
+Internal Server Error,IT
+internal vibrator,Architecture
+interoperability,IT
+interpreter,IT
+interpreter pattern,IT
+interpreters,IT
+interrupt,IT
+interrupt request,IT
+interrupt vector,IT
+INTERSECT,IT
+intersection,Architecture
+interval,IT
+interval tree,IT
+intrusion detection system,IT
+intrusion prevention system,IT
+IntServ,IT
+intumescent paint,Architecture
+invariant,IT
+invariant strengthening,IT
+inverted index,IT
+inverted T-beam,Architecture
+io_uring,IT
+ioctl,IT
+iostat,IT
+IoT architecture,IT
+IP,IT
+ip fragmentation,IT
+IPFIX,IT
+IPsec,IT
+IPv4,IT
+IPv6,IT
+IS NOT NULL,IT
+IS NULL,IT
+IS-IS,IT
+Ishikawa diagram,IT
+ISO 8601,IT
+ISO 9001,IT
+ISO/IEC 12207,IT
+ISO/IEC 15288,IT
+ISO/IEC 15504,IT
+ISO/IEC 20000,IT
+ISO/IEC 2382,IT
+ISO/IEC 24762,IT
+ISO/IEC 25010,IT
+ISO/IEC 25012,IT
+ISO/IEC 27001,IT
+ISO/IEC 27002,IT
+ISO/IEC 27005,IT
+ISO/IEC 29110,IT
+ISO/IEC 38500,IT
+ISO/IEC 38502,IT
+ISO/IEC/IEEE 42010,IT
+isolated footing,Architecture
+isolation,IT
+isolation joint,Architecture
+isometric drawing,Architecture
+issue log,IT
+issue register,IT
+Istio,IT
+IT governance,IT
+IT service continuity,IT
+iteration,IT
+iterative model,IT
+iterator pattern,IT
+ITIL,IT
+Jaccard similarity,IT
+jack,Architecture
+jackhammer,Architecture
+Jaeger,IT
+Java,IT
+JavaScript,IT
+Jenkins,IT
+jet grouting,Architecture
+JFS,IT
+jitter,IT
+job,IT
+job safety analysis,Architecture
+jobs,IT
+jockey pump,Architecture
+Johnson–Lindenstrauss lemma,IT
+Johnson’s algorithm,IT
+JOIN,IT
+join dependency,IT
+joint detail,Architecture
+joint filler,Architecture
+joint layout,Architecture
+joint schedule,Architecture
+joint sealant,Architecture
+jointing tool,Architecture
+joints,Architecture
+joist,Architecture
+journal,IT
+journalctl,IT
+journaling,IT
+journaling file system,IT
+json,IT
+JSON Patch,IT
+JSON Pointer,IT
+JSON Schema,IT
+JSON_BUILD_ARRAY,IT
+JSON_BUILD_OBJECT,IT
+JSON_EXTRACT_PATH,IT
+jsonb,IT
+JSONB_EACH,IT
+JSONB_SET,IT
+Julia,IT
+jumbo frame,IT
+jump search,IT
+jump-oriented programming,IT
+junction box,Architecture
+just-in-time compilation,IT
+k-anonymity,IT
+k-d-b tree,IT
+k-means clustering,IT
+Kademlia,IT
+Kafka,IT
+Kahn’s algorithm,IT
+kd-tree,IT
+KDF,IT
+Keccak,IT
+Kerberos,IT
+kernel,IT
+kernel exploit,IT
+kernel mode,IT
+kernel trick,IT
+key derivation function,IT
+key exchange,IT
+key management,IT
+key performance indicator,IT
+key plan,Architecture
+key rotation,IT
+key stretching,IT
+key-range lock,IT
+keylogger,IT
+keynote,Architecture
+Keystroke-Level Model,IT
+keyway,Architecture
+key–value store,IT
+kill,IT
+kill chain,IT
+killall,IT
+knowledge base,IT
+knowledge graph,IT
+knowledge management,IT
+Knuth–Morris–Pratt,IT
+Kolmogorov complexity,IT
+Kosaraju’s algorithm,IT
+Kotlin,IT
+kqueue,IT
+Kraft inequality,IT
+Kruskal’s algorithm,IT
+Kubernetes,IT
+Kyber,IT
+L,IT
+L-beam,Architecture
+L-BFGS,IT
+l-diversity,IT
+L2TP,IT
+label,Architecture
+LACP,IT
+ladder,Architecture
+ladder tray,Architecture
+ladders,Architecture
+laitance,Architecture
+lakehouse,IT
+lambda calculus,IT
+lambda expression,IT
+laminate flooring,Architecture
+laminated glass,Architecture
+Lamport bakery algorithm,IT
+Lamport clock,IT
+Lamport mutual exclusion,IT
+land surveying,Architecture
+landscape plan,Architecture
+landslide,Architecture
+lanyard,Architecture
+lap splice,Architecture
+Laplace mechanism,IT
+Laplace transform,IT
+laser level,Architecture
+laser scanner calibration,Architecture
+laser scanner setup,Architecture
+laser scanner survey,Architecture
+laser scanning,Architecture
+lasso regression,IT
+Last-Modified,IT
+latency,IT
+lateral earth pressure,Architecture
+lateral movement,IT
+latex paint,Architecture
+lattice girder,Architecture
+lattice-based cryptography,IT
+laydown area,Architecture
+layer control,Architecture
+layer name,Architecture
+layered architecture,IT
+layout space,Architecture
+layout work,Architecture
+LDAP,IT
+LDAPS,IT
+LDP,IT
+LDPC code,IT
+leader,Architecture
+leader election,IT
+leader–follower,IT
+leaky bucket,IT
+LEAST,IT
+least privilege,IT
+least squares adjustment,Architecture
+ledger beam,Architecture
+LEFT JOIN,IT
+leftist heap,IT
+legend,Architecture
+lemma,IT
+LENGTH,IT
+Length Required,IT
+less,IT
+lessons learned,IT
+level mark,Architecture
+leveling staff,Architecture
+Levenshtein distance,IT
+lexical analysis,IT
+LFU cache,IT
+lifeline,Architecture
+light switch,Architecture
+lighting fixture,Architecture
+lighting plan,Architecture
+lightning protection,Architecture
+lightweight block,Architecture
+lightweight concrete,Architecture
+LIKE,IT
+limestone,Architecture
+LIMIT,IT
+limit state,Architecture
+line,IT
+line pump,Architecture
+line type,Architecture
+line weight,Architecture
+linear algebra,IT
+linear regression,IT
+linear search,IT
+linear type,IT
+linearizability,IT
+link aggregation,IT
+linked hash map,IT
+linked list,IT
+linker,IT
+linkers,IT
+linoleum,Architecture
+linting,IT
+liquid limit,Architecture
+liquid waterproofing,Architecture
+Liskov substitution,IT
+Liskov substitution principle,IT
+LISP,IT
+list,IT
+list comprehension,IT
+list partition,IT
+listen,IT
+literal,IT
+Little Endian,IT
+Little's law,IT
+Little’s law,IT
+Little’s law (queueing),IT
+live load,Architecture
+live migration,IT
+livelock,IT
+liveness analysis,IT
+liveness probe,IT
+liveness property,IT
+living off the land,IT
+LLDP,IT
+LN,IT
+load,Architecture
+load balancer,IT
+load balancing,IT
+load combination,Architecture
+load factor,Architecture
+load shedding,IT
+load transfer,Architecture
+loader,IT
+loaders,IT
+local file inclusion,IT
+local grid,Architecture
+locality-sensitive hashing,IT
+Location,IT
+lock escalation,IT
+lock-free,IT
+Locked,IT
+lockset,Architecture
+lockset algorithm,IT
+log aggregation,IT
+log correlation,IT
+log retention,IT
+log rotation,IT
+log-structured file system,IT
+LOG10,IT
+logging,IT
+logic,IT
+logic gate,IT
+logical addressing,IT
+logical replication,IT
+logistic regression,IT
+logs,IT
+longitudinal section,Architecture
+loop invariant,IT
+loop unrolling,IT
+loop-invariant code motion,IT
+loose coupling,IT
+LoRaWAN,IT
+lossless decomposition,IT
+lost update,IT
+louver,Architecture
+Lovász local lemma,IT
+LOWER,IT
+LPAD,IT
+LRU cache,IT
+LRU policy,IT
+ls,IT
+lseek,IT
+lseg,IT
+LSM tree,IT
+lstat,IT
+LSTM,IT
+LTE,IT
+LTL,IT
+LTRIM,IT
+Lua,IT
+lump sum,Architecture
+LWW-Element-Set,IT
+LZ77,IT
+LZ78,IT
+LZW,IT
+M/M/1 queue,IT
+M/M/c queue,IT
+MA,IT
+MAC address,IT
+macaddr,IT
+machine code,IT
+machine epsilon,IT
+machine learning,IT
+macro system,IT
+Maekawa’s algorithm,IT
+magnetic north,Architecture
+main distribution board,Architecture
+maintainability,IT
+maintainability index,IT
+maintenance manual,Architecture
+majority quorum,IT
+Make,IT
+MAKE_DATE,IT
+MAKE_TIMESTAMP,IT
+malicious adversary,IT
+malware,IT
+man-in-the-middle,IT
+mandatory access control,IT
+manhole,Architecture
+manual call point,Architecture
+map cracking,Architecture
+marble,Architecture
+mark-and-sweep,IT
+Markov chain,IT
+Markov decision process,IT
+Markov property,IT
+martingale,IT
+martingale difference,IT
+masonry beam,Architecture
+masonry column,Architecture
+masonry connection,Architecture
+masonry core,Architecture
+masonry footing,Architecture
+masonry foundation,Architecture
+masonry frame,Architecture
+masonry girder,Architecture
+masonry joint,Architecture
+masonry pile,Architecture
+masonry slab,Architecture
+masonry stair,Architecture
+masonry truss,Architecture
+masonry wall,Architecture
+mass concrete,Architecture
+master data management,IT
+mat foundation,Architecture
+match line,Architecture
+material hoist,Architecture
+material schedule,Architecture
+material storage,Architecture
+materialized view,IT
+MATLAB,IT
+matrix,IT
+matrix factorization,IT
+matroid,IT
+Maven,IT
+MAX,IT
+max-flow min-cut theorem,IT
+maximum aggregate size,Architecture
+maximum clique,IT
+maximum flow,IT
+MC/DC coverage,IT
+MCB,Architecture
+MCCB,Architecture
+MD5,IT
+mean average precision,IT
+mean time between failures,IT
+mean time to detect,IT
+mean time to recovery,IT
+measured boot,IT
+measured boot chain,IT
+measuring wheel,Architecture
+mechanical splice,Architecture
+mediator pattern,IT
+meeting minutes,Architecture
+membership protocol,IT
+membrane curing,Architecture
+Memcached,IT
+memento pattern,IT
+memoization,IT
+memory consistency model,IT
+memory controller,IT
+memory corruption,IT
+memory forensics,IT
+memory hierarchy,IT
+memory leak,IT
+memory mirroring,IT
+memory model,IT
+memory segmentation,IT
+memory-mapped file,IT
+memtable,IT
+Menger’s theorem,IT
+MEP plan,Architecture
+merge join,IT
+merge request,IT
+merge sort,IT
+Merkle inclusion proof,IT
+Merkle tree,IT
+mesh,Architecture
+MESI,IT
+MESI protocol,IT
+message authentication code,IT
+message deduplication,IT
+message passing,IT
+MessagePack,IT
+metadata,IT
+metadata management,IT
+metal ceiling,Architecture
+metal roof,Architecture
+metamorphic malware,IT
+metaprogramming,IT
+Method Not Allowed,IT
+method overriding,IT
+method statement,Architecture
+metrics,IT
+micro pile,Architecture
+microarchitecture,IT
+microcode,IT
+microkernel,IT
+microservices,IT
+microservices architecture,IT
+middleware,IT
+MIG welding,Architecture
+milestone,Architecture
+MIMD,IT
+MIN,IT
+min-wise hashing,IT
+mineral wool,Architecture
+mini excavator,Architecture
+mini prism,Architecture
+minimum cut,IT
+Minimum description length,IT
+minimum spanning tree,IT
+mirroring,IT
+misclosure,Architecture
+Misdirected Request,IT
+miss penalty,IT
+mitigation plan,IT
+MITRE ATT&amp;CK,IT
+mixing time,IT
+mkdir,IT
+mmap,IT
+mobile crane,Architecture
+mobile mapping,Architecture
+mobile scaffold,Architecture
+mock object,IT
+Modbus,IT
+model checking,IT
+model invariant,IT
+model space,Architecture
+model-based testing,IT
+modified Proctor test,Architecture
+modularity,IT
+module,IT
+modulus of elasticity,Architecture
+MOESI,IT
+MOESI protocol,IT
+moisture content,Architecture
+MOLAP,IT
+moment connection,Architecture
+moment frame,Architecture
+moment generating function,IT
+monad,IT
+money,IT
+monitor,IT
+monitoring,IT
+monitoring network,Architecture
+monitoring survey,Architecture
+monolithic kernel,IT
+monomorphization,IT
+monotonic reads,IT
+monotonic writes,IT
+Moore’s law,IT
+mosaic,Architecture
+mount,IT
+mount point,IT
+Moved Permanently,IT
+movement joint,Architecture
+MPLS,IT
+MRU cache,IT
+MSI,IT
+MSS,IT
+MSTP,IT
+mtr,IT
+MTU,IT
+multi-factor authentication,IT
+multi-leader,IT
+Multi-Paxos,IT
+Multi-Status,IT
+multi-tenancy,IT
+multi-version concurrency,IT
+multicast,IT
+multicore processor,IT
+multilevel feedback queue,IT
+Multiple Choices,IT
+multiprocessor,IT
+multivalued dependency,IT
+multiversion concurrency control,IT
+munmap,IT
+mutation testing,IT
+mutex,IT
+mutual authentication,IT
+mutual exclusion,IT
+mv,IT
+MVCC,IT
+MX record,IT
+n,IT
+name mangling,IT
+namespace,IT
+nanosleep,IT
+nanotechnology,IT
+NAT,IT
+NATS,IT
+natural frequency,Architecture
+natural join,IT
+natural language processing,IT
+NC,IT
+NDCG,IT
+nested loop join,IT
+net present value,IT
+NetFlow,IT
+Network Authentication Required,IT
+network bandwidth,IT
+network IDS,IT
+network layer,IT
+network protocol,IT
+network stacks,IT
+network tap,IT
+neural network,IT
+NewSQL,IT
+Newton’s method,IT
+NEXP,IT
+nice,IT
+Nielsen usability heuristics,IT
+NIST Cybersecurity Framework,IT
+NIST SP 800-160,IT
+NIST SP 800-30,IT
+NIST SP 800-34,IT
+NIST SP 800-37,IT
+NIST SP 800-53,IT
+NIST SP 800-63,IT
+Nix,IT
+NL,IT
+nmap,IT
+No Content,IT
+No free lunch theorem,IT
+nohup,IT
+noise calibration,IT
+Non-Authoritative Information,IT
+non-destructive test,Architecture
+non-interactive proof,IT
+non-repudiation,IT
+nonce,IT
+nonclustered index,IT
+nonconformance report,Architecture
+nonfunctional requirement,IT
+nonrepeatable read,IT
+NOP sled,IT
+normalization,IT
+north arrow,Architecture
+northings,Architecture
+NoSQL,IT
+Not Acceptable,IT
+Not Found,IT
+Not Implemented,IT
+Not Modified,IT
+NOT NULL,IT
+note,Architecture
+NOW,IT
+NP,IT
+NP-complete,IT
+NP-hard,IT
+npm,IT
+NSH,IT
+nslookup,IT
+NTFS,IT
+NTP,IT
+NTP offset,IT
+nuclear density test,Architecture
+NULLIF,IT
+NUMA,IT
+NUMA awareness,IT
+number theory,IT
+numeric,IT
+numerical analysis,IT
+numerical stability,IT
+NVMe,IT
+Nyquist rate,IT
+O(1),IT
+O(2^n),IT
+O(log n),IT
+O(n log n),IT
+O(n!),IT
+O(n),IT
+O(n^2),IT
+O(n^3),IT
+OAuth 2.0,IT
+obfuscator,IT
+object diagram,IT
+object model,IT
+object snap,Architecture
+objective and key result,IT
+Objective-C,IT
+observability,IT
+observer pattern,IT
+observer pattern (analysis),IT
+OCaml,IT
+Occam’s razor (learning),IT
+OCSP,IT
+OCTET_LENGTH,IT
+octree,IT
+oedometer test,Architecture
+offset,Both
+offset method,Architecture
+offset stake,Architecture
+OK,IT
+OLAP,IT
+OLAP cube,IT
+omission fault,IT
+one-way slab,Architecture
+onion architecture,IT
+online algorithm,IT
+online certificate status protocol,IT
+ontology,IT
+ontology alignment,IT
+OPC UA,IT
+open,IT
+open addressing,IT
+open redirect,IT
+open traverse,Architecture
+open-closed principle,IT
+OpenAPI,IT
+OpenID Connect,IT
+OpenTelemetry,IT
+operand,IT
+operating level agreement,IT
+operating systems,IT
+operation manual,Architecture
+operation-based CRDT,IT
+operational excellence,IT
+operational semantics,IT
+optical fiber,IT
+optical plummet,Architecture
+optimistic concurrency control,IT
+optimization,IT
+OPTIONS,IT
+OR-Set,IT
+ORDER BY,IT
+organizational change management,IT
+ORM,IT
+orphan process,IT
+ortho mode,Architecture
+orthographic projection,Architecture
+orthometric height,Architecture
+orthophoto,Architecture
+OSI model,IT
+OSPF,IT
+out-of-bounds read,IT
+out-of-order execution,IT
+outbox pattern,IT
+outer join,IT
+outrigger system,Architecture
+overcommit,IT
+overfitting,IT
+overhanging beam,Architecture
+OVERLAY,IT
+overloading,IT
+OWASP Top Ten,IT
+OWL (language),IT
+ownership type,IT
+P,IT
+P versus NP,IT
+P-trap,Architecture
+p99 latency,IT
+PaaS,IT
+PAC learning,IT
+PACELC theorem,IT
+package diagram,IT
+package manager,IT
+packer,IT
+packet capture,IT
+packet obfuscation,IT
+packet switching,IT
+page fault,IT
+page fault handler,IT
+page replacement,IT
+page table,IT
+paging,IT
+paint,Architecture
+pair programming,IT
+pairing heap,IT
+pairwise testing,IT
+PAKE,IT
+panel door,Architecture
+panic bar,Architecture
+parallel bus,IT
+parallel computing,IT
+parallelism,IT
+parametric polymorphism,IT
+paravirtualization,IT
+parcel map,Architecture
+parity bit,IT
+parity check,IT
+parity memory,IT
+parking beam,Architecture
+parking slab,Architecture
+parking wall,Architecture
+parquet format,IT
+parser,IT
+Partial Content,IT
+partial correctness,IT
+partial redundancy elimination,IT
+partial synchrony,IT
+participant,IT
+participation constraint,IT
+partition tolerance,IT
+partitioning,IT
+Pascal,IT
+passenger hoist,Architecture
+passive earth pressure,Architecture
+password policy,IT
+password spraying,IT
+password-authenticated key exchange,IT
+Pastry,IT
+PAT,IT
+PATCH,IT
+patching,IT
+path,IT
+path coverage,IT
+path MTU,IT
+path MTU discovery,IT
+path traversal,IT
+pattern fill,Architecture
+paver,Architecture
+Paxos,IT
+payback period,IT
+payload,IT
+Payload Too Large,IT
+Payment Required,IT
+PBFT,IT
+PBKDF2,IT
+pcap,IT
+PCI DSS,IT
+PCI Express,IT
+PCP theorem,IT
+peephole optimization,IT
+pendent sprinkler,Architecture
+penetration test,IT
+PER encoding,IT
+percentile,IT
+perfect forward secrecy,IT
+perfect hashing,IT
+performance efficiency,IT
+peripheral device,IT
+Perl,IT
+permanent benchmark,Architecture
+Permanent Redirect,IT
+permeability,Architecture
+permit to work,Architecture
+persistence mechanism,IT
+persistent volume,IT
+persistent volume claim,IT
+perspective drawing,Architecture
+PERT chart,IT
+pervasive computing,IT
+PESTEL analysis,IT
+Peterson’s algorithm,IT
+Petri net,IT
+Petri net reachability,IT
+PEX pipe,Architecture
+PH,IT
+phantom anomaly,IT
+phantom read,IT
+phishing,IT
+Phong shading,IT
+photogrammetry,Architecture
+PHP,IT
+physical layer,IT
+physical replication,IT
+physical topology,IT
+physiological logging,IT
+pi-calculus,IT
+pickaxe,Architecture
+pier,Architecture
+pigment,Architecture
+pile,Architecture
+pile cap,Architecture
+piles,Architecture
+ping,IT
+pinned connection,Architecture
+pip,IT
+pipe,Both
+pipeline,IT
+pipeline hazard,IT
+pipeline stall,IT
+pipelined processor,IT
+pipes,Architecture
+PL,IT
+PL/SQL,IT
+placement,Architecture
+plan view,Architecture
+planar graph,IT
+planner,Architecture
+planning poker,IT
+plaster,Architecture
+plasterboard,Architecture
+plastic limit,Architecture
+plastic shrinkage,Architecture
+plasticity,Architecture
+plasticity index,Architecture
+plasticizer,Architecture
+plate compactor,Architecture
+plate load test,Architecture
+playbook,IT
+PLC,IT
+plot plan,Architecture
+plumb bob,Architecture
+plumb line,Architecture
+plumbing,Architecture
+plumbing plan,Architecture
+PN-Counter,IT
+pneumatic tool,Architecture
+pnpm,IT
+pod disruption budget,IT
+podium beam,Architecture
+podium slab,Architecture
+podium wall,Architecture
+point,IT
+point cloud,Architecture
+point-in-time recovery,IT
+pointer,IT
+pointing trowel,Architecture
+poison message,IT
+Poisson process,IT
+Poisson ratio,Architecture
+polar tracking,Architecture
+policing,IT
+policy as code,IT
+policy decision point,IT
+policy enforcement point,IT
+policy gradient,IT
+policy information point,IT
+policy iteration,IT
+policy-based routing,IT
+polished concrete,Architecture
+poll,IT
+Poly1305,IT
+polygon,IT
+polyline,Architecture
+polymer concrete,Architecture
+polymorphic malware,IT
+polymorphism,IT
+polyurethane coating,Architecture
+polyurethane foam,Architecture
+polyurethane sealant,Architecture
+poorly graded soil,Architecture
+POP3,IT
+porcelain tile,Architecture
+pore pressure,Architecture
+pore water pressure,Architecture
+porosity,Architecture
+port mapping,IT
+portability,IT
+portal frame,Architecture
+Porter’s five forces,IT
+portfolio management,IT
+Portland cement,Architecture
+ports and adapters,IT
+POSIX,IT
+POST,IT
+post-incident review,IT
+post-quantum cryptography,IT
+post-tensioning,Architecture
+postcondition,IT
+postmortem,IT
+pot bearing,Architecture
+potential method,IT
+pour sequence,Architecture
+POWER,IT
+power trowel,Architecture
+PowerShell,IT
+PowerShell abuse,IT
+PPAD,IT
+PPP,IT
+Pragma,IT
+pre-action system,Architecture
+pre-filter,Architecture
+pre-tensioning,Architecture
+precedence graph,IT
+precision,IT
+precision time protocol,IT
+precondition,IT
+Precondition Failed,IT
+Precondition Required,IT
+predicate logic,IT
+preemptive scheduling,IT
+prefetcher,IT
+presentation layer,IT
+pressure reducing valve,Architecture
+pressure sensor,Architecture
+prestressed concrete beam,Architecture
+prestressed concrete column,Architecture
+prestressed concrete connection,Architecture
+prestressed concrete core,Architecture
+prestressed concrete footing,Architecture
+prestressed concrete foundation,Architecture
+prestressed concrete frame,Architecture
+prestressed concrete girder,Architecture
+prestressed concrete joint,Architecture
+prestressed concrete pile,Architecture
+prestressed concrete slab,Architecture
+prestressed concrete stair,Architecture
+prestressed concrete truss,Architecture
+prestressed concrete wall,Architecture
+prestressing,Architecture
+preventive maintenance,Architecture
+primary consolidation,Architecture
+primary key,IT
+prime cost,Architecture
+primer,Architecture
+primitive type,IT
+Prim’s algorithm,IT
+principal component analysis,IT
+printf,IT
+priority assignment,IT
+priority ceiling,IT
+priority encoder,IT
+priority inheritance,IT
+priority inversion,IT
+priority queue,IT
+priority scheduling,IT
+prism,Architecture
+privacy budget,IT
+privacy by design,IT
+privacy impact assessment,IT
+private key,IT
+privilege escalation,IT
+privileged access management,IT
+probability theory,IT
+problem management,IT
+PROCEDURE,IT
+process,IT
+process architecture,IT
+process control block,IT
+process isolation,IT
+process map,IT
+process mapping,IT
+process mining,IT
+process scheduling,IT
+process state,IT
+process table,IT
+Processing,IT
+Proctor test,Architecture
+procurement,IT
+profile leveling,Architecture
+profile view,Architecture
+profiling,IT
+PROFINET,IT
+program analysis,IT
+program management,IT
+progress claim,Architecture
+progress report,Architecture
+project closeout,Architecture
+project management,IT
+project management office,IT
+project manager,Architecture
+project portfolio management,IT
+projection,Architecture
+Prolog,IT
+Prometheus,IT
+proof assistant,IT
+proof by contradiction,IT
+proof obligation,IT
+property graph,IT
+property testing,IT
+property-based testing,IT
+propositional logic,IT
+protocol,IT
+Protocol Buffers,IT
+protocol design,IT
+prototype pattern,IT
+provisional sum,Architecture
+proxy,IT
+Proxy Authentication Required,IT
+proxy pattern,IT
+proxy server,IT
+ps,IT
+PSPACE,IT
+pthread_cond_signal,IT
+pthread_cond_wait,IT
+pthread_create,IT
+pthread_join,IT
+pthread_mutex_lock,IT
+pthread_mutex_unlock,IT
+pthread_rwlock_rdlock,IT
+pthread_rwlock_unlock,IT
+pthread_rwlock_wrlock,IT
+pthread_spin_lock,IT
+pthread_spin_unlock,IT
+PTP,IT
+public key,IT
+pull box,Architecture
+pull request,IT
+Pulumi,IT
+pumps,Architecture
+punch list,Architecture
+Puppet,IT
+pure function,IT
+purple team,IT
+purple teaming,IT
+pushdown automaton,IT
+PUT,IT
+putty,Architecture
+PVC pipe,Architecture
+pwd,IT
+Python,IT
+Q,IT
+Q-learning,IT
+QoS,IT
+QP,IT
+quadtree,IT
+quality assurance,Architecture
+quality attribute,IT
+quality control,Architecture
+quality management plan,IT
+quantity surveyor,Architecture
+quantization,IT
+quantum computing,IT
+query containment,IT
+query optimizer,IT
+query plan,IT
+query rewriting,IT
+queue,IT
+queueing theory,IT
+QUIC,IT
+quick sort,IT
+quorum,IT
+quorum read,IT
+quorum system,IT
+quorum write,IT
+R,IT
+R*-tree,IT
+R*-tree variant,IT
+R-tree,IT
+RabbitMQ,IT
+Rabin–Karp,IT
+race condition,IT
+race condition exploit,IT
+RACI matrix,IT
+radiation method,Architecture
+RADIUS,IT
+radix sort,IT
+radix tree,IT
+Raft,IT
+raft foundation,Architecture
+RAID,IT
+RAID 0,IT
+RAID 1,IT
+RAID 10,IT
+RAID 5,IT
+RAID 6,IT
+RAID configuration,IT
+rammer,Architecture
+RANDOM,IT
+random forest,IT
+random graph,IT
+random number generator,IT
+random oracle model,IT
+random variable,IT
+randomized algorithm,IT
+Range,IT
+Range Not Satisfiable,IT
+range partition,IT
+range pole,Architecture
+range scan,IT
+range tree,IT
+range type,IT
+ransomware,IT
+RARP,IT
+rasterization,IT
+rate limiter,IT
+rate limiting,IT
+rate monotonic analysis,IT
+rate-monotonic scheduling,IT
+ray tracing,IT
+RBAC,IT
+RCBO,Architecture
+RCD,Architecture
+RDF,IT
+reactive programming,IT
+read,IT
+read amplification,IT
+read barrier,IT
+read committed,IT
+read quorum,IT
+read replica,IT
+read skew,IT
+read uncommitted,IT
+read-your-writes consistency,IT
+readers–writers problem,IT
+readiness probe,IT
+ready queue,IT
+ready-mixed concrete,Architecture
+read–copy–update,IT
+read–write lock,IT
+read–write quorum,IT
+real,IT
+real user monitoring,IT
+real-time scheduling,IT
+real-time systems,IT
+rebar,Architecture
+rebar cage,Architecture
+rebar detail,Architecture
+rebar layout,Architecture
+rebar schedule,Architecture
+rebound hammer,Architecture
+recall,IT
+recessed light,Architecture
+reconfiguration,IT
+reconnaissance,IT
+record linkage,IT
+records retention,IT
+recovery,IT
+recurrent neural network,IT
+recursion,IT
+RECURSIVE,IT
+recursive CTE,IT
+recursive relationship,IT
+recv,IT
+recvfrom,IT
+red team,IT
+red team exercise,IT
+red teaming,IT
+Redis,IT
+redo log,IT
+reduced level,Architecture
+reduced scale,Architecture
+reducer,Architecture
+redundancy,IT
+red–black tree,IT
+Reed–Solomon code,IT
+reentrancy,IT
+reentrant,IT
+refactoring,IT
+reference counting,IT
+reference counting collector,IT
+reference line,Architecture
+reference plane,Architecture
+reference point,Architecture
+referential integrity,IT
+referential transparency,IT
+Referer,IT
+Referrer-Policy,IT
+reflected ceiling plan,Architecture
+reflection,IT
+reflectorless mode,Architecture
+refrigerant,Architecture
+refrigerant pipe,Architecture
+ReFS,IT
+REGEXP_MATCHES,IT
+REGEXP_REPLACE,IT
+REGEXP_SPLIT_TO_ARRAY,IT
+register allocation,IT
+register file,IT
+registry run keys,IT
+regression test,IT
+regression testing,IT
+regular expression,IT
+regularization,IT
+reinforced concrete beam,Architecture
+reinforced concrete column,Architecture
+reinforced concrete connection,Architecture
+reinforced concrete core,Architecture
+reinforced concrete footing,Architecture
+reinforced concrete foundation,Architecture
+reinforced concrete frame,Architecture
+reinforced concrete girder,Architecture
+reinforced concrete joint,Architecture
+reinforced concrete pile,Architecture
+reinforced concrete slab,Architecture
+reinforced concrete stair,Architecture
+reinforced concrete truss,Architecture
+reinforced concrete wall,Architecture
+reinforced soil,Architecture
+reinforcement,Architecture
+reinforcement cover,Architecture
+reinforcement learning,IT
+reinforcing steel,Architecture
+relational algebra,IT
+relational calculus,IT
+relational model,IT
+relative compaction,Architecture
+release consistency,IT
+release management,IT
+reliability,IT
+reliability growth model,IT
+remote attestation,IT
+remote code execution,IT
+remote file inclusion,IT
+render,Architecture
+render view,Architecture
+renewal process,IT
+renice,IT
+rent-to-own analysis,IT
+repeatable read,IT
+REPLACE,IT
+replica set,IT
+replication,IT
+repository pattern,IT
+request for proposal,IT
+Request Header Fields Too Large,IT
+Request Timeout,IT
+requirements elicitation,IT
+requirements engineering,IT
+requirements engineering (discipline),IT
+requirements traceability matrix,IT
+requirements validation,IT
+resection,Architecture
+reservoir sampling,IT
+Reset Content,IT
+reshoring,Architecture
+residual soil,Architecture
+resonance,Architecture
+resource allocation,Architecture
+resource contention,IT
+resource description framework,IT
+resource limit,IT
+respirator,Architecture
+REST,IT
+restore,IT
+retaining wall,Architecture
+retarder,Architecture
+retention policy,IT
+retry policy,IT
+retry with backoff,IT
+Retry-After,IT
+return on investment,IT
+return stack buffer,IT
+return-oriented programming,IT
+RETURNING,IT
+reverse proxy,IT
+revision cloud,Architecture
+revision note,Architecture
+revision number,Architecture
+REVOKE,IT
+RFC 2119,IT
+RFC 3986,IT
+RFC 7230,IT
+RFC 8446,IT
+ribbed slab,Architecture
+Ricart–Agrawala algorithm,IT
+ridge regression,IT
+RIGHT JOIN,IT
+rigid frame,Architecture
+rigid insulation,Architecture
+rigidity,Architecture
+ring buffer,IT
+ring signature,IT
+RIP,IT
+RIPEMD-160,IT
+risk analysis,IT
+risk appetite,IT
+risk assessment,Both
+risk management,IT
+risk matrix,IT
+risk register,IT
+risk tolerance,IT
+rm,IT
+rmdir,IT
+road plate,Architecture
+roadmap,IT
+robotic process automation,IT
+robotics,IT
+rock,Architecture
+rod reading,Architecture
+ROLAP,IT
+role-based access control,IT
+rollback,IT
+rollback plan,IT
+roller,Architecture
+roller shutter,Architecture
+rollforward,IT
+rolling update,IT
+roof beam,Architecture
+roof drain,Architecture
+roof plan,Architecture
+roof slab,Architecture
+roof tank,Architecture
+roof tile,Architecture
+roof wall,Architecture
+room schedule,Architecture
+room tag,Architecture
+root cause analysis,IT
+rootkit,IT
+rope,IT
+rotary hammer,Architecture
+ROUND,IT
+round-robin scheduling,IT
+rounding mode,IT
+route filtering,IT
+route redistribution,IT
+route survey,Architecture
+routing algorithm,IT
+row buffer,IT
+row-level lock,IT
+row-level security,IT
+row-oriented storage,IT
+RPAD,IT
+RPC,IT
+RPO,IT
+RSA,IT
+RSTP,IT
+RSVP,IT
+rsync,IT
+RTK surveying,Architecture
+RTO,IT
+RTP,IT
+RTRIM,IT
+RTSP,IT
+rubber flooring,Architecture
+Ruby,IT
+rule tuning,IT
+rule-based optimizer,IT
+run-length encoding,IT
+runtime verification,IT
+Rust,IT
+S-trap,Architecture
+SaaS,IT
+safepoint,IT
+safety belt,Architecture
+safety boot,Architecture
+safety glasses,Architecture
+safety harness,Architecture
+safety helmet,Architecture
+safety net,Architecture
+safety officer,Architecture
+safety property,IT
+saga choreography,IT
+saga orchestration,IT
+saga pattern,IT
+salt,IT
+salted hash,IT
+SaltStack,IT
+SameSite,IT
+SAML,IT
+sampling,IT
+sampling strategy,IT
+sampling theorem,IT
+sand,Architecture
+sandbox,IT
+sandbox evasion,IT
+sandboxing,IT
+sandstone,Architecture
+sargable predicate,IT
+SAS,IT
+SAT solver,IT
+SATA,IT
+saturated surface dry,Architecture
+saturation,IT
+savepoint,IT
+sawcut joint,Architecture
+sbrk,IT
+SBT,IT
+SCADA,IT
+scaffold,Architecture
+scaffolding,Architecture
+scaffolds,Architecture
+Scala,IT
+scalability,IT
+scalar,IT
+scale bar,Architecture
+scale factor,Architecture
+scatter–gather I/O,IT
+schedulability analysis,IT
+scheduled task persistence,IT
+scheduler,Both
+schedulers,IT
+scheduling class,IT
+schema,IT
+schema evolution,IT
+schema matching,IT
+schema migration,IT
+Scheme,IT
+Schnorr identification,IT
+Schnorr signature,IT
+SCIM,IT
+scp,IT
+screed,Architecture
+screeding,Architecture
+screen,IT
+screw jack,Architecture
+scrypt,IT
+SCTP,IT
+sealant,Architecture
+seccomp,IT
+second normal form,IT
+secondary beam,Architecture
+secondary compression,Architecture
+secp256k1,IT
+secret,IT
+secret sharing,IT
+section,Architecture
+section arrow,Architecture
+section box,Architecture
+section mark,Architecture
+sectional door,Architecture
+secure boot,IT
+secure coding standard,IT
+secure configuration,IT
+secure enclave,IT
+secure multiparty computation,IT
+security,IT
+security audit,IT
+security baseline,IT
+security control,IT
+security guideline,IT
+security monitoring,IT
+security operations center,IT
+security policy,IT
+security standard,IT
+sed,IT
+See Other,IT
+seepage,Architecture
+segment tree,IT
+segmentation,IT
+segregation,Architecture
+seismic load,Architecture
+select,IT
+selection sort,IT
+selective acknowledgment,IT
+selectivity,IT
+self join,IT
+self-compacting concrete,Architecture
+semantic versioning,IT
+semaphore,IT
+semi join,IT
+semiconductor,IT
+send,IT
+sendto,IT
+separate chaining,IT
+separation of concerns,IT
+separation of duties,IT
+septic tank,Architecture
+seqlock,IT
+sequence,IT
+sequence diagram,IT
+sequential consistency,IT
+sequential logic,IT
+serial,IT
+serial communication,IT
+serial schedule,IT
+serializability,IT
+serializable,IT
+serializable snapshot isolation,IT
+serialization,IT
+Server,IT
+serverless,IT
+serverless architecture,IT
+service,IT
+service blueprint,IT
+service catalog,IT
+service continuity,IT
+service desk,IT
+service discovery,IT
+service health check,IT
+service level agreement,IT
+service level indicator,IT
+service level objective,IT
+service management,IT
+service mesh,IT
+service provider,IT
+service reliability,IT
+service saturation,IT
+Service Unavailable,IT
+service-level objective,IT
+service-oriented architecture,IT
+serviceability limit state,Architecture
+session consistency,IT
+session guarantee,IT
+session hijacking,IT
+session layer,IT
+session token,IT
+set theory,IT
+Set-Cookie,IT
+setsockopt,IT
+setting out,Architecture
+settlement,Architecture
+sewer,Architecture
+sFlow,IT
+SFTP,IT
+SHA-256,IT
+SHA-3,IT
+Shamir secret sharing,IT
+Shannon capacity,IT
+shape analysis,IT
+shaping,IT
+shard rebalancing,IT
+sharding,IT
+shared library,IT
+shared lock,IT
+shared memory,IT
+shear beam,Architecture
+shear key,Architecture
+shear modulus,Architecture
+shear slab,Architecture
+shear strength,Architecture
+shear wall,Architecture
+sheepsfoot roller,Architecture
+sheet pile,Architecture
+sheet set,Architecture
+sheeting,Architecture
+shellcode,IT
+shingle,Architecture
+shop drawing,Architecture
+shoring,Architecture
+shoring frame,Architecture
+shoring system,Architecture
+short column,Architecture
+short-circuit evaluation,IT
+shortest path,IT
+shovel,Architecture
+shrinkage,Architecture
+shrinkage limit,Architecture
+shrinkage reducer,Architecture
+shutdown,IT
+shuttering,Architecture
+side effect,IT
+sidecar proxy,IT
+sidewall sprinkler,Architecture
+SIEM,IT
+sieve analysis,Architecture
+Sigma rule,IT
+signal,IT
+signalman,Architecture
+signature-based detection,IT
+silicone sealant,Architecture
+silt,Architecture
+SIMD,IT
+SimHash,IT
+simply supported beam,Architecture
+Simulated annealing,IT
+single responsibility,IT
+single responsibility principle,IT
+single sign-on,IT
+singleton,IT
+singleton pattern,IT
+singly linked list,IT
+singular value decomposition,IT
+singular value decomposition (ML),IT
+SIP,IT
+SIPOC diagram,IT
+site benchmark,Architecture
+site canteen,Architecture
+site diary,Architecture
+site engineer,Architecture
+site hoarding,Architecture
+site instruction,Architecture
+site investigation,Architecture
+site layout,Architecture
+site mixer,Architecture
+site office,Architecture
+site plan,Architecture
+site reliability engineering,IT
+site supervisor,Architecture
+sixth normal form,IT
+sketching algorithm,IT
+skew,IT
+skew heap,IT
+ski rental problem,IT
+skid-steer loader,Architecture
+skim coat,Architecture
+skip list,IT
+skirting board,Architecture
+SLA,IT
+slab,Architecture
+slab backfilling,Architecture
+slab compacting,Architecture
+slab curing,Architecture
+slab detail,Architecture
+slab layout,Architecture
+slab placing,Architecture
+slab pouring,Architecture
+slab schedule,Architecture
+slab stripping,Architecture
+slabs,Architecture
+slate,Architecture
+sledgehammer,Architecture
+sleeve,Architecture
+slender column,Architecture
+SLI,IT
+slip surface,Architecture
+SLO,IT
+slope distance,Architecture
+slope stability,Architecture
+slope staking,Architecture
+slow start,IT
+slowly changing dimension,IT
+slump,Architecture
+slump cone,Architecture
+slump test,Architecture
+smallint,IT
+Smalltalk,IT
+smart card,IT
+smishing,IT
+smoke damper,Architecture
+smoke detector,Architecture
+smoke test,IT
+smoke testing,IT
+smooth drum roller,Architecture
+Smoothed analysis,IT
+SMT solver,IT
+SMTP,IT
+SMTP relay,IT
+snag list,Architecture
+snap,Architecture
+snappy compression,IT
+snapshot,IT
+snapshot algorithm,IT
+snapshot isolation,IT
+snapshot testing,IT
+SNMP,IT
+snoopy cache,IT
+Snort rule,IT
+snow load,Architecture
+snowflake schema,IT
+SOAP,IT
+SOAR,IT
+SOC,IT
+socket,IT
+socket outlet,Architecture
+software architecture,IT
+software bill of materials,IT
+software engineering,IT
+software metric,IT
+software pipelining,IT
+software quality,IT
+software requirements specification,IT
+software testing (discipline),IT
+soil,Architecture
+soil nail,Architecture
+soil pipe,Architecture
+solid brick,Architecture
+solid-state drive,IT
+solution architecture,IT
+sort,IT
+sounder,Architecture
+source,IT
+source coding theorem,IT
+SOX compliance,IT
+space truss,Architecture
+spacer,Architecture
+spade,Architecture
+span id,IT
+SPAN port,IT
+spandrel beam,Architecture
+spandrel panel,Architecture
+spanning tree protocol,IT
+Spark,IT
+SPARQL,IT
+spatial database,IT
+spawn,IT
+SPB,IT
+spear phishing,IT
+specific gravity,Architecture
+specification,IT
+specification pattern,IT
+spectral graph theory,IT
+speculative execution,IT
+speed square,Architecture
+speedup,IT
+SPF (email),IT
+spherical bearing,Architecture
+spinlock,IT
+spiral model,IT
+spiral reinforcement,Architecture
+spirit level,Architecture
+splay analysis,IT
+splay tree,IT
+splay tree amortization,IT
+split-brain,IT
+split-horizon DNS,IT
+SPMD,IT
+spoil heap,Architecture
+spot height,Architecture
+spot level,Architecture
+spotlight,Architecture
+spotter,Architecture
+spray foam,Architecture
+spread footing,Architecture
+sprinkler head,Architecture
+SPT blow count,Architecture
+spyware,IT
+SQL,IT
+SQL injection,IT
+SQRT,IT
+square,Architecture
+SRE,IT
+SRE practice,IT
+SRP,IT
+SRv6,IT
+ss,IT
+SSA form,IT
+SSH,IT
+SSTable,IT
+stability,Architecture
+stack,IT
+stack frame,IT
+staging,Architecture
+staging area,Architecture
+stainless steel door,Architecture
+stair detail,Architecture
+stair layout,Architecture
+stair nosing,Architecture
+stair schedule,Architecture
+stakeholder analysis,IT
+stakeholder viewpoint,IT
+stamped concrete,Architecture
+standard model,IT
+standard penetration test,Architecture
+standing seam roof,Architecture
+standpipe,Architecture
+star schema,IT
+startup probe,IT
+starvation,IT
+stat,IT
+state explosion,IT
+state explosion problem,IT
+state machine,IT
+state machine diagram,IT
+state machine replication,IT
+state pattern,IT
+state-based CRDT,IT
+stateful firewall,IT
+stateful inspection,IT
+stateful service,IT
+stateful set,IT
+stateless firewall,IT
+stateless service,IT
+statement coverage,IT
+statement of work,IT
+static adversary,IT
+static analysis,IT
+static linking,IT
+static load,Architecture
+static single assignment,IT
+station,Architecture
+stationary distribution,IT
+statistics histogram,IT
+steal/no-steal,IT
+steam curing,Architecture
+steel door,Architecture
+steel fiber,Architecture
+steel pipe,Architecture
+steel square,Architecture
+steel trowel finish,Architecture
+steel-toe boot,Architecture
+steering committee,IT
+step ladder,Architecture
+sticky session (concept),IT
+stiffener,Architecture
+stiffness,Architecture
+stirrups,Architecture
+stochastic gradient descent,IT
+stockpile,Architecture
+stone,Architecture
+stone column,Architecture
+stop-the-world,IT
+storage capacity,IT
+storage container,Architecture
+storage engine,IT
+storage tank,Architecture
+stored procedure,IT
+story points,IT
+STP,IT
+straightedge,Architecture
+strain,Architecture
+strainer,Architecture
+strap footing,Architecture
+strategy pattern,IT
+stratified sampling,IT
+stream cipher,IT
+stream processing,IT
+strength reduction,IT
+stress,Architecture
+Strict-Transport-Security,IT
+string line,Architecture
+string literal,IT
+string matching,IT
+STRING_AGG,IT
+strip footing,Architecture
+striping,IT
+strobe,Architecture
+strong consistency,IT
+strong entity,IT
+strong scaling,IT
+structural hazard,IT
+structural plan,Architecture
+structural steel beam,Architecture
+structural steel column,Architecture
+structural steel connection,Architecture
+structural steel core,Architecture
+structural steel footing,Architecture
+structural steel foundation,Architecture
+structural steel frame,Architecture
+structural steel girder,Architecture
+structural steel joint,Architecture
+structural steel pile,Architecture
+structural steel slab,Architecture
+structural steel stair,Architecture
+structural steel truss,Architecture
+structural steel wall,Architecture
+stucco,Architecture
+stud shear connector,Architecture
+sub distribution board,Architecture
+subcontractor,Architecture
+subexponential variable,IT
+subfloor,Architecture
+subgaussian variable,IT
+subgrade,Architecture
+subgrade reaction,Architecture
+submersible pump,Architecture
+submodularity,IT
+subnetting,IT
+subschema,IT
+subsoil,Architecture
+SUBSTRING,IT
+subtyping,IT
+succinct argument,IT
+suffix array,IT
+suffix tree,IT
+SUM,IT
+sump pump,Architecture
+superblock,IT
+superkey,IT
+supernetting,IT
+superplasticizer,Architecture
+superscalar,IT
+supply chain management,IT
+supply chain security,IT
+support,Architecture
+support vector machine,IT
+surcharge,Architecture
+surface-mounted light,Architecture
+surge protection,Architecture
+Suricata rule,IT
+surrogate key,IT
+survey adjustment,Architecture
+survey data,Architecture
+survey plan,Architecture
+survey plat,Architecture
+surveying,Architecture
+surveys,Architecture
+suspended ceiling,Architecture
+suspended scaffold,Architecture
+swap space,IT
+Swift,IT
+switchboard,Architecture
+Switching Protocols,IT
+SWOT analysis,IT
+symbol,Architecture
+symbolic execution,IT
+symbolic link,IT
+symbolic testing,IT
+symmetric encryption,IT
+synchronization,IT
+synchronous replication,IT
+syntax tree,IT
+synthetic fiber,Architecture
+synthetic monitoring,IT
+system call,IT
+system test,IT
+system testing,IT
+systemctl,IT
+systemd,IT
+systems programming,IT
+T-beam,Architecture
+t-closeness,IT
+t-SNE,IT
+T-SQL,IT
+TABLE,IT
+table scan,IT
+table-level lock,IT
+tablespace,IT
+tabletop exercise,IT
+TACACS+,IT
+tactic,IT
+tactics techniques and procedures,IT
+tactics techniques procedures,IT
+tag,Architecture
+tail,IT
+tail call optimization,IT
+tail latency,IT
+tail latency mitigation,IT
+tail recursion,IT
+taint analysis,IT
+tap mode,IT
+tape measure,Architecture
+tape surveying,Architecture
+Tapestry,IT
+tar,IT
+target state,IT
+Tarjan’s algorithm,IT
+task,IT
+task mining,IT
+task parallelism,IT
+TCL,IT
+TCP,IT
+TCP Fast Open,IT
+TCP/IP stack,IT
+tcpdump,IT
+technical architecture,IT
+technical debt,IT
+tee,Architecture
+telemetry,IT
+Telnet,IT
+temperature sensor,Architecture
+tempered glass,Architecture
+template method,IT
+templating,IT
+temporal database,IT
+temporal logic,IT
+temporary benchmark,Architecture
+temporary fence,Architecture
+Temporary Redirect,IT
+tenant isolation,IT
+tendon,Architecture
+tendons,Architecture
+tensile strength,Architecture
+Terraform,IT
+terrazzo,Architecture
+terrestrial laser scanner,Architecture
+test case,IT
+test double,IT
+test effectiveness,IT
+test harness,IT
+test oracle,IT
+test pit,Architecture
+test plan,IT
+test stub,IT
+test-driven development,IT
+testability,IT
+testing and commissioning,Architecture
+text,IT
+texture mapping,IT
+TF-IDF,IT
+THEN,IT
+theodolite,Architecture
+theorem prover,IT
+theorem proving,IT
+thermal cracking,Architecture
+thermal design power,IT
+thermal insulation,Architecture
+thermal throttling,IT
+thermostat,Architecture
+theta join,IT
+third normal form,IT
+thrashing,IT
+thread,IT
+thread pool,IT
+thread safety,IT
+thread sanitizer,IT
+thread-level parallelism,IT
+thread-local storage,IT
+thread-safe,IT
+threat hunting,IT
+threat intelligence,IT
+threat modeling,IT
+threat surface,IT
+three-phase commit,IT
+three-way handshake,IT
+threshold,Architecture
+threshold signature,IT
+thresholding,IT
+throttling,IT
+throughput,IT
+tie column,Architecture
+tie line,Architecture
+tie rod,Architecture
+tieback,Architecture
+ties,Architecture
+TIG welding,Architecture
+tile cutter,Architecture
+timber beam,Architecture
+timber column,Architecture
+timber connection,Architecture
+timber core,Architecture
+timber footing,Architecture
+timber foundation,Architecture
+timber frame,Architecture
+timber girder,Architecture
+timber joint,Architecture
+timber pile,Architecture
+timber slab,Architecture
+timber stair,Architecture
+timber truss,Architecture
+timber wall,Architecture
+time,IT
+time slice,IT
+time synchronization,IT
+time to live,IT
+time-based one-time password,IT
+time-of-check time-of-use,IT
+time-of-check to time-of-use,IT
+time-series database,IT
+time-sharing,IT
+time-travel query,IT
+timed automata,IT
+timeline analysis,IT
+timestamp,IT
+timestamp ordering,IT
+timestamptz,IT
+timing diagram,IT
+timing fault,IT
+TIN model,Architecture
+tipper truck,Architecture
+title block,Architecture
+title sheet,Architecture
+TLA+ (specification),IT
+TLB,IT
+TLB shootdown,IT
+TLS,IT
+TLS handshake,IT
+TLS_AES_128_GCM_SHA256,IT
+TLS_AES_256_GCM_SHA384,IT
+TLS_CHACHA20_POLY1305_SHA256,IT
+TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384,IT
+TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,IT
+tmux,IT
+TO_CHAR,IT
+TO_DATE,IT
+TO_TIMESTAMP,IT
+toe board,Architecture
+token bucket,IT
+token ring,IT
+token ring mutual exclusion,IT
+tokenization,IT
+Too Early,IT
+Too Many Requests,IT
+tool shed,Architecture
+toolbox,Architecture
+toolbox talk,Architecture
+top,IT
+topcoat,Architecture
+topographic map,Architecture
+topographic network,Architecture
+topographic survey,Architecture
+topological sort,IT
+topsoil,Architecture
+torch,Architecture
+total correctness,IT
+total cost of ownership,IT
+total order broadcast,IT
+total ordering,IT
+total station,Architecture
+total station calibration,Architecture
+total station setup,Architecture
+total station survey,Architecture
+total stress,Architecture
+touch,IT
+tower crane,Architecture
+TPM,IT
+tr,IT
+TRACE,IT
+trace id,IT
+traceability,IT
+traceability matrix,IT
+traceroute,IT
+traces,IT
+tracing,IT
+tracing collector,IT
+track light,Architecture
+traffic,IT
+traffic cone,Architecture
+traffic shaping,IT
+train–test split,IT
+transaction,IT
+transaction log,IT
+transfer beam,Architecture
+transfer slab,Architecture
+transfer switch,Architecture
+transfer wall,Architecture
+Transfer-Encoding,IT
+transformer model,IT
+transistor,IT
+transit mixer,Architecture
+transition architecture,IT
+translation lookaside buffer,IT
+transparent huge pages,IT
+transpiler,IT
+transport layer,IT
+trap,Both
+trash pump,Architecture
+traverse,Architecture
+traverse network,Architecture
+traverse survey,Architecture
+treap,IT
+tree traversal,IT
+tremie,Architecture
+trench,Architecture
+trench box,Architecture
+trench shield,Architecture
+tri-color marking,IT
+trial pit,Architecture
+triangulation,Architecture
+triaxial test,Architecture
+tribrach,Architecture
+trie,IT
+trigger,IT
+trilateration,Architecture
+TRILL,IT
+trim,Both
+triple,IT
+triple glazing,Architecture
+triple store,IT
+tripod,Architecture
+trowel,Architecture
+troweling,Architecture
+truck crane,Architecture
+truck mixer,Architecture
+true north,Architecture
+true positive,IT
+TRUNCATE,IT
+trunk-based development,IT
+trunking,Architecture
+truss,Architecture
+trust boundary,IT
+trusted platform module,IT
+tsquery,IT
+tsvector,IT
+tube and coupler,Architecture
+tunneling,IT
+tuple relational calculus,IT
+turbo code,IT
+Turing machine,IT
+two's complement,IT
+two-phase commit,IT
+Two-Phase Commit blocking,IT
+two-phase locking,IT
+two-way slab,Architecture
+two-way switch,Architecture
+two’s complement,IT
+type confusion,IT
+type inference,IT
+type system,IT
+Type-1 hypervisor,IT
+Type-2 hypervisor,IT
+typecasting,IT
+TypeScript,IT
+typical set,IT
+ubiquitous computing,IT
+ubiquitous language,IT
+UCS,Architecture
+UDP,IT
+UEFI,IT
+UFS,IT
+ulimit,IT
+ultimate bearing capacity,Architecture
+ultimate limit state,Architecture
+ultimate strength,Architecture
+ultrasonic pulse velocity,Architecture
+UMAP,IT
+umask,IT
+UML,IT
+umount,IT
+Unauthorized,IT
+Unavailable For Legal Reasons,IT
+unconfined compression test,Architecture
+undefined behavior,IT
+undefined behavior sanitizer,IT
+undercoat,Architecture
+underfitting,IT
+underground tank,Architecture
+underwater concrete,Architecture
+undo log,IT
+unicast,IT
+uniform soil,Architecture
+union,Both
+UNION ALL,IT
+union–find,IT
+uniq,IT
+UNIQUE,IT
+unit of work pattern,IT
+unit rate,Architecture
+unit test,IT
+unit testing,IT
+universal hashing,IT
+Unprocessable Entity,IT
+Unsupported Media Type,IT
+unzip,IT
+UPDATE,IT
+Upgrade,IT
+Upgrade Required,IT
+uplift,Architecture
+UPPER,IT
+upright sprinkler,Architecture
+UPS,Architecture
+uptime,IT
+uPVC frame,Architecture
+URI Too Long,IT
+usability,IT
+usability engineering,IT
+use case,IT
+use-after-free,IT
+use-case diagram,IT
+use-case points,IT
+user mode,IT
+user space,IT
+user story,IT
+User-Agent,IT
+user-defined function,IT
+UTF-16,IT
+UTF-32,IT
+UTF-8,IT
+UTM coordinate,Architecture
+uuid,IT
+V-model,IT
+validation,IT
+validation phase,IT
+validation plan,IT
+value chain,IT
+value iteration,IT
+value proposition,IT
+value stream,IT
+valve,Architecture
+valves,Architecture
+van Emde Boas tree,IT
+vapor barrier,Architecture
+varchar,IT
+variable air volume,Architecture
+variance,IT
+variation order,Architecture
+Vary,IT
+Vault,IT
+VAV box,Architecture
+VC dimension,IT
+vector,IT
+vector clock,IT
+vector clock synchronization,IT
+vector commitment,IT
+vector processor,IT
+vector timestamp,IT
+vectorization,IT
+vendor management,IT
+vent pipe,Architecture
+verifiable delay function,IT
+verification,IT
+verification plan,IT
+version control,IT
+vertical angle,Architecture
+vertical control,Architecture
+vertical distance,Architecture
+vertical scaling,IT
+Via,IT
+vibration,Architecture
+vibro compaction,Architecture
+victim cache,IT
+view,IT
+view change,IT
+view maintenance,IT
+view materialization,IT
+view serializability,IT
+viewpoint,IT
+viewport,Architecture
+viewstamped replication,IT
+vinyl flooring,Architecture
+virtual address,IT
+virtual machine,IT
+virtual memory,IT
+virtualization,IT
+viscosity modifier,Architecture
+vise,Architecture
+vishing,IT
+vision glass,Architecture
+visitor pattern,IT
+VLAN,IT
+VLSM,IT
+vmstat,IT
+void ratio,Architecture
+voided slab,Architecture
+volatile data,IT
+volatile variable,IT
+volume batching,Architecture
+volume calculation,Architecture
+volume control damper,Architecture
+VP-tree index,IT
+vulnerability,IT
+vulnerability disclosure,IT
+VXLAN,IT
+waffle slab,Architecture
+wait,IT
+wait queue,IT
+wait-free,IT
+waitpid,IT
+walkthrough,Architecture
+wall detail,Architecture
+wall layout,Architecture
+wall schedule,Architecture
+wall tile,Architecture
+walls,Architecture
+warm data,IT
+Warning,IT
+warning sign,Architecture
+warranty,Architecture
+waste pipe,Architecture
+water curing,Architecture
+water meter,Architecture
+water pump,Architecture
+water supply,Architecture
+water table,Architecture
+water-cement ratio,Architecture
+waterfall model,IT
+waterproofing membrane,Architecture
+waveform,IT
+weak entity,IT
+weak scaling,IT
+weaponization,IT
+wear leveling,IT
+weathered rock,Architecture
+web application firewall,IT
+webhook,IT
+WebRTC,IT
+weigh batching,Architecture
+weighted quorum,IT
+welded connection,Architecture
+welded wire fabric,Architecture
+welded wire mesh,Architecture
+welding machine,Architecture
+well-graded soil,Architecture
+wellpoint system,Architecture
+wget,IT
+whaling,IT
+wheel loader,Architecture
+WHEN,IT
+WHERE,IT
+whitelisting,IT
+wide-column store,IT
+wideband Delphi,IT
+wind load,Architecture
+window frame,Architecture
+window function,IT
+window hardware,Architecture
+window scaling,IT
+window schedule,Architecture
+window tag,Architecture
+wiper,IT
+wireless access point,IT
+wireless antenna,IT
+WITH,IT
+WMI persistence,IT
+word length,IT
+work breakdown structure,IT
+work glove,Architecture
+work platform,Architecture
+work stealing,IT
+work stealing scheduler,IT
+workability,Architecture
+workbench,Architecture
+workflow automation,IT
+working drawing,Architecture
+working set,IT
+workload characterization,IT
+worst-case execution time,IT
+wrapper function,IT
+WRED,IT
+write,IT
+write amplification,IT
+write amplification (distributed),IT
+write barrier,IT
+write buffer,IT
+write quorum,IT
+write skew,IT
+write-ahead logging,IT
+write-allocate,IT
+write-back,IT
+write-through,IT
+WSDL,IT
+WWW-Authenticate,IT
+X,IT
+X-Content-Type-Options,IT
+X-Frame-Options,IT
+X.509 certificate,IT
+xargs,IT
+XFS,IT
+XGBoost (algorithm),IT
+xml,IT
+XML Schema,IT
+XREF,Architecture
+xz,IT
+YAML,IT
+Yao’s minimax principle,IT
+YARA rule,IT
+Yarn,IT
+yield strength,Architecture
+z-buffer,IT
+Zab protocol,IT
+Zeek script,IT
+zenith angle,Architecture
+zero trust architecture,IT
+zero-copy I/O,IT
+zero-day vulnerability,IT
+zero-knowledge proof,IT
+ZFS,IT
+Zigbee,IT
+zip,IT
+zk-SNARK,IT
+zk-STARK,IT
+zombie process,IT
+zoning map,Architecture
+zstd compression,IT
+Θ notation,IT
+Θ(n),IT
+Ω notation,IT
+Ω(n),IT

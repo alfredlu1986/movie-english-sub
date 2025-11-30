@@ -1,0 +1,1327 @@
+absorption
+abutment
+accelerator
+access road
+acoustic ceiling
+acoustic door
+acoustic insulation
+acrylic sealant
+active earth pressure
+admixture
+aerated block
+aerial photo
+aggregate
+air curing
+air duct
+air handling unit
+air hose
+air release valve
+air-entraining agent
+allowable bearing capacity
+alluvium
+aluminum frame
+anchor bolt
+anchor head
+anchorage length
+anchors bolt
+anchors head
+angle grinder
+angle of friction
+annotative text
+anti-corrosion coating
+arc welding
+architect
+architectural plan
+as-built documentation
+as-built drawing
+as-built network
+as-built survey
+asphalt paver
+asphalt shingle
+assembly drawing
+at-rest pressure
+Atterberg limits
+automatic level
+axonometric drawing
+azimuth
+backer board
+backer rod
+backfill
+backhoe loader
+backsight
+balancing traverse
+ball valve
+balustrade
+bar chair
+barricade
+bars
+basalt fiber
+base plate
+baseboard
+baseline
+baseline program
+basement beam
+basement slab
+basement wall
+batching
+batter board
+battery bank
+beam
+beam detail
+beam layout
+beam schedule
+beams
+bearing
+bearing capacity
+bearing pad
+bedrock
+bench grinder
+benchmark
+benchmarks
+bent bar
+bill of quantities
+bituminous membrane
+bleeding
+blended cement
+block
+block attribute
+blockwork beam
+blockwork column
+blockwork connection
+blockwork core
+blockwork footing
+blockwork foundation
+blockwork frame
+blockwork girder
+blockwork joint
+blockwork pile
+blockwork slab
+blockwork stair
+blockwork truss
+blockwork wall
+blueprint
+BMS
+bolted connection
+boom pump
+booster pump
+border
+bored pile
+borehole
+boreholes
+borelog
+borelogs
+bottle jack
+boulder
+boundary element
+braced frame
+bracing
+bracing system
+bracket
+break line
+brick
+brick trowel
+brickwork beam
+brickwork column
+brickwork connection
+brickwork core
+brickwork footing
+brickwork foundation
+brickwork frame
+brickwork girder
+brickwork joint
+brickwork pile
+brickwork slab
+brickwork stair
+brickwork truss
+brickwork wall
+bridge deck
+brittleness
+broom finish
+buckling
+building automation
+building corner stake
+bulk density
+bull float
+bulldozer
+buoyancy
+busbar
+butterfly valve
+cable tray
+CAD layer
+cadastral network
+cadastral survey
+camber
+camera view
+cantilever beam
+cantilever wall
+carpet roll
+carpet tile
+caulk
+ceiling layout
+ceiling tile
+cement
+cement board
+cementitious waterproofing
+centerline
+centerline stake
+ceramic tile
+chain surveying
+chalk line
+chamfer
+change order
+check line
+check valve
+chemical admixture
+chiller
+chute
+circuit breaker
+circular saw
+circulation pump
+cladding
+clamp
+clay
+clay brick
+clay tile
+clear cover
+clerk of works
+client
+closed traverse
+coarse aggregate
+coarse-grained soil
+cobbles
+cohesion
+cold joint
+cold water
+colluvium
+colored concrete
+column
+column detail
+column grid
+column layout
+column schedule
+columns
+combined footing
+commissioning
+compaction
+compactor
+compressive strength
+compressor
+concrete
+concrete backfilling
+concrete batching plant
+concrete beam
+concrete block
+concrete column
+concrete compacting
+concrete connection
+concrete core
+concrete curing
+concrete footing
+concrete foundation
+concrete frame
+concrete girder
+concrete joint
+concrete mixer
+concrete pile
+concrete placing
+concrete pouring
+concrete pump
+concrete slab
+concrete stair
+concrete stripping
+concrete tile
+concrete truss
+concrete vibrator
+concrete wall
+condensate drain
+condenser
+conduit
+cone penetration test
+connection
+connection detail
+connection layout
+connection schedule
+connections
+consolidation
+constant air volume
+construction joint
+construction line
+construction manager
+construction network
+construction site
+construction survey
+Construction Vocabulary – Drafting, Concrete, Surveying (2000 terms)
+consultant
+continuous beam
+contour
+contour interval
+contour map
+contours
+contractor
+control joint
+control network
+control panel
+control point
+control survey
+controls point
+cooling tower
+coordinate point
+coordinate system
+copper pipe
+corbel
+core drill
+core test
+core wall
+cornice
+corrective maintenance
+counterfort wall
+coupling
+cover sheet
+coving
+CPT
+CPVC pipe
+cranes
+crawler crane
+crazing
+creep
+critical path
+cross bracing
+cross section
+cross-sectioning
+crowbar
+cube test
+curing
+curtain wall
+cut and fill
+cut line
+cut-off saw
+cut-resistant glove
+cylinder test
+D orbit
+daily report
+damp proof course
+damp proof membrane
+damping
+datum
+dead load
+declination
+deep mixing
+defects liability
+deflection
+degree of saturation
+delivery hose
+deluge system
+detail callout
+detail drawing
+development length
+dewatering
+diagonal brace
+differential settlement
+diffuser
+digital elevation model
+digital level
+digital terrain model
+dimension line
+dimension string
+direct shear test
+door closer
+door frame
+door hardware
+door leaf
+door schedule
+door stopper
+door tag
+double glazing
+dowel bar
+doweling
+downlight
+drainage
+drawing index
+drawing number
+drawing scale
+drawings
+drill
+driven pile
+drop panel
+drying shrinkage
+drywall
+duct
+ductility
+dump truck
+dumpy level
+dust mask
+dynamic compaction
+dynamic load
+ear protection
+earmuff
+earplug
+earth pressure coefficient
+earth rod
+earthing
+earthing bar
+earthquake load
+earthwork quantity
+eastings
+eccentric footing
+EDM instrument
+effective stress
+elasticity
+elastomeric bearing
+elbow
+electrical plan
+electrical system
+electronic distance measurement
+elevation
+elevation mark
+elevator shaft
+ellipsoidal height
+embedded plate
+emergency light
+emergency power
+employer
+enamel paint
+engineer
+engineered fill
+engineering surveying
+environmental load
+epoxy coating
+error of closure
+excavator
+exit sign
+expanded polystyrene
+expansion joint
+expansion joint device
+expansion loop
+expansive agent
+exploded view
+exposed aggregate
+extend
+extension ladder
+extension line
+external reference
+external vibrator
+extruded polystyrene
+face shield
+facility management
+factor of safety
+falsework
+fan coil unit
+fatigue
+field book
+field notes
+fill material
+fillet
+filter
+final account
+fine aggregate
+fine-grained soil
+finishes schedule
+finishing
+fire alarm
+fire alarm panel
+fire damper
+fire door
+fire hydrant
+fire protection
+fire protection plan
+fire pump
+fireproof coating
+fitting
+fixed-end beam
+flagman
+flange
+flat slab
+flexible duct
+flexural strength
+float
+float valve
+floor drain
+floor plan
+floor tile
+flooring
+flow net
+flow table
+flush door
+footing detail
+footing layout
+footing schedule
+footings
+foreman
+foresight
+form liner
+form oil
+form pressure
+form release agent
+form tie
+formwork
+formwork backfilling
+formwork compacting
+formwork curing
+formwork placing
+formwork pouring
+formwork stripping
+formwork table
+foundation detail
+foundation layout
+foundation plan
+foundation schedule
+foundations
+frame
+frame scaffold
+frames
+full scale
+furniture layout
+gantry
+gantry crane
+gap-graded soil
+garage door
+gas cutting
+gate valve
+general arrangement drawing
+general notes
+generator
+generator set
+geodetic survey
+geoid
+geotechnical investigation
+girder
+glass fiber
+glass tile
+glass wool
+globe valve
+GNSS calibration
+GNSS setup
+GNSS survey
+GNSS surveying
+goggles
+GPS calibration
+GPS setup
+GPS survey
+GPS surveying
+gradation
+grade rod
+grade stake
+grader
+grading curve
+grading plan
+grain size distribution
+granite
+gravel
+gravity wall
+grease trap
+grid line
+grid north
+grille
+ground anchor
+ground beam
+ground control point
+ground improvement
+ground model
+ground slab
+ground wall
+grounding
+groundwater
+grouting
+guardrail
+gully
+gully trap
+gusset plate
+gypsum board
+hand mixer
+hand tool
+handle
+handover
+handrail
+hanger
+hard hat
+hardwood flooring
+hatch boundary
+hatching
+haul road
+haunch
+HDPE pipe
+heat detector
+height of instrument
+HEPA filter
+hidden line
+high-performance concrete
+high-strength concrete
+high-visibility vest
+hinge
+hoist
+hollow block
+hollow brick
+hollow-core slab
+honeycombing
+hook
+hoop
+hopper
+horizontal angle
+horizontal control
+horizontal distance
+hose reel
+hot water
+humidity sensor
+HVAC
+HVAC plan
+hydration
+hydration heat
+hydraulic conductivity
+hydraulic jack
+hydrographic survey
+hydrometer analysis
+impact drill
+impact load
+imposed load
+in-situ density
+inclination
+inspection
+inspection chamber
+inspection request
+instability
+insulated glass unit
+insulation
+interim payment
+intermediate sight
+intermediate switch
+internal vibrator
+intersection
+intumescent paint
+inverted T-beam
+isolated footing
+isolation joint
+isometric drawing
+jack
+jackhammer
+jet grouting
+job safety analysis
+jockey pump
+joint detail
+joint filler
+joint layout
+joint schedule
+joint sealant
+jointing tool
+joints
+joist
+junction box
+key plan
+keynote
+keyway
+L-beam
+label
+ladder
+ladder tray
+ladders
+laitance
+laminate flooring
+laminated glass
+land surveying
+landscape plan
+landslide
+lanyard
+lap splice
+laser level
+laser scanner calibration
+laser scanner setup
+laser scanner survey
+laser scanning
+lateral earth pressure
+latex paint
+lattice girder
+laydown area
+layer control
+layer name
+layout space
+layout work
+leader
+least squares adjustment
+ledger beam
+legend
+level mark
+leveling staff
+lifeline
+light switch
+lighting fixture
+lighting plan
+lightning protection
+lightweight block
+lightweight concrete
+limestone
+limit state
+line pump
+line type
+line weight
+linoleum
+liquid limit
+liquid waterproofing
+live load
+load
+load combination
+load factor
+load transfer
+local grid
+lockset
+longitudinal section
+louver
+lump sum
+magnetic north
+main distribution board
+maintenance manual
+manhole
+manual call point
+map cracking
+marble
+masonry beam
+masonry column
+masonry connection
+masonry core
+masonry footing
+masonry foundation
+masonry frame
+masonry girder
+masonry joint
+masonry pile
+masonry slab
+masonry stair
+masonry truss
+masonry wall
+mass concrete
+mat foundation
+match line
+material hoist
+material schedule
+material storage
+maximum aggregate size
+MCB
+MCCB
+measuring wheel
+mechanical splice
+meeting minutes
+membrane curing
+MEP plan
+mesh
+metal ceiling
+metal roof
+method statement
+micro pile
+MIG welding
+milestone
+mineral wool
+mini excavator
+mini prism
+misclosure
+mobile crane
+mobile mapping
+mobile scaffold
+model space
+modified Proctor test
+modulus of elasticity
+moisture content
+moment connection
+moment frame
+monitoring network
+monitoring survey
+mosaic
+movement joint
+natural frequency
+non-destructive test
+nonconformance report
+north arrow
+northings
+note
+nuclear density test
+object snap
+oedometer test
+offset
+offset method
+offset stake
+one-way slab
+open traverse
+operation manual
+optical plummet
+ortho mode
+orthographic projection
+orthometric height
+orthophoto
+outrigger system
+overhanging beam
+P-trap
+paint
+panel door
+panic bar
+parcel map
+parking beam
+parking slab
+parking wall
+passenger hoist
+passive earth pressure
+pattern fill
+paver
+pendent sprinkler
+permanent benchmark
+permeability
+permit to work
+perspective drawing
+PEX pipe
+photogrammetry
+pickaxe
+pier
+pigment
+pile
+pile cap
+piles
+pinned connection
+pipe
+pipes
+placement
+plan view
+planner
+plaster
+plasterboard
+plastic limit
+plastic shrinkage
+plasticity
+plasticity index
+plasticizer
+plate compactor
+plate load test
+plot plan
+plumb bob
+plumb line
+plumbing
+plumbing plan
+pneumatic tool
+podium beam
+podium slab
+podium wall
+point cloud
+pointing trowel
+Poisson ratio
+polar tracking
+polished concrete
+polyline
+polymer concrete
+polyurethane coating
+polyurethane foam
+polyurethane sealant
+poorly graded soil
+porcelain tile
+pore pressure
+pore water pressure
+porosity
+portal frame
+Portland cement
+post-tensioning
+pot bearing
+pour sequence
+power trowel
+pre-action system
+pre-filter
+pre-tensioning
+pressure reducing valve
+pressure sensor
+prestressed concrete beam
+prestressed concrete column
+prestressed concrete connection
+prestressed concrete core
+prestressed concrete footing
+prestressed concrete foundation
+prestressed concrete frame
+prestressed concrete girder
+prestressed concrete joint
+prestressed concrete pile
+prestressed concrete slab
+prestressed concrete stair
+prestressed concrete truss
+prestressed concrete wall
+prestressing
+preventive maintenance
+primary consolidation
+prime cost
+primer
+prism
+Proctor test
+profile leveling
+profile view
+progress claim
+progress report
+project closeout
+project manager
+projection
+provisional sum
+pull box
+pumps
+punch list
+putty
+PVC pipe
+quality assurance
+quality control
+quantity surveyor
+radiation method
+raft foundation
+rammer
+range pole
+RCBO
+RCD
+ready-mixed concrete
+rebar
+rebar cage
+rebar detail
+rebar layout
+rebar schedule
+rebound hammer
+recessed light
+reduced level
+reduced scale
+reducer
+reference line
+reference plane
+reference point
+reflected ceiling plan
+reflectorless mode
+refrigerant
+refrigerant pipe
+reinforced concrete beam
+reinforced concrete column
+reinforced concrete connection
+reinforced concrete core
+reinforced concrete footing
+reinforced concrete foundation
+reinforced concrete frame
+reinforced concrete girder
+reinforced concrete joint
+reinforced concrete pile
+reinforced concrete slab
+reinforced concrete stair
+reinforced concrete truss
+reinforced concrete wall
+reinforced soil
+reinforcement
+reinforcement cover
+reinforcing steel
+relative compaction
+render
+render view
+resection
+reshoring
+residual soil
+resonance
+resource allocation
+respirator
+retaining wall
+retarder
+revision cloud
+revision note
+revision number
+ribbed slab
+rigid frame
+rigid insulation
+rigidity
+risk assessment
+road plate
+rock
+rod reading
+roller
+roller shutter
+roof beam
+roof drain
+roof plan
+roof slab
+roof tank
+roof tile
+roof wall
+room schedule
+room tag
+rotary hammer
+route survey
+RTK surveying
+rubber flooring
+S-trap
+safety belt
+safety boot
+safety glasses
+safety harness
+safety helmet
+safety net
+safety officer
+sand
+sandstone
+saturated surface dry
+sawcut joint
+scaffold
+scaffolding
+scaffolds
+scale bar
+scale factor
+scheduler
+screed
+screeding
+screw jack
+sealant
+secondary beam
+secondary compression
+section
+section arrow
+section box
+section mark
+sectional door
+seepage
+segregation
+seismic load
+self-compacting concrete
+septic tank
+serviceability limit state
+setting out
+settlement
+sewer
+shear beam
+shear key
+shear modulus
+shear slab
+shear strength
+shear wall
+sheepsfoot roller
+sheet pile
+sheet set
+sheeting
+shingle
+shop drawing
+shoring
+shoring frame
+shoring system
+short column
+shovel
+shrinkage
+shrinkage limit
+shrinkage reducer
+shuttering
+sidewall sprinkler
+sieve analysis
+signalman
+silicone sealant
+silt
+simply supported beam
+site benchmark
+site canteen
+site diary
+site engineer
+site hoarding
+site instruction
+site investigation
+site layout
+site mixer
+site office
+site plan
+site supervisor
+skid-steer loader
+skim coat
+skirting board
+slab
+slab backfilling
+slab compacting
+slab curing
+slab detail
+slab layout
+slab placing
+slab pouring
+slab schedule
+slab stripping
+slabs
+slate
+sledgehammer
+sleeve
+slender column
+slip surface
+slope distance
+slope stability
+slope staking
+slump
+slump cone
+slump test
+smoke damper
+smoke detector
+smooth drum roller
+snag list
+snap
+snow load
+socket outlet
+soil
+soil nail
+soil pipe
+solid brick
+sounder
+space truss
+spacer
+spade
+spandrel beam
+spandrel panel
+specific gravity
+speed square
+spherical bearing
+spiral reinforcement
+spirit level
+spoil heap
+spot height
+spot level
+spotlight
+spotter
+spray foam
+spread footing
+sprinkler head
+SPT blow count
+square
+stability
+staging
+staging area
+stainless steel door
+stair detail
+stair layout
+stair nosing
+stair schedule
+stamped concrete
+standard penetration test
+standing seam roof
+standpipe
+static load
+station
+steam curing
+steel door
+steel fiber
+steel pipe
+steel square
+steel trowel finish
+steel-toe boot
+step ladder
+stiffener
+stiffness
+stirrups
+stockpile
+stone
+stone column
+storage container
+storage tank
+straightedge
+strain
+strainer
+strap footing
+stress
+string line
+strip footing
+strobe
+structural plan
+structural steel beam
+structural steel column
+structural steel connection
+structural steel core
+structural steel footing
+structural steel foundation
+structural steel frame
+structural steel girder
+structural steel joint
+structural steel pile
+structural steel slab
+structural steel stair
+structural steel truss
+structural steel wall
+stucco
+stud shear connector
+sub distribution board
+subcontractor
+subfloor
+subgrade
+subgrade reaction
+submersible pump
+subsoil
+sump pump
+superplasticizer
+support
+surcharge
+surface-mounted light
+surge protection
+survey adjustment
+survey data
+survey plan
+survey plat
+surveying
+surveys
+suspended ceiling
+suspended scaffold
+switchboard
+symbol
+synthetic fiber
+T-beam
+tag
+tape measure
+tape surveying
+tee
+temperature sensor
+tempered glass
+temporary benchmark
+temporary fence
+tendon
+tendons
+tensile strength
+terrazzo
+terrestrial laser scanner
+test pit
+testing and commissioning
+theodolite
+thermal cracking
+thermal insulation
+thermostat
+threshold
+tie column
+tie line
+tie rod
+tieback
+ties
+TIG welding
+tile cutter
+timber beam
+timber column
+timber connection
+timber core
+timber footing
+timber foundation
+timber frame
+timber girder
+timber joint
+timber pile
+timber slab
+timber stair
+timber truss
+timber wall
+TIN model
+tipper truck
+title block
+title sheet
+toe board
+tool shed
+toolbox
+toolbox talk
+topcoat
+topographic map
+topographic network
+topographic survey
+topsoil
+torch
+total station
+total station calibration
+total station setup
+total station survey
+total stress
+tower crane
+track light
+traffic cone
+transfer beam
+transfer slab
+transfer switch
+transfer wall
+transit mixer
+trap
+trash pump
+traverse
+traverse network
+traverse survey
+tremie
+trench
+trench box
+trench shield
+trial pit
+triangulation
+triaxial test
+tribrach
+trilateration
+trim
+triple glazing
+tripod
+trowel
+troweling
+truck crane
+truck mixer
+true north
+trunking
+truss
+tube and coupler
+two-way slab
+two-way switch
+UCS
+ultimate bearing capacity
+ultimate limit state
+ultimate strength
+ultrasonic pulse velocity
+unconfined compression test
+undercoat
+underground tank
+underwater concrete
+uniform soil
+union
+unit rate
+uplift
+upright sprinkler
+UPS
+uPVC frame
+UTM coordinate
+valve
+valves
+vapor barrier
+variable air volume
+variation order
+VAV box
+vent pipe
+vertical angle
+vertical control
+vertical distance
+vibration
+vibro compaction
+viewport
+vinyl flooring
+viscosity modifier
+vise
+vision glass
+void ratio
+voided slab
+volume batching
+volume calculation
+volume control damper
+waffle slab
+walkthrough
+wall detail
+wall layout
+wall schedule
+wall tile
+walls
+warning sign
+warranty
+waste pipe
+water curing
+water meter
+water pump
+water supply
+water table
+water-cement ratio
+waterproofing membrane
+weathered rock
+weigh batching
+welded connection
+welded wire fabric
+welded wire mesh
+welding machine
+well-graded soil
+wellpoint system
+wheel loader
+wind load
+window frame
+window hardware
+window schedule
+window tag
+work glove
+work platform
+workability
+workbench
+working drawing
+XREF
+yield strength
+zenith angle
+zoning map

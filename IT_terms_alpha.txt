@@ -1,0 +1,2911 @@
+#P
+A* search
+ABAC
+ABS
+abstract syntax tree
+abstraction
+abstraction refinement
+ac
+accept
+Accept-Encoding
+Accept-Language
+acceptable use policy
+acceptance criteria
+acceptance test
+acceptance test-driven development
+acceptance testing
+Accepted
+access control list
+accountability
+accumulator
+ACID
+actions on objectives
+Active Directory
+activity diagram
+actor–critic
+ad-hoc polymorphism
+Ada
+AdaBoost
+adapter pattern
+adaptive adversary
+address sanitizer
+address space
+adversary model
+adware
+affine type
+affinity scheduling
+affordance
+after-action review
+AGE
+aggregate analysis
+aggregate signature
+AH
+ahead-of-time compilation
+Aho–Corasick
+Airflow
+alert fatigue
+alert triage
+algorithm
+alias
+alias analysis
+aliasing
+ALL
+ALTER
+AM
+Amdahl's law
+Amdahl’s law
+amortized analysis
+analysis
+analytics
+anomaly detection
+ANSI C
+Ansible
+anti join
+anti-aliasing
+anti-corruption layer
+anti-debugging
+anti-entropy
+ANY
+anycast
+anycast DNS
+APFS
+API
+APN
+application gateway
+application layer
+applicative
+approximate consensus
+approximate query processing
+approximation algorithm
+approximation ratio
+arbiter
+ArchiMate
+ArchiMate application view
+ArchiMate motivation view
+ArchiMate technology view
+architectural style
+architecture decision record
+architecture description
+architecture framework
+Argon2
+ARIES
+arithmetic coding
+arithmetic logic unit
+ARP
+array
+ARRAY_AGG
+artifact repository
+artificial intelligence
+ASCII
+ASLR bypass
+ASN.1
+asset management
+asymmetric encryption
+asynchronous
+asynchronous I/O
+asynchronous replication
+at-least-once semantics
+at-most-once semantics
+ATM
+atomic broadcast
+atomic multicast
+atomic operation
+atomicity
+attack surface
+attention mechanism
+attribute
+attribute-based access control
+audit trail
+auditing
+authenticated encryption
+authenticated key exchange
+authentication
+authorization
+auto scaling
+autoencoder
+automation
+availability
+availability management
+availability measurement
+availability target
+availability zone
+average precision
+AVG
+AVL tree
+Avro
+awk
+ax
+Azuma inequality
+Azuma–Hoeffding inequality
+B* tree
+B+ tree
+B-spline
+B-tree
+B-tree index
+backend
+backpressure
+backpressure (systems)
+backpropagation
+backtracking
+backup
+backward chaining
+BACnet
+Bad Gateway
+Bad Request
+baggage
+balanced scorecard
+Ball tree
+ballooning
+bandwidth
+bank conflict
+banker’s algorithm
+banker’s method
+barrier
+BASE
+baseline
+baseline management
+Bash
+batch verification
+Bayes theorem
+Bazel
+bcrypt
+behavior-driven development
+behavioral analytics
+Bellman equation
+Bellman–Ford algorithm
+Bell–LaPadula model
+benchmarking
+benefits realization
+BER encoding
+Berkeley algorithm
+BETWEEN
+BFD
+BFS
+bg
+BGP
+bias–variance tradeoff
+Biba model
+Big Endian
+Big-O notation
+bigint
+bigserial
+binary
+binary heap
+binary operation
+binary search
+binary transparency
+bind
+binomial heap
+biometric authentication
+BIOS
+bipartite matching
+bit mask
+BIT_LENGTH
+bitmap index
+bitwise
+BK-tree index
+blacklisting
+BLAKE2
+BLAKE3
+blameless postmortem
+block cipher
+Bloom filter
+blue team
+blue teaming
+blue-green deployment
+Bluetooth
+blue–green deployment
+BM25
+BNF
+Boneh–Franklin IBE
+boolean
+boot sequence
+bootkit
+botnet
+boundary value analysis
+bounded context
+bounded model checking
+bounded staleness
+box
+Boyce–Codd normal form
+Boyer–Moore
+BPMN
+BPMN collaboration diagram
+BPP
+branch and bound
+branch coverage
+branch prediction
+branch predictor
+breadth-first search
+breakpoint
+bridge pattern
+BRIN
+BRIN index
+brk
+broadcast
+brownout (systems)
+brute force attack
+Btrfs
+bubble sort
+Buck
+buffer overflow
+build pipeline
+builder pattern
+bulkhead isolation
+Bulletproofs
+burn rate
+Burrows–Wheeler transform
+bus arbitration
+bus topology
+business case
+business continuity plan
+business glossary
+business intelligence
+business model canvas
+business process modeling
+bytea
+bytecode
+Byzantine adversary
+Byzantine agreement
+Byzantine fault tolerance
+bzip2
+Bézier curve
+C
+C#
+C++
+C++11
+C++14
+C++17
+C++20
+C++23
+C11
+C17
+C2 beaconing
+C23
+C99
+cache coherence
+cache hierarchy
+cache hit
+cache line
+cache line alignment
+cache miss
+Cache-Control
+callback
+callback channel
+canary release
+candidate key
+CAP theorem
+capability
+capability map
+capability model
+capacity management
+capacity planning
+cardinality
+cardinality estimation
+Cargo
+Cartesian tree
+CASE
+CAST
+cat
+catalog
+category theory (in programming)
+causal consistency
+causal consistency model
+causal ordering
+CBOR
+cd
+CEGAR
+CEIL
+center of excellence
+Ceph
+certificate authority
+certificate pinning
+certificate revocation list
+certificate transparency
+cgroup
+ChaCha20
+chain of custody
+chain of responsibility
+change control
+change data capture
+change enablement
+change management
+channel coding theorem
+chaos engineering (concept)
+chaos experiment
+char
+CHAR_LENGTH
+characteristic function
+CHECK
+checkpoint
+checksum
+Chernoff bound
+Chinese wall policy
+chmod
+Chord
+chown
+chroot
+CIDR
+cipher block chaining
+cipher mode
+circle
+circuit breaker
+circuit breaker pattern
+circular buffer
+CIS benchmark
+CIS Controls
+claims-based identity
+Clark–Wilson model
+class
+class diagram
+clean architecture
+clickjacking
+clock algorithm
+clock drift
+clock skew
+clock_gettime
+Clojure
+clone
+close
+closure
+cloud computing
+cluster autoscaler
+cluster node
+clustered index
+CMake
+co-NP
+COALESCE
+COBIT
+COBOL
+code churn
+code coverage
+code coverage analysis
+code coverage criterion
+code injection
+code review
+code signing
+code smell
+cohesion
+cold data
+collaboration platform
+column-level encryption
+columnar storage
+combinational logic
+combinatorial testing
+combinatorics
+command and control
+command and control server
+command injection
+command interpreter
+command pattern
+command query responsibility segregation
+COMMIT
+commitment scheme
+commitment scheme binding
+commitment scheme hiding
+commit–reveal scheme
+Common Lisp
+common subexpression elimination
+common table expression
+communication complexity
+communication diagram
+communication plan
+compacting collector
+compaction
+compare-and-swap
+compensating control
+compensation transaction
+competitive analysis
+competitive ratio
+compiler
+compiler construction
+compilers
+component diagram
+composite index
+composite key
+composite pattern
+composition
+compression ratio
+computability theory
+computation model
+computational complexity
+computer architecture
+computer graphics
+computer networks
+computer vision
+CONCAT
+concern
+concolic testing
+concurrency
+concurrency control
+concurrent GC
+condition coverage
+condition number
+condition variable
+confidentiality
+config map
+configuration as code
+configuration item
+configuration management
+configuration management database
+configuration management plan
+Conflict
+conflict resolution
+conflict serializability
+conflict-free replicated data type
+congestion avoidance
+congestion control
+connect
+Connection
+consensus
+consensus protocol
+consistency
+consistent hashing
+consistent hashing ring
+constant
+constant folding
+constant propagation
+CONSTRAINT
+constructor
+Consul
+container
+containerization
+containment
+content delivery network
+content management system
+Content-Disposition
+Content-Encoding
+Content-Language
+Content-Length
+Content-Location
+Content-Range
+Content-Security-Policy
+Content-Type
+context diagram
+context propagation
+context switch
+context switching
+context-free grammar
+contingency plan
+Continue
+continuous delivery
+continuous deployment
+continuous integration
+control flow
+control flow graph
+control hazard
+convolution
+convolutional neural network
+Cookie
+cooperative scheduling
+coordinated vulnerability disclosure
+coordinator
+copy-on-write
+copy-on-write fork
+copying collector
+coroutine
+correlation
+cosine similarity
+COSO framework
+cost-based optimizer
+cost–benefit analysis
+COUNT
+count-min sketch
+counter mode
+counterexample-guided abstraction refinement
+counting sort
+count–min sketch
+coupling
+covariance
+cover tree
+covering index
+cp
+CPU cycle
+CQRS
+Cramer–Shoup cryptosystem
+crash fault
+CRDT
+CREATE
+Created
+credential stuffing
+crisis management
+Cristian’s algorithm
+critical path method
+critical section
+cross-site request forgery
+cross-site scripting
+cross-validation
+cryptography
+cryptojacking
+CSP (process algebra)
+CSPRNG
+CSS3
+CSV
+CTL
+cuckoo filter
+cuckoo hashing
+curl
+current state
+CURRENT_DATE
+CURRENT_TIME
+CURRENT_TIMESTAMP
+currying
+curse of dimensionality
+cursor
+Curve25519
+customer journey map
+customer relationship management
+cut
+cyber-physical systems
+cyclomatic complexity
+daemon
+daemon set
+Damerau–Levenshtein distance
+data anonymization
+data binding
+data catalog
+data classification
+data dictionary
+data ethics
+data exfiltration
+data flow analysis
+data flow diagram
+data fragmentation
+data governance
+data hazard
+data integrity
+data lake
+data lifecycle management
+data lineage
+data link layer
+data locality
+data mart
+data masking
+data mining
+data model
+data parallelism
+data protection impact assessment
+data protection officer
+data quality
+data race
+data race detection
+data retention policy
+data stewardship
+data warehouse
+database
+database systems
+Datalog
+date
+DATE_PART
+DATE_TRUNC
+dbt
+DCL
+DCS
+DDL
+DDoS mitigation
+DDR3
+DDR4
+DDR5
+dead-letter queue
+deadline miss
+deadline scheduler
+deadlock
+deadlock detection
+deadlock prevention
+debugging
+decimal
+decision tree
+decorator pattern
+deduplication
+deep packet inspection
+DEFAULT
+defect density
+defect discovery rate
+defect triage
+defense in depth
+deflate
+Dekker’s algorithm
+DELETE
+delivery
+delta debugging
+delta lake
+delta parameter
+demand paging
+denormalization
+denotational semantics
+DEP bypass
+dependency graph
+dependency injection
+dependency inversion
+dependency inversion principle
+dependency preservation
+dependent typing
+deployment
+deployment diagram
+depth-first search
+deque
+DER encoding
+description logic
+deserialization vulnerability
+design pattern
+destructor
+device driver
+device interface
+device posture
+devirtualization
+DevOps
+df
+DFS
+DHCP
+dictionary attack
+differential backup
+differential privacy
+Diffie–Hellman
+DiffServ
+dig
+digital circuit
+digital logic
+digital signature
+digital transformation
+Dijkstra’s algorithm
+Dilithium
+dimension table
+Dinic’s algorithm
+direct memory access
+directory traversal
+directory-based coherence
+dirty read
+dirty write
+disaster recovery
+disaster recovery plan
+discrete cosine transform
+discrete mathematics
+discretionary access control
+disjoint set
+disk forensics
+dispatcher
+DISTINCT
+distributed consensus
+distributed system
+distributed systems
+distributed tracing
+distribution
+divide and conquer
+DKIM
+DMA controller
+DMARC
+DML
+DNP3
+DNS
+DNS tunneling
+DNSSEC
+Docker
+document management system
+document store
+domain event
+domain generation algorithm
+domain integrity
+domain model
+domain name
+domain relational calculus
+double precision
+doubly linked list
+DROP
+dropout
+dropper
+DSCP
+DTLS
+du
+dual-core
+duck typing
+dup
+dup2
+durability
+dynamic analysis
+dynamic array
+dynamic linking
+dynamic programming
+earliest deadline first
+early stopping
+EBNF
+ECC memory
+ECDSA
+ECMAScript 5
+ECMAScript 6
+ECMP
+ECN
+Ed25519
+EdDSA
+EDF
+edge computing
+edit distance
+Edmonds–Karp
+Edmonds–Karp algorithm
+EDNS0
+effect system
+effort estimation
+eigenvalue
+eigenvector
+EIGRP
+elastic net
+elasticity
+ElGamal
+elicitation
+Elixir
+ELK stack
+elliptic-curve cryptography
+ELSE
+ELT
+embedded system
+embedded systems
+encapsulation
+END
+endianness
+ENISA guideline
+enterprise architecture
+enterprise resource planning
+enterprise risk management
+enterprise search
+entity integrity
+entity resolution
+entity–relationship diagram
+entity–relationship model
+entropy
+enum
+enumerable
+Envoy
+epidemic protocol
+epoll
+epoll_ctl
+epoll_wait
+epsilon-differential privacy
+equi-join
+equivalence partitioning
+eradication
+erasure coding
+ergodicity
+Erlang
+error budget
+error budget burn
+error correcting code
+error-correcting code
+errors
+escape analysis
+ESP
+ETag
+etcd
+Ethernet
+EtherNet/IP
+ETL
+Eulerian path
+evasion technique
+event ordering
+event sourcing
+event-driven architecture
+eventual consistency
+evidence preservation
+EVPN
+exactly-once semantics
+EXCEPT
+exception
+exchange property
+exclusive cache
+exclusive lock
+exec
+execution plan
+execve
+exFAT
+EXISTS
+exit
+EXP
+expectation
+Expectation Failed
+expectation–maximization
+Expires
+explicit congestion notification
+exploit
+exploit chain
+exploitation
+exponential backoff
+exponential mechanism
+export
+EXPTIME
+ext4
+EXTRACT
+F#
+F1 score
+F2FS
+FaaS
+facade pattern
+fact table
+factory pattern
+fail-stop
+failback
+Failed Dependency
+failover
+failure detector
+failure detector accuracy
+failure detector completeness
+failure suspicion
+fair scheduler
+false negative
+false positive
+Fano inequality
+fast flux
+fast recovery
+fast retransmit
+FAT32
+fault injection
+fault tolerance
+fault tolerance testing
+fchmod
+fchown
+fdatasync
+feasibility study
+feature flag
+feature toggle
+federated identity
+feedback
+Fenwick tree
+fetch–decode–execute
+fg
+Fiat–Shamir transform
+Fibonacci heap
+fifth normal form
+file descriptor
+file metadata
+file system
+filesystems
+find
+finite automaton
+finite field
+finite state machine
+FIPS 140-3
+firewall
+firmware
+firmware update
+first normal form
+fishbone diagram
+Fitts’s law
+five whys
+FlatBuffers
+Flink
+floating point
+floating-point precision
+floating-point unit
+FLOOR
+flow control
+flow control (systems)
+Floyd–Warshall algorithm
+FLP impossibility
+flyweight pattern
+fog computing
+Forbidden
+force/no-force
+Ford–Fulkerson
+foreign key
+forensic analysis
+fork
+fork–join model
+formal methods
+formal verification
+format string vulnerability
+Fortran
+forward chaining
+forward secrecy
+Found
+fountain code
+Fourier series
+Fourier transform
+fourth normal form
+fragmentation overlap
+frame buffer
+Frame Relay
+framework
+free
+FROM
+fstat
+fsync
+FTP
+ftruncate
+full backup
+FULL OUTER JOIN
+full-text index
+FUNCTION
+function point
+functional dependency
+functional requirement
+functor
+fuzz testing
+fuzzer
+fuzzy checkpoint
+G
+G-Counter
+Galois counter mode
+Gantt chart
+gap analysis
+gap lock
+garbage collection
+garbage collector
+garbage collectors
+Gateway Timeout
+Gaussian mechanism
+Gaussian mixture model
+GDDR6
+GDPR
+generational collection
+generational collector
+generics
+genetic algorithm
+geofencing
+GET
+getegid
+geteuid
+getgid
+getpid
+getppid
+getsockopt
+getuid
+GIN
+GIN index
+GiST
+GiST index
+GitHub Actions
+GitLab CI
+global value numbering
+Go
+golden file
+golden signals
+GOMS model
+Gone
+gossip dissemination
+gossip protocol
+Gouraud shading
+governance
+governance board
+GPU acceleration
+graceful degradation
+graceful degradation (pattern)
+graceful shutdown
+gradient boosting
+gradient descent
+Gradle
+gradual typing
+Grafana
+GRANT
+graph algorithm
+graph coloring
+graph database
+graph query language
+graph theory
+GraphQL
+GRE
+GREATEST
+greedy algorithm
+greedy choice property
+grep
+grid quorum
+Groth16
+GROUP BY
+group commit
+gRPC
+GRU
+Gustafson's law
+Gustafson’s law
+gzip
+Hadoop
+Halstead metrics
+Hamiltonian cycle
+Hamming code
+Hamming distance
+happened-before relation
+happens-before
+happens-before analysis
+hard disk platter
+hard link
+hardening
+hardware abstraction
+hardware interrupt
+hardware root of trust
+hardware security module
+hardware token
+hardware-assisted virtualization
+hash function
+hash index
+hash join
+hash partition
+hash table
+hashing
+hashing with chaining
+hashing with open addressing
+Haskell
+HAVING
+HDFS
+HEAD
+health check endpoint
+heap allocation
+heap overflow
+heap sort
+heap spraying
+heartbeat
+hedged requests
+Helm
+heuristic
+hexagonal architecture
+Hick–Hyman law
+high availability
+high cohesion
+higher-order function
+HIPAA
+histogram
+HKDF
+HMAC
+HMI
+Hoare logic
+Hoeffding bound
+Hoeffding inequality
+HOLAP
+homomorphic encryption
+homomorphism
+honest-but-curious
+horizontal scaling
+Horn clause
+Host
+host controller
+host IDS
+hot data
+hot path
+hot shard
+hot standby
+HTML5
+HTTP
+HTTP tunneling
+HTTP Version Not Supported
+HTTP/2
+HTTP/3
+HTTPS
+Huffman coding
+huge pages
+human resource information system
+human–computer interaction
+hybrid automata
+hygienic macros
+HyperLogLog
+hypervisor
+I'm a teapot
+I/O controller
+I/O scheduler
+IaaS
+ICMP
+idempotency
+idempotency key
+idempotent operation
+identity and access management
+identity governance
+identity provider
+identity-based encryption
+IEC 60870-5-104
+IEC 61850
+IEEE 1012
+IEEE 14764
+IEEE 1588
+IEEE 1633
+IEEE 730
+IEEE 754
+IEEE 802.11
+IEEE 802.1AX
+IEEE 802.1D
+IEEE 802.1Qbv
+IEEE 802.1Qci
+IEEE 802.1W
+IEEE 802.3
+IEEE 829
+IETF BCP 14
+If-Match
+If-Modified-Since
+If-None-Match
+If-Range
+If-Unmodified-Since
+IGMP
+IKEv2
+ILIKE
+IMAP
+immutability
+immutable
+immutable deployment
+immutable infrastructure
+impact analysis
+IN
+incident management
+incident response
+inclusion dependency
+inclusive cache
+incremental backup
+incremental GC
+incremental model
+incremental view maintenance
+index
+index scan
+index tuning
+indicator of attack
+indicator of compromise
+induction
+induction variable elimination
+inductive invariant
+inet
+information entropy
+information flow control
+information hiding
+information retrieval
+information security
+information security policy
+information system
+information technology
+information theory
+infrastructure as code
+ingress controller
+inheritance
+init system
+INITCAP
+initialization vector
+inline mode
+inlining
+inner join
+inode
+insecure deserialization
+INSERT
+insertion sort
+installation
+instruction pointer
+instruction scheduling
+instruction set
+instruction-level parallelism
+Insufficient Storage
+integer
+integer overflow
+integration test
+integration testing
+integrity
+intention lock
+interactive proof
+interface
+interface segregation
+interface segregation principle
+intermediate representation
+internal rate of return
+Internal Server Error
+interoperability
+interpreter
+interpreter pattern
+interpreters
+interrupt
+interrupt request
+interrupt vector
+INTERSECT
+interval
+interval tree
+intrusion detection system
+intrusion prevention system
+IntServ
+invariant
+invariant strengthening
+inverted index
+io_uring
+ioctl
+iostat
+IoT architecture
+IP
+ip fragmentation
+IPFIX
+IPsec
+IPv4
+IPv6
+IS NOT NULL
+IS NULL
+IS-IS
+Ishikawa diagram
+ISO 8601
+ISO 9001
+ISO/IEC 12207
+ISO/IEC 15288
+ISO/IEC 15504
+ISO/IEC 20000
+ISO/IEC 2382
+ISO/IEC 24762
+ISO/IEC 25010
+ISO/IEC 25012
+ISO/IEC 27001
+ISO/IEC 27002
+ISO/IEC 27005
+ISO/IEC 29110
+ISO/IEC 38500
+ISO/IEC 38502
+ISO/IEC/IEEE 42010
+isolation
+issue log
+issue register
+Istio
+IT governance
+IT service continuity
+iteration
+iterative model
+iterator pattern
+ITIL
+Jaccard similarity
+Jaeger
+Java
+JavaScript
+Jenkins
+JFS
+jitter
+job
+jobs
+Johnson–Lindenstrauss lemma
+Johnson’s algorithm
+JOIN
+join dependency
+journal
+journalctl
+journaling
+journaling file system
+json
+JSON Patch
+JSON Pointer
+JSON Schema
+JSON_BUILD_ARRAY
+JSON_BUILD_OBJECT
+JSON_EXTRACT_PATH
+jsonb
+JSONB_EACH
+JSONB_SET
+Julia
+jumbo frame
+jump search
+jump-oriented programming
+just-in-time compilation
+k-anonymity
+k-d-b tree
+k-means clustering
+Kademlia
+Kafka
+Kahn’s algorithm
+kd-tree
+KDF
+Keccak
+Kerberos
+kernel
+kernel exploit
+kernel mode
+kernel trick
+key derivation function
+key exchange
+key management
+key performance indicator
+key rotation
+key stretching
+key-range lock
+keylogger
+Keystroke-Level Model
+key–value store
+kill
+kill chain
+killall
+knowledge base
+knowledge graph
+knowledge management
+Knuth–Morris–Pratt
+Kolmogorov complexity
+Kosaraju’s algorithm
+Kotlin
+kqueue
+Kraft inequality
+Kruskal’s algorithm
+Kubernetes
+Kyber
+L
+L-BFGS
+l-diversity
+L2TP
+LACP
+lakehouse
+lambda calculus
+lambda expression
+Lamport bakery algorithm
+Lamport clock
+Lamport mutual exclusion
+Laplace mechanism
+Laplace transform
+lasso regression
+Last-Modified
+latency
+lateral movement
+lattice-based cryptography
+layered architecture
+LDAP
+LDAPS
+LDP
+LDPC code
+leader election
+leader–follower
+leaky bucket
+LEAST
+least privilege
+LEFT JOIN
+leftist heap
+lemma
+LENGTH
+Length Required
+less
+lessons learned
+Levenshtein distance
+lexical analysis
+LFU cache
+LIKE
+LIMIT
+line
+linear algebra
+linear regression
+linear search
+linear type
+linearizability
+link aggregation
+linked hash map
+linked list
+linker
+linkers
+linting
+Liskov substitution
+Liskov substitution principle
+LISP
+list
+list comprehension
+list partition
+listen
+literal
+Little Endian
+Little's law
+Little’s law
+Little’s law (queueing)
+live migration
+livelock
+liveness analysis
+liveness probe
+liveness property
+living off the land
+LLDP
+LN
+load balancer
+load balancing
+load shedding
+loader
+loaders
+local file inclusion
+locality-sensitive hashing
+Location
+lock escalation
+lock-free
+Locked
+lockset algorithm
+log aggregation
+log correlation
+log retention
+log rotation
+log-structured file system
+LOG10
+logging
+logic
+logic gate
+logical addressing
+logical replication
+logistic regression
+logs
+loop invariant
+loop unrolling
+loop-invariant code motion
+loose coupling
+LoRaWAN
+lossless decomposition
+lost update
+Lovász local lemma
+LOWER
+LPAD
+LRU cache
+LRU policy
+ls
+lseek
+lseg
+LSM tree
+lstat
+LSTM
+LTE
+LTL
+LTRIM
+Lua
+LWW-Element-Set
+LZ77
+LZ78
+LZW
+M/M/1 queue
+M/M/c queue
+MA
+MAC address
+macaddr
+machine code
+machine epsilon
+machine learning
+macro system
+Maekawa’s algorithm
+maintainability
+maintainability index
+majority quorum
+Make
+MAKE_DATE
+MAKE_TIMESTAMP
+malicious adversary
+malware
+man-in-the-middle
+mandatory access control
+mark-and-sweep
+Markov chain
+Markov decision process
+Markov property
+martingale
+martingale difference
+master data management
+materialized view
+MATLAB
+matrix
+matrix factorization
+matroid
+Maven
+MAX
+max-flow min-cut theorem
+maximum clique
+maximum flow
+MC/DC coverage
+MD5
+mean average precision
+mean time between failures
+mean time to detect
+mean time to recovery
+measured boot
+measured boot chain
+mediator pattern
+membership protocol
+Memcached
+memento pattern
+memoization
+memory consistency model
+memory controller
+memory corruption
+memory forensics
+memory hierarchy
+memory leak
+memory mirroring
+memory model
+memory segmentation
+memory-mapped file
+memtable
+Menger’s theorem
+merge join
+merge request
+merge sort
+Merkle inclusion proof
+Merkle tree
+MESI
+MESI protocol
+message authentication code
+message deduplication
+message passing
+MessagePack
+metadata
+metadata management
+metamorphic malware
+metaprogramming
+Method Not Allowed
+method overriding
+metrics
+microarchitecture
+microcode
+microkernel
+microservices
+microservices architecture
+middleware
+MIMD
+MIN
+min-wise hashing
+minimum cut
+Minimum description length
+minimum spanning tree
+mirroring
+Misdirected Request
+miss penalty
+mitigation plan
+MITRE ATT&amp;CK
+mixing time
+mkdir
+mmap
+mock object
+Modbus
+model checking
+model invariant
+model-based testing
+modularity
+module
+MOESI
+MOESI protocol
+MOLAP
+moment generating function
+monad
+money
+monitor
+monitoring
+monolithic kernel
+monomorphization
+monotonic reads
+monotonic writes
+Moore’s law
+mount
+mount point
+Moved Permanently
+MPLS
+MRU cache
+MSI
+MSS
+MSTP
+mtr
+MTU
+multi-factor authentication
+multi-leader
+Multi-Paxos
+Multi-Status
+multi-tenancy
+multi-version concurrency
+multicast
+multicore processor
+multilevel feedback queue
+Multiple Choices
+multiprocessor
+multivalued dependency
+multiversion concurrency control
+munmap
+mutation testing
+mutex
+mutual authentication
+mutual exclusion
+mv
+MVCC
+MX record
+n
+name mangling
+namespace
+nanosleep
+nanotechnology
+NAT
+NATS
+natural join
+natural language processing
+NC
+NDCG
+nested loop join
+net present value
+NetFlow
+Network Authentication Required
+network bandwidth
+network IDS
+network layer
+network protocol
+network stacks
+network tap
+neural network
+NewSQL
+Newton’s method
+NEXP
+nice
+Nielsen usability heuristics
+NIST Cybersecurity Framework
+NIST SP 800-160
+NIST SP 800-30
+NIST SP 800-34
+NIST SP 800-37
+NIST SP 800-53
+NIST SP 800-63
+Nix
+NL
+nmap
+No Content
+No free lunch theorem
+nohup
+noise calibration
+Non-Authoritative Information
+non-interactive proof
+non-repudiation
+nonce
+nonclustered index
+nonfunctional requirement
+nonrepeatable read
+NOP sled
+normalization
+NoSQL
+Not Acceptable
+Not Found
+Not Implemented
+Not Modified
+NOT NULL
+NOW
+NP
+NP-complete
+NP-hard
+npm
+NSH
+nslookup
+NTFS
+NTP
+NTP offset
+NULLIF
+NUMA
+NUMA awareness
+number theory
+numeric
+numerical analysis
+numerical stability
+NVMe
+Nyquist rate
+O(1)
+O(2^n)
+O(log n)
+O(n log n)
+O(n!)
+O(n)
+O(n^2)
+O(n^3)
+OAuth 2.0
+obfuscator
+object diagram
+object model
+objective and key result
+Objective-C
+observability
+observer pattern
+observer pattern (analysis)
+OCaml
+Occam’s razor (learning)
+OCSP
+OCTET_LENGTH
+octree
+OFFSET
+OK
+OLAP
+OLAP cube
+omission fault
+onion architecture
+online algorithm
+online certificate status protocol
+ontology
+ontology alignment
+OPC UA
+open
+open addressing
+open redirect
+open-closed principle
+OpenAPI
+OpenID Connect
+OpenTelemetry
+operand
+operating level agreement
+operating systems
+operation-based CRDT
+operational excellence
+operational semantics
+optical fiber
+optimistic concurrency control
+optimization
+OPTIONS
+OR-Set
+ORDER BY
+organizational change management
+ORM
+orphan process
+OSI model
+OSPF
+out-of-bounds read
+out-of-order execution
+outbox pattern
+outer join
+overcommit
+overfitting
+OVERLAY
+overloading
+OWASP Top Ten
+OWL (language)
+ownership type
+P
+P versus NP
+p99 latency
+PaaS
+PAC learning
+PACELC theorem
+package diagram
+package manager
+packer
+packet capture
+packet obfuscation
+packet switching
+page fault
+page fault handler
+page replacement
+page table
+paging
+pair programming
+pairing heap
+pairwise testing
+PAKE
+parallel bus
+parallel computing
+parallelism
+parametric polymorphism
+paravirtualization
+parity bit
+parity check
+parity memory
+parquet format
+parser
+Partial Content
+partial correctness
+partial redundancy elimination
+partial synchrony
+participant
+participation constraint
+partition tolerance
+partitioning
+Pascal
+password policy
+password spraying
+password-authenticated key exchange
+Pastry
+PAT
+PATCH
+patching
+path
+path coverage
+path MTU
+path MTU discovery
+path traversal
+Paxos
+payback period
+payload
+Payload Too Large
+Payment Required
+PBFT
+PBKDF2
+pcap
+PCI DSS
+PCI Express
+PCP theorem
+peephole optimization
+penetration test
+PER encoding
+percentile
+perfect forward secrecy
+perfect hashing
+performance efficiency
+peripheral device
+Perl
+Permanent Redirect
+persistence mechanism
+persistent volume
+persistent volume claim
+PERT chart
+pervasive computing
+PESTEL analysis
+Peterson’s algorithm
+Petri net
+Petri net reachability
+PH
+phantom anomaly
+phantom read
+phishing
+Phong shading
+PHP
+physical layer
+physical replication
+physical topology
+physiological logging
+pi-calculus
+ping
+pip
+pipe
+pipeline
+pipeline hazard
+pipeline stall
+pipelined processor
+PL
+PL/SQL
+planar graph
+planning poker
+playbook
+PLC
+PN-Counter
+pnpm
+pod disruption budget
+point
+point-in-time recovery
+pointer
+poison message
+Poisson process
+policing
+policy as code
+policy decision point
+policy enforcement point
+policy gradient
+policy information point
+policy iteration
+policy-based routing
+poll
+Poly1305
+polygon
+polymorphic malware
+polymorphism
+POP3
+port mapping
+portability
+Porter’s five forces
+portfolio management
+ports and adapters
+POSIX
+POST
+post-incident review
+post-quantum cryptography
+postcondition
+postmortem
+potential method
+POWER
+PowerShell
+PowerShell abuse
+PPAD
+PPP
+Pragma
+precedence graph
+precision
+precision time protocol
+precondition
+Precondition Failed
+Precondition Required
+predicate logic
+preemptive scheduling
+prefetcher
+presentation layer
+primary key
+primitive type
+Prim’s algorithm
+principal component analysis
+printf
+priority assignment
+priority ceiling
+priority encoder
+priority inheritance
+priority inversion
+priority queue
+priority scheduling
+privacy budget
+privacy by design
+privacy impact assessment
+private key
+privilege escalation
+privileged access management
+probability theory
+problem management
+PROCEDURE
+process
+process architecture
+process control block
+process isolation
+process map
+process mapping
+process mining
+process scheduling
+process state
+process table
+Processing
+procurement
+profiling
+PROFINET
+program analysis
+program management
+project management
+project management office
+project portfolio management
+Prolog
+Prometheus
+proof assistant
+proof by contradiction
+proof obligation
+property graph
+property testing
+property-based testing
+propositional logic
+protocol
+Protocol Buffers
+protocol design
+prototype pattern
+proxy
+Proxy Authentication Required
+proxy pattern
+proxy server
+ps
+PSPACE
+pthread_cond_signal
+pthread_cond_wait
+pthread_create
+pthread_join
+pthread_mutex_lock
+pthread_mutex_unlock
+pthread_rwlock_rdlock
+pthread_rwlock_unlock
+pthread_rwlock_wrlock
+pthread_spin_lock
+pthread_spin_unlock
+PTP
+public key
+pull request
+Pulumi
+Puppet
+pure function
+purple team
+purple teaming
+pushdown automaton
+PUT
+pwd
+Python
+Q
+Q-learning
+QoS
+QP
+quadtree
+quality attribute
+quality management plan
+quantization
+quantum computing
+query containment
+query optimizer
+query plan
+query rewriting
+queue
+queueing theory
+QUIC
+quick sort
+quorum
+quorum read
+quorum system
+quorum write
+R
+R*-tree
+R*-tree variant
+R-tree
+RabbitMQ
+Rabin–Karp
+race condition
+race condition exploit
+RACI matrix
+RADIUS
+radix sort
+radix tree
+Raft
+RAID
+RAID 0
+RAID 1
+RAID 10
+RAID 5
+RAID 6
+RAID configuration
+RANDOM
+random forest
+random graph
+random number generator
+random oracle model
+random variable
+randomized algorithm
+Range
+Range Not Satisfiable
+range partition
+range scan
+range tree
+range type
+ransomware
+RARP
+rasterization
+rate limiter
+rate limiting
+rate monotonic analysis
+rate-monotonic scheduling
+ray tracing
+RBAC
+RDF
+reactive programming
+read
+read amplification
+read barrier
+read committed
+read quorum
+read replica
+read skew
+read uncommitted
+read-your-writes consistency
+readers–writers problem
+readiness probe
+ready queue
+read–copy–update
+read–write lock
+read–write quorum
+real
+real user monitoring
+real-time scheduling
+real-time systems
+recall
+reconfiguration
+reconnaissance
+record linkage
+records retention
+recovery
+recurrent neural network
+recursion
+RECURSIVE
+recursive CTE
+recursive relationship
+recv
+recvfrom
+red team
+red team exercise
+red teaming
+Redis
+redo log
+redundancy
+red–black tree
+Reed–Solomon code
+reentrancy
+reentrant
+refactoring
+reference counting
+reference counting collector
+referential integrity
+referential transparency
+Referer
+Referrer-Policy
+reflection
+ReFS
+REGEXP_MATCHES
+REGEXP_REPLACE
+REGEXP_SPLIT_TO_ARRAY
+register allocation
+register file
+registry run keys
+regression test
+regression testing
+regular expression
+regularization
+reinforcement learning
+relational algebra
+relational calculus
+relational model
+release consistency
+release management
+reliability
+reliability growth model
+remote attestation
+remote code execution
+remote file inclusion
+renewal process
+renice
+rent-to-own analysis
+repeatable read
+REPLACE
+replica set
+replication
+repository pattern
+request for proposal
+Request Header Fields Too Large
+Request Timeout
+requirements elicitation
+requirements engineering
+requirements engineering (discipline)
+requirements traceability matrix
+requirements validation
+reservoir sampling
+Reset Content
+resource contention
+resource description framework
+resource limit
+REST
+restore
+retention policy
+retry policy
+retry with backoff
+Retry-After
+return on investment
+return stack buffer
+return-oriented programming
+RETURNING
+reverse proxy
+REVOKE
+RFC 2119
+RFC 3986
+RFC 7230
+RFC 8446
+Ricart–Agrawala algorithm
+ridge regression
+RIGHT JOIN
+ring buffer
+ring signature
+RIP
+RIPEMD-160
+risk analysis
+risk appetite
+risk assessment
+risk management
+risk matrix
+risk register
+risk tolerance
+rm
+rmdir
+roadmap
+robotic process automation
+robotics
+ROLAP
+role-based access control
+rollback
+rollback plan
+rollforward
+rolling update
+root cause analysis
+rootkit
+rope
+ROUND
+round-robin scheduling
+rounding mode
+route filtering
+route redistribution
+routing algorithm
+row buffer
+row-level lock
+row-level security
+row-oriented storage
+RPAD
+RPC
+RPO
+RSA
+RSTP
+RSVP
+rsync
+RTO
+RTP
+RTRIM
+RTSP
+Ruby
+rule tuning
+rule-based optimizer
+run-length encoding
+runtime verification
+Rust
+SaaS
+safepoint
+safety property
+saga choreography
+saga orchestration
+saga pattern
+salt
+salted hash
+SaltStack
+SameSite
+SAML
+sampling
+sampling strategy
+sampling theorem
+sandbox
+sandbox evasion
+sandboxing
+sargable predicate
+SAS
+SAT solver
+SATA
+saturation
+savepoint
+sbrk
+SBT
+SCADA
+Scala
+scalability
+scalar
+scatter–gather I/O
+schedulability analysis
+scheduled task persistence
+scheduler
+schedulers
+scheduling class
+schema
+schema evolution
+schema matching
+schema migration
+Scheme
+Schnorr identification
+Schnorr signature
+SCIM
+scp
+screen
+scrypt
+SCTP
+seccomp
+second normal form
+secp256k1
+secret
+secret sharing
+secure boot
+secure coding standard
+secure configuration
+secure enclave
+secure multiparty computation
+security
+security audit
+security baseline
+security control
+security guideline
+security monitoring
+security operations center
+security policy
+security standard
+sed
+See Other
+segment tree
+segmentation
+select
+selection sort
+selective acknowledgment
+selectivity
+self join
+semantic versioning
+semaphore
+semi join
+semiconductor
+send
+sendto
+separate chaining
+separation of concerns
+separation of duties
+seqlock
+sequence
+sequence diagram
+sequential consistency
+sequential logic
+serial
+serial communication
+serial schedule
+serializability
+serializable
+serializable snapshot isolation
+serialization
+Server
+serverless
+serverless architecture
+service
+service blueprint
+service catalog
+service continuity
+service desk
+service discovery
+service health check
+service level agreement
+service level indicator
+service level objective
+service management
+service mesh
+service provider
+service reliability
+service saturation
+Service Unavailable
+service-level objective
+service-oriented architecture
+session consistency
+session guarantee
+session hijacking
+session layer
+session token
+set theory
+Set-Cookie
+setsockopt
+sFlow
+SFTP
+SHA-256
+SHA-3
+Shamir secret sharing
+Shannon capacity
+shape analysis
+shaping
+shard rebalancing
+sharding
+shared library
+shared lock
+shared memory
+shellcode
+short-circuit evaluation
+shortest path
+shutdown
+side effect
+sidecar proxy
+SIEM
+Sigma rule
+signal
+signature-based detection
+SIMD
+SimHash
+Simulated annealing
+single responsibility
+single responsibility principle
+single sign-on
+singleton
+singleton pattern
+singly linked list
+singular value decomposition
+singular value decomposition (ML)
+SIP
+SIPOC diagram
+site reliability engineering
+sixth normal form
+sketching algorithm
+skew
+skew heap
+ski rental problem
+skip list
+SLA
+SLI
+SLO
+slow start
+slowly changing dimension
+smallint
+Smalltalk
+smart card
+smishing
+smoke test
+smoke testing
+Smoothed analysis
+SMT solver
+SMTP
+SMTP relay
+snappy compression
+snapshot
+snapshot algorithm
+snapshot isolation
+snapshot testing
+SNMP
+snoopy cache
+Snort rule
+snowflake schema
+SOAP
+SOAR
+SOC
+socket
+software architecture
+software bill of materials
+software engineering
+software metric
+software pipelining
+software quality
+software requirements specification
+software testing (discipline)
+solid-state drive
+solution architecture
+sort
+source
+source coding theorem
+SOX compliance
+span id
+SPAN port
+spanning tree protocol
+Spark
+SPARQL
+spatial database
+spawn
+SPB
+spear phishing
+specification
+specification pattern
+spectral graph theory
+speculative execution
+speedup
+SPF (email)
+spinlock
+spiral model
+splay analysis
+splay tree
+splay tree amortization
+split-brain
+split-horizon DNS
+SPMD
+spyware
+SQL
+SQL injection
+SQRT
+SRE
+SRE practice
+SRP
+SRv6
+ss
+SSA form
+SSH
+SSTable
+stack
+stack frame
+stakeholder analysis
+stakeholder viewpoint
+standard model
+star schema
+startup probe
+starvation
+stat
+state explosion
+state explosion problem
+state machine
+state machine diagram
+state machine replication
+state pattern
+state-based CRDT
+stateful firewall
+stateful inspection
+stateful service
+stateful set
+stateless firewall
+stateless service
+statement coverage
+statement of work
+static adversary
+static analysis
+static linking
+static single assignment
+stationary distribution
+statistics histogram
+steal/no-steal
+steering committee
+sticky session (concept)
+stochastic gradient descent
+stop-the-world
+storage capacity
+storage engine
+stored procedure
+story points
+STP
+strategy pattern
+stratified sampling
+stream cipher
+stream processing
+strength reduction
+Strict-Transport-Security
+string literal
+string matching
+STRING_AGG
+striping
+strong consistency
+strong entity
+strong scaling
+structural hazard
+subexponential variable
+subgaussian variable
+submodularity
+subnetting
+subschema
+SUBSTRING
+subtyping
+succinct argument
+suffix array
+suffix tree
+SUM
+superblock
+superkey
+supernetting
+superscalar
+supply chain management
+supply chain security
+support vector machine
+Suricata rule
+surrogate key
+swap space
+Swift
+Switching Protocols
+SWOT analysis
+symbolic execution
+symbolic link
+symbolic testing
+symmetric encryption
+synchronization
+synchronous replication
+syntax tree
+synthetic monitoring
+system call
+system test
+system testing
+systemctl
+systemd
+systems programming
+t-closeness
+t-SNE
+T-SQL
+TABLE
+table scan
+table-level lock
+tablespace
+tabletop exercise
+TACACS+
+tactic
+tactics techniques and procedures
+tactics techniques procedures
+tail
+tail call optimization
+tail latency
+tail latency mitigation
+tail recursion
+taint analysis
+tap mode
+Tapestry
+tar
+target state
+Tarjan’s algorithm
+task
+task mining
+task parallelism
+TCL
+TCP
+TCP Fast Open
+TCP/IP stack
+tcpdump
+technical architecture
+technical debt
+telemetry
+Telnet
+template method
+templating
+temporal database
+temporal logic
+Temporary Redirect
+tenant isolation
+Terraform
+test case
+test double
+test effectiveness
+test harness
+test oracle
+test plan
+test stub
+test-driven development
+testability
+text
+texture mapping
+TF-IDF
+THEN
+theorem prover
+theorem proving
+thermal design power
+thermal throttling
+theta join
+third normal form
+thrashing
+thread
+thread pool
+thread safety
+thread sanitizer
+thread-level parallelism
+thread-local storage
+thread-safe
+threat hunting
+threat intelligence
+threat modeling
+threat surface
+three-phase commit
+three-way handshake
+threshold signature
+thresholding
+throttling
+throughput
+time
+time slice
+time synchronization
+time to live
+time-based one-time password
+time-of-check time-of-use
+time-of-check to time-of-use
+time-series database
+time-sharing
+time-travel query
+timed automata
+timeline analysis
+timestamp
+timestamp ordering
+timestamptz
+timing diagram
+timing fault
+TLA+ (specification)
+TLB
+TLB shootdown
+TLS
+TLS handshake
+TLS_AES_128_GCM_SHA256
+TLS_AES_256_GCM_SHA384
+TLS_CHACHA20_POLY1305_SHA256
+TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+tmux
+TO_CHAR
+TO_DATE
+TO_TIMESTAMP
+token bucket
+token ring
+token ring mutual exclusion
+tokenization
+Too Early
+Too Many Requests
+top
+topological sort
+total correctness
+total cost of ownership
+total order broadcast
+total ordering
+touch
+TPM
+tr
+TRACE
+trace id
+traceability
+traceability matrix
+traceroute
+traces
+tracing
+tracing collector
+traffic
+traffic shaping
+train–test split
+transaction
+transaction log
+Transfer-Encoding
+transformer model
+transistor
+transition architecture
+translation lookaside buffer
+transparent huge pages
+transpiler
+transport layer
+trap
+treap
+tree traversal
+tri-color marking
+trie
+trigger
+TRILL
+TRIM
+triple
+triple store
+true positive
+TRUNCATE
+trunk-based development
+trust boundary
+trusted platform module
+tsquery
+tsvector
+tunneling
+tuple relational calculus
+turbo code
+Turing machine
+two's complement
+two-phase commit
+Two-Phase Commit blocking
+two-phase locking
+two’s complement
+type confusion
+type inference
+type system
+Type-1 hypervisor
+Type-2 hypervisor
+typecasting
+TypeScript
+typical set
+ubiquitous computing
+ubiquitous language
+UDP
+UEFI
+UFS
+ulimit
+UMAP
+umask
+UML
+umount
+Unauthorized
+Unavailable For Legal Reasons
+undefined behavior
+undefined behavior sanitizer
+underfitting
+undo log
+unicast
+UNION
+UNION ALL
+union–find
+uniq
+UNIQUE
+unit of work pattern
+unit test
+unit testing
+universal hashing
+Unprocessable Entity
+Unsupported Media Type
+unzip
+UPDATE
+Upgrade
+Upgrade Required
+UPPER
+uptime
+URI Too Long
+usability
+usability engineering
+use case
+use-after-free
+use-case diagram
+use-case points
+user mode
+user space
+user story
+User-Agent
+user-defined function
+UTF-16
+UTF-32
+UTF-8
+uuid
+V-model
+validation
+validation phase
+validation plan
+value chain
+value iteration
+value proposition
+value stream
+van Emde Boas tree
+varchar
+variance
+Vary
+Vault
+VC dimension
+vector
+vector clock
+vector clock synchronization
+vector commitment
+vector processor
+vector timestamp
+vectorization
+vendor management
+verifiable delay function
+verification
+verification plan
+version control
+vertical scaling
+Via
+victim cache
+view
+view change
+view maintenance
+view materialization
+view serializability
+viewpoint
+viewstamped replication
+virtual address
+virtual machine
+virtual memory
+virtualization
+vishing
+visitor pattern
+VLAN
+VLSM
+vmstat
+volatile data
+volatile variable
+VP-tree index
+vulnerability
+vulnerability disclosure
+VXLAN
+wait
+wait queue
+wait-free
+waitpid
+warm data
+Warning
+waterfall model
+waveform
+weak entity
+weak scaling
+weaponization
+wear leveling
+web application firewall
+webhook
+WebRTC
+weighted quorum
+wget
+whaling
+WHEN
+WHERE
+whitelisting
+wide-column store
+wideband Delphi
+window function
+window scaling
+wiper
+wireless access point
+wireless antenna
+WITH
+WMI persistence
+word length
+work breakdown structure
+work stealing
+work stealing scheduler
+workflow automation
+working set
+workload characterization
+worst-case execution time
+wrapper function
+WRED
+write
+write amplification
+write amplification (distributed)
+write barrier
+write buffer
+write quorum
+write skew
+write-ahead logging
+write-allocate
+write-back
+write-through
+WSDL
+WWW-Authenticate
+X
+X-Content-Type-Options
+X-Frame-Options
+X.509 certificate
+xargs
+XFS
+XGBoost (algorithm)
+xml
+XML Schema
+xz
+YAML
+Yao’s minimax principle
+YARA rule
+Yarn
+z-buffer
+Zab protocol
+Zeek script
+zero trust architecture
+zero-copy I/O
+zero-day vulnerability
+zero-knowledge proof
+ZFS
+Zigbee
+zip
+zk-SNARK
+zk-STARK
+zombie process
+zstd compression
+Θ notation
+Θ(n)
+Ω notation
+Ω(n)
