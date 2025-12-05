@@ -1,66 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Movie English Sub / CSV / DOCX Viewer + Search + Directory</title>
+  <title>Movie English Sub / CSV / DOCX — Viewer + Search + Directory (Stable)</title>
   <script src="https://unpkg.com/mammoth/mammoth.browser.min.js"></script>
   <style>
-    :root{--bg:#f6f7fb;--card:#ffffff;--ink:#0f172a;--muted:#64748b;--brand:#2563eb;--brand-2:#1d4ed8;--line:#e2e8f0}
+    :root{--bg:#f6f7fb;--card:#fff;--ink:#0f172a;--muted:#64748b;--line:#e2e8f0;--brand:#2563eb;--brand2:#1d4ed8}
     *{box-sizing:border-box}
-    body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji"}
+    body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial}
     .wrap{max-width:1200px;margin:24px auto;padding:0 16px}
-    .card{background:var(--card);border-radius:14px;box-shadow:0 10px 30px rgba(15,23,42,.06);padding:20px 22px}
-    h1{font-size:20px;margin:0 0 8px}
-    h2{font-size:16px;margin:0 0 8px}
-    p.sub{margin:0 0 16px;color:var(--muted)}
+    .card{background:var(--card);border-radius:14px;box-shadow:0 10px 30px rgba(15,23,42,.06);padding:20px}
+    h1{margin:0 0 6px;font-size:20px}
+    h2{margin:0 0 8px;font-size:16px}
+    .sub{margin:0 0 12px;color:var(--muted)}
     .grid{display:grid;gap:12px}
-    @media(min-width:860px){.grid-3{grid-template-columns: 1.5fr 1fr 1fr}}
+    @media(min-width:1024px){.layout{grid-template-columns:320px 1fr}}
     label{display:block;font-weight:600;font-size:13px;margin:6px 0 4px}
     input,select,button{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:10px;font-size:14px}
-    select{background:#fff}
     button{border:none;background:var(--brand);color:#fff;font-weight:700;cursor:pointer}
-    button:hover{background:var(--brand-2)}
+    button:hover{background:var(--brand2)}
+    .tools{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
+    .tools>*{flex:1}
     .status{margin-top:10px;font-size:13px;color:var(--muted)}
     .status .error{color:#b91c1c;font-weight:700}
-    .tools{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
-    .tools > *{flex:1}
-    .result{margin-top:16px;border-top:1px solid var(--line);padding-top:14px;overflow:auto}
+    .result{margin-top:14px;border-top:1px solid var(--line);padding-top:12px;overflow:auto}
     table{border-collapse:collapse;width:100%;font-size:14px}
     th,td{border:1px solid var(--line);padding:6px 8px;vertical-align:top}
     th{background:#f1f5f9}
-    pre{white-space:pre-wrap;background:#0f172a;color:#e5e7eb;padding:8px;border-radius:8px;margin:0}
-    code{background:#f1f5f9;padding:2px 4px;border-radius:6px}
+    pre{white-space:pre-wrap;margin:0;background:#0f172a;color:#e5e7eb;padding:8px;border-radius:8px}
     mark{padding:0 2px;border-radius:3px}
-    .hint{font-size:12px;color:var(--muted)}
-    .pill{display:inline-block;padding:2px 8px;border:1px solid var(--line);border-radius:999px;font-size:12px;color:#64748b}
-
-    /* layout with directory panel */
-    .layout{display:grid;gap:16px;margin-top:16px}
-    @media(min-width:1024px){.layout{grid-template-columns: 320px 1fr}}
-
-    /* tree panel */
-    #treeStatus{font-size:12px;color:#64748b;margin:6px 0 0}
     .tree{max-height:70vh;overflow:auto;border:1px solid var(--line);border-radius:12px;padding:8px}
     .tree ul{list-style:none;margin:0;padding-left:14px}
     .tree li{margin:2px 0}
     .node{display:flex;align-items:center;gap:6px}
     .toggle{border:none;background:transparent;cursor:pointer;font-size:14px;line-height:1;padding:2px 4px}
-    .toggle:focus{outline:2px solid #c7d2fe;border-radius:6px}
     .fname{cursor:pointer}
     .fname.file{color:#0ea5e9}
-    .muted{color:#64748b}
-    .hidden{display:none}
-    .badge{font-size:10px;border:1px solid var(--line);border-radius:6px;padding:0 6px;color:#475569}
+    .badge{font-size:10px;border:1px solid var(--line);border-radius:6px;padding:0 6px;color:#475569;margin-left:6px}
   </style>
 </head>
 <body>
   <div class="wrap">
     <div class="card">
-      <h1>Movie English Sub / Words Viewer</h1>
-      <p class="sub">支援 <strong>.srt / .csv / .docx</strong> 的讀取、關鍵字搜尋（高亮/過濾），並新增 <strong>目錄式點讀</strong>（左側樹狀）。預設 repo：<span class="pill">alfredlu1986/movie-english-sub@main</span></p>
+      <h1>Movie English Sub / Words Viewer — Stable</h1>
+      <p class="sub">讀取 <b>.srt / .csv / .docx</b>、關鍵字搜尋（高亮/過濾）＋ 左側目錄點讀。預設：<code>alfredlu1986/movie-english-sub@main</code></p>
 
-      <div class="grid grid-3">
+      <div class="grid" style="grid-template-columns:1.3fr 1fr 1fr;gap:12px">
         <div>
           <label>Owner</label>
           <input id="owner" value="alfredlu1986" />
@@ -75,34 +61,31 @@
         </div>
       </div>
 
-      <div class="layout">
-        <!-- ===== Directory panel ===== -->
+      <div class="grid layout" style="margin-top:16px">
+        <!-- 目錄樹 -->
         <div class="card">
           <h2>目錄 / 檔案瀏覽</h2>
           <div class="tools">
-            <input id="treePath" placeholder="從此路徑載入（留空=根目錄，例如 1999/）" />
+            <input id="treePath" placeholder="從此路徑載入（留空=根目錄，例如 1999/）」 />
             <button id="treeLoad">載入目錄</button>
           </div>
-
           <div class="tools">
-            <input id="nameFilter" placeholder="檔名即時過濾（不分大小寫）" />
+            <input id="nameFilter" placeholder="檔名過濾（不分大小寫）」 />
           </div>
-
           <div class="tools">
-            <label style="display:flex;align-items:center;gap:6px"><input type="checkbox" id="showSRT" checked> .srt</label>
-            <label style="display:flex;align-items:center;gap:6px"><input type="checkbox" id="showCSV" checked> .csv</label>
-            <label style="display:flex;align-items:center;gap:6px"><input type="checkbox" id="showDOCX" checked> .docx</label>
-            <label style="display:flex;align-items:center;gap:6px"><input type="checkbox" id="showOTHER"> 其他副檔名</label>
+            <label style="display:flex;gap:6px;align-items:center"><input type="checkbox" id="showSRT" checked>.srt</label>
+            <label style="display:flex;gap:6px;align-items:center"><input type="checkbox" id="showCSV" checked>.csv</label>
+            <label style="display:flex;gap:6px;align-items:center"><input type="checkbox" id="showDOCX" checked>.docx</label>
+            <label style="display:flex;gap:6px;align-items:center"><input type="checkbox" id="showOTHER">其他</label>
           </div>
-
-          <div id="treeStatus"></div>
-          <div id="tree" class="tree"><ul id="treeRoot"></ul></div>
+          <div id="treeStatus" class="status"></div>
+          <div class="tree"><ul id="treeRoot"></ul></div>
         </div>
 
-        <!-- ===== Viewer / search panel ===== -->
+        <!-- 檢視/搜尋 -->
         <div class="card">
           <h2>檔案檢視 & 搜尋</h2>
-          <div class="grid" style="gap:10px">
+          <div class="grid" style="grid-template-columns:1fr 200px auto;gap:10px">
             <div>
               <label>檔案路徑（相對於 repo root）</label>
               <input id="path" placeholder="例如：EnWords.csv 或 1999/movie.srt 或 docs/sample.docx" />
@@ -110,360 +93,264 @@
             <div>
               <label>檔案類型</label>
               <select id="fileType">
-                <option value="srt">SRT 字幕 (.srt)</option>
+                <option value="srt">SRT (.srt)</option>
                 <option value="csv">CSV (.csv)</option>
-                <option value="docx">Word (.docx)</option>
+                <option value="docx">DOCX (.docx)</option>
               </select>
             </div>
-            <div>
-              <label>&nbsp;</label>
+            <div style="align-self:end">
               <button id="loadBtn">載入檔案</button>
             </div>
           </div>
 
-          <div class="tools">
-            <div style="flex:2">
-              <label>關鍵字搜尋</label>
-              <input id="q" placeholder="輸入關鍵字，Enter 搜尋" />
-              <div class="hint">SRT / CSV 可選「只顯示符合」；DOCX 以全文高亮</div>
+          <div class="grid" style="grid-template-columns:1fr 1fr auto;gap:10px;margin-top:8px">
+            <div>
+              <label>關鍵字搜尋（即時）</label>
+              <input id="q" placeholder="輸入關鍵字…" />
+              <div class="status">SRT/CSV 可「只顯示符合」；DOCX 為全文高亮</div>
             </div>
-            <div style="flex:2">
+            <div>
               <label>搜尋選項</label>
               <div class="tools">
-                <label style="display:flex;align-items:center;gap:6px"><input type="checkbox" id="matchCase"> 大小寫相符</label>
-                <label style="display:flex;align-items:center;gap:6px"><input type="checkbox" id="wholeWord"> 全字比對</label>
-                <label style="display:flex;align-items:center;gap:6px"><input type="checkbox" id="filterRows"> 只顯示符合（SRT/CSV）</label>
+                <label style="display:flex;gap:6px;align-items:center"><input type="checkbox" id="matchCase">大小寫相符</label>
+                <label style="display:flex;gap:6px;align-items:center"><input type="checkbox" id="wholeWord">全字比對</label>
+                <label style="display:flex;gap:6px;align-items:center"><input type="checkbox" id="filterRows">只顯示符合（SRT/CSV）</label>
               </div>
             </div>
-            <div style="align-self:end;flex:1;display:flex;gap:10px">
-              <button id="searchBtn">搜尋 / 高亮</button>
+            <div style="align-self:end;display:flex;gap:8px">
+              <button id="searchBtn">搜尋/高亮</button>
               <button id="clearBtn" style="background:#334155">清除</button>
             </div>
           </div>
 
-          <div class="status" id="status"></div>
-          <div class="status" id="counts"></div>
-          <div class="result" id="result"></div>
+          <div id="status" class="status"></div>
+          <div id="counts" class="status"></div>
+          <div id="result" class="result"></div>
         </div>
       </div>
     </div>
   </div>
 
-  <script>
-    // ====== Helpers ======
-    const $ = (id)=>document.getElementById(id);
+<script>
+// ===== Helpers
+const $ = id => document.getElementById(id);
+const ownerEl = $("owner"), repoEl=$("repo"), branchEl=$("branch");
+const pathEl=$("path"), typeEl=$("fileType"), loadBtn=$("loadBtn");
+const qEl=$("q"), matchCaseEl=$("matchCase"), wholeWordEl=$("wholeWord"), filterRowsEl=$("filterRows");
+const searchBtn=$("searchBtn"), clearBtn=$("clearBtn");
+const statusEl=$("status"), countsEl=$("counts"), resultEl=$("result");
+const treeRoot=$("treeRoot"), treeStatus=$("treeStatus"), treeLoad=$("treeLoad"), treePathEl=$("treePath");
+const showSRT=$("showSRT"), showCSV=$("showCSV"), showDOCX=$("showDOCX"), showOTHER=$("showOTHER"), nameFilter=$("nameFilter");
 
-    // Global els
-    const ownerEl = $("owner"), repoEl=$("repo"), branchEl=$("branch");
-    const pathEl=$("path"), typeEl=$("fileType"), loadBtn=$("loadBtn");
-    const qEl=$("q"), matchCaseEl=$("matchCase"), wholeWordEl=$("wholeWord"), filterRowsEl=$("filterRows");
-    const searchBtn=$("searchBtn"), clearBtn=$("clearBtn");
-    const statusEl=$("status"), countsEl=$("counts"), resultEl=$("result");
+function rawBase(){
+  const o=ownerEl.value.trim()||"alfredlu1986";
+  const r=repoEl.value.trim()||"movie-english-sub";
+  const b=branchEl.value.trim()||"main";
+  return {o,r,b,url:`https://raw.githubusercontent.com/${o}/${r}/${b}/`};
+}
+function apiBase(){
+  const o=ownerEl.value.trim()||"alfredlu1986";
+  const r=repoEl.value.trim()||"movie-english-sub";
+  const b=branchEl.value.trim()||"main";
+  return {o,r,b,url:`https://api.github.com/repos/${o}/${r}/contents/`,ref:b};
+}
+function escapeHtml(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
+function escapeRegExp(s){return s.replace(/[.*+?^${}()|[\\]\\]/g,'\\$&');}
+function buildRegex(query){
+  if(!query) return null;
+  const src = wholeWordEl.checked ? `\\b${escapeRegExp(query)}\\b` : escapeRegExp(query);
+  return new RegExp(src, matchCaseEl.checked? 'g' : 'gi');
+}
+function countMatches(str, re){
+  if(!re) return 0; const r = new RegExp(re.source, re.flags);
+  const m = String(str).match(r); return m? m.length : 0;
+}
+function extOf(name){const m = (name||'').toLowerCase().match(/\.([a-z0-9]+)$/); return m?m[1]:'';}
+function showByExt(name){const e=extOf(name); if(e==='srt')return showSRT.checked; if(e==='csv')return showCSV.checked; if(e==='docx')return showDOCX.checked; return showOTHER.checked;}
 
-    // Tree els
-    const treeRoot = $("treeRoot"), treeStatus=$("treeStatus"), treeLoad=$("treeLoad"), treePathEl=$("treePath");
-    const showSRT=$("showSRT"), showCSV=$("showCSV"), showDOCX=$("showDOCX"), showOTHER=$("showOTHER"), nameFilter=$("nameFilter");
+// ===== Directory tree
+async function fetchDir(path){
+  const {url,ref}=apiBase();
+  const api = url + encodeURIComponent(path||'').replace(/%2F/g,'/') + ((path && path.endsWith('/'))?'':'') + `?ref=${encodeURIComponent(ref)}`;
+  const res = await fetch(api); if(!res.ok) throw new Error(`GitHub API ${res.status}`);
+  const data = await res.json(); if(!Array.isArray(data)) throw new Error('非目錄或路徑不存在');
+  data.sort((a,b)=> (a.type===b.type? a.name.localeCompare(b.name) : (a.type==='dir'?-1:1)));
+  return data;
+}
 
-    // ====== Utils ======
-    function rawBase(){
-      const o = ownerEl.value.trim() || "alfredlu1986";
-      const r = repoEl.value.trim() || "movie-english-sub";
-      const b = branchEl.value.trim() || "main";
-      return {o,r,b, url:`https://raw.githubusercontent.com/${o}/${r}/${b}/`};
+function renderClosedFolder(fullPath){
+  const li=document.createElement('li'); li.className='node dir';
+  const head=document.createElement('div'); head.className='node';
+  const btn=document.createElement('button'); btn.className='toggle'; btn.textContent='▸';
+  const span=document.createElement('span'); span.className='fname'; span.textContent='📁 '+fullPath.split('/').pop();
+  head.appendChild(btn); head.appendChild(span); li.appendChild(head);
+  const ul=document.createElement('ul'); ul.className='hidden'; li.appendChild(ul);
+  let loaded=false, collapsed=true;
+  async function expand(){
+    if(!loaded){
+      try{ const kids=await fetchDir(fullPath); for(const ent of kids){ (ent.type==='dir')? ul.appendChild(renderClosedFolder(ent.path)) : ul.appendChild(renderFile(ent.path, ent.name)); }
+        loaded=true; applyTreeFilters();
+      }catch(e){ const errLi=document.createElement('li'); errLi.innerHTML=`<span class="status">無法讀取：${escapeHtml(e.message||String(e))}</span>`; ul.appendChild(errLi); }
     }
-    function apiBase(){
-      const o = ownerEl.value.trim() || "alfredlu1986";
-      const r = repoEl.value.trim() || "movie-english-sub";
-      const b = branchEl.value.trim() || "main";
-      return {o,r,b, url:`https://api.github.com/repos/${o}/${r}/contents/`, ref:b};
-    }
-    function escapeHtml(str){
-      return String(str).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
-    }
-    function escapeRegExp(str){ return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
-    function buildRegex(query){
-      if(!query) return null;
-      const src = wholeWordEl.checked ? `\\b${escapeRegExp(query)}\\b` : escapeRegExp(query);
-      return new RegExp(src, matchCaseEl.checked?"g":"gi");
-    }
-    function extOf(name){ const m = name.toLowerCase().match(/\.([a-z0-9]+)$/); return m?m[1]:""; }
-    function showByExt(name){
-      const ext = extOf(name);
-      if(ext==='srt') return showSRT.checked;
-      if(ext==='csv') return showCSV.checked;
-      if(ext==='docx') return showDOCX.checked;
-      return showOTHER.checked;
-    }
+    collapsed=false; btn.textContent='▾'; ul.classList.remove('hidden');
+  }
+  function collapse(){collapsed=true; btn.textContent='▸'; ul.classList.add('hidden');}
+  btn.addEventListener('click', ()=> collapsed?expand():collapse());
+  span.addEventListener('click', ()=> collapsed?expand():collapse());
+  return li;
+}
+function renderFile(fullPath,name){
+  const li=document.createElement('li'); li.className='node file'; li.dataset.fullPath=fullPath;
+  const row=document.createElement('div'); row.className='node';
+  const a=document.createElement('a'); a.href='#'; a.className='fname file'; a.textContent='📄 '+name; a.title=fullPath;
+  const badge=document.createElement('span'); badge.className='badge'; badge.textContent=extOf(name)||'file';
+  row.appendChild(a); row.appendChild(badge); li.appendChild(row);
+  a.addEventListener('click', e=>{e.preventDefault(); openFileFromTree(fullPath,name);});
+  return li;
+}
+function renderDirNode(path, entries){
+  const li=document.createElement('li'); li.className='node dir';
+  const header=document.createElement('div'); header.className='node';
+  const btn=document.createElement('button'); btn.className='toggle'; btn.textContent='▾';
+  const span=document.createElement('span'); span.className='fname'; span.textContent='📁 '+(path||'/');
+  header.appendChild(btn); header.appendChild(span); li.appendChild(header);
+  const ul=document.createElement('ul'); li.appendChild(ul);
+  for(const ent of entries){ (ent.type==='dir')? ul.appendChild(renderClosedFolder(ent.path)) : ul.appendChild(renderFile(ent.path, ent.name)); }
+  let collapsed=false; btn.addEventListener('click',()=>{collapsed=!collapsed; btn.textContent=collapsed?'▸':'▾'; ul.classList.toggle('hidden',collapsed)});
+  return li;
+}
+async function loadTree(path){
+  treeStatus.textContent='讀取中…'; treeRoot.innerHTML='';
+  try{ const root=await fetchDir(path||''); treeRoot.appendChild(renderDirNode(path||'/', root)); treeStatus.textContent='完成。點資料夾展開/收合，點檔案即載入。'; applyTreeFilters(); }
+  catch(e){ treeStatus.innerHTML=`<span class="error">載入失敗：${escapeHtml(e.message||String(e))}</span>`; }
+}
+function applyTreeFilters(){
+  const q=(nameFilter.value||'').toLowerCase(); const items=treeRoot.querySelectorAll('li.node.file');
+  items.forEach(li=>{ const name=li.querySelector('.fname').textContent.toLowerCase(); const okExt=showByExt(name); const okName=!q || name.includes(q); li.style.display=(okExt&&okName)?'':''; });
+}
+function openFileFromTree(fullPath,name){ pathEl.value=fullPath; const e=extOf(name); typeEl.value=(e==='srt'||e==='csv'||e==='docx')?e:'srt'; loadFile(); }
 
-    // ====== Directory Tree ======
-    treeLoad.addEventListener('click', () => loadTree(treePathEl.value.trim()));
-    ownerEl.addEventListener('change', ()=>loadTree(treePathEl.value.trim()));
-    repoEl.addEventListener('change', ()=>loadTree(treePathEl.value.trim()));
-    branchEl.addEventListener('change', ()=>loadTree(treePathEl.value.trim()));
-    showSRT.addEventListener('change', ()=>applyTreeFilters());
-    showCSV.addEventListener('change', ()=>applyTreeFilters());
-    showDOCX.addEventListener('change', ()=>applyTreeFilters());
-    showOTHER.addEventListener('change', ()=>applyTreeFilters());
-    nameFilter.addEventListener('input', ()=>applyTreeFilters());
+treeLoad.addEventListener('click',()=>loadTree(treePathEl.value.trim()));
+ownerEl.addEventListener('change',()=>loadTree(treePathEl.value.trim()));
+repoEl.addEventListener('change',()=>loadTree(treePathEl.value.trim()));
+branchEl.addEventListener('change',()=>loadTree(treePathEl.value.trim()));
+[nameFilter,showSRT,showCSV,showDOCX,showOTHER].forEach(el=> el.addEventListener('input', applyTreeFilters));
 
-    async function loadTree(path=""){
-      treeStatus.textContent = '讀取中…';
-      treeRoot.innerHTML = '';
-      try{
-        const root = await fetchDir(path);
-        const rootNode = renderDirNode(path || '/', root);
-        treeRoot.appendChild(rootNode);
-        treeStatus.textContent = '完成。點擊資料夾展開/收合，點擊檔案即載入檢視。';
-        applyTreeFilters();
-      }catch(err){
-        treeStatus.innerHTML = `<span class="error">載入失敗：${escapeHtml(err.message||String(err))}</span>`;
-      }
-    }
+// ===== File renderers
+let lastType=null; let srtEntries=[]; let csvData={header:[],rows:[]}; let docxHtmlOriginal='';
 
-    async function fetchDir(path){
-      const {url, ref} = apiBase();
-      const api = url + encodeURIComponent(path).replace(/%2F/g,'/') + (path && path.endsWith('/')?'':'') + `?ref=${encodeURIComponent(ref)}`;
-      const res = await fetch(api);
-      if(!res.ok) throw new Error(`GitHub API ${res.status}`);
-      const data = await res.json();
-      if(!Array.isArray(data)) throw new Error('非目錄（或路徑不存在）');
-      // sort: dirs first, then files (name asc)
-      data.sort((a,b)=> (a.type===b.type? a.name.localeCompare(b.name) : (a.type==='dir'?-1:1)) );
-      return data;
-    }
+function highlightText(text, re){
+  if(!re || text==null) return escapeHtml(text);
+  const s=String(text); let out=''; let last=0; const r=new RegExp(re.source, re.flags);
+  let m; while((m=r.exec(s))){ out += escapeHtml(s.slice(last, m.index)); out += `<mark>${escapeHtml(m[0])}</mark>`; last = m.index + m[0].length; if(!r.global) break; }
+  out += escapeHtml(s.slice(last)); return out;
+}
 
-    function renderDirNode(path, entries){
-      const li = document.createElement('li');
-      li.className = 'node dir';
-      const display = path || '/';
-      const header = document.createElement('div');
-      header.className = 'node';
-      const btn = document.createElement('button');
-      btn.className = 'toggle';
-      btn.textContent = '▾';
-      const span = document.createElement('span');
-      span.className = 'fname';
-      span.textContent = `📁 ${display}`;
-      header.appendChild(btn); header.appendChild(span);
-      li.appendChild(header);
+function parseSrt(text){
+  const norm = String(text).replace(/\r\n/g,'\n').replace(/\r/g,'\n');
+  const blocks = norm.split(/\n{2,}/);
+  const entries=[];
+  for(const b of blocks){ const lines=b.trim().split('\n'); if(!lines[0]) continue; let idx=lines[0].trim(), timeLine='', textLines=[];
+    if(/^\d+$/.test(idx) && lines.length>=2){ timeLine=lines[1].trim(); textLines=lines.slice(2); } else { idx=''; timeLine=lines[0].trim(); textLines=lines.slice(1); }
+    let start='', end=''; const m=timeLine.match(/(\d{2}:\d{2}:\d{2},\d{3})\s*-->\s*(\d{2}:\d{2}:\d{2},\d{3})/); if(m){ start=m[1]; end=m[2]; }
+    entries.push({index:idx,start,end,text:textLines.join('\n')}); }
+  return entries;
+}
+function renderSrt(entries, re){
+  let html = '<table><thead><tr><th>#</th><th>Start</th><th>End</th><th>Text</th></tr></thead><tbody>';
+  for(const e of entries){ html += `<tr><td>${escapeHtml(e.index||'')}</td><td>${escapeHtml(e.start)}</td><td>${escapeHtml(e.end)}</td><td><pre>${re?highlightText(e.text,re):escapeHtml(e.text)}</pre></td></tr>`; }
+  html += '</tbody></table>'; resultEl.innerHTML=html;
+}
 
-      const ul = document.createElement('ul');
-      ul.className = '';
-      li.appendChild(ul);
+function parseCsv(text){
+  const norm = String(text).replace(/\r\n/g,'\n').replace(/\r/g,'\n');
+  let lines = norm.split('\n');
+  // drop empty trailing lines but keep intentional blanks inside
+  while(lines.length && lines[lines.length-1].trim()==='') lines.pop();
+  if(lines.length && lines[0].charCodeAt(0)===65279) lines[0]=lines[0].slice(1); // BOM
+  if(!lines.length) return {header:[],rows:[]};
+  const header = splitCsvLine(lines[0]);
+  const rows = lines.slice(1).map(splitCsvLine);
+  return {header, rows};
+}
+function splitCsvLine(line){
+  const out=[]; let cur=''; let inQ=false; for(let i=0;i<line.length;i++){
+    const ch=line[i];
+    if(inQ){ if(ch==='"'){ if(i+1<line.length && line[i+1]=='"'){ cur+='"'; i++; } else inQ=false; }
+            else cur+=ch; }
+    else { if(ch==='"') inQ=true; else if(ch===','){ out.push(cur); cur=''; } else cur+=ch; }
+  }
+  out.push(cur); return out;
+}
+function renderCsv(header, rows, re){
+  let html = '<table><thead><tr>'+header.map(h=>`<th>${escapeHtml(h)}</th>`).join('')+'</tr></thead><tbody>';
+  for(const row of rows){ html += '<tr>' + header.map((_,i)=>{const cell = row[i]??''; return `<td>${re?highlightText(cell,re):escapeHtml(cell)}</td>`;}).join('') + '</tr>'; }
+  html += '</tbody></table>'; resultEl.innerHTML=html;
+}
 
-      // initial children
-      for(const ent of entries){
-        if(ent.type==='dir') ul.appendChild(renderClosedFolder(ent.path));
-        else ul.appendChild(renderFile(ent.path, ent.name));
-      }
+function restoreDocx(){ resultEl.innerHTML = docxHtmlOriginal; }
+function highlightInElement(root, re){ if(!re) return 0; let cnt=0; const walker=document.createTreeWalker(root, NodeFilter.SHOW_TEXT); const nodes=[]; while(walker.nextNode()) nodes.push(walker.currentNode);
+  for(const node of nodes){ const s=node.nodeValue; const r=new RegExp(re.source, re.flags); if(!r.test(s)) continue; r.lastIndex=0; const frag=document.createDocumentFragment(); let last=0; let m; while((m=r.exec(s))){ if(m.index>last) frag.appendChild(document.createTextNode(s.slice(last,m.index))); const mark=document.createElement('mark'); mark.textContent=m[0]; frag.appendChild(mark); last=m.index+m[0].length; cnt++; if(!r.global) break; } if(last<s.length) frag.appendChild(document.createTextNode(s.slice(last))); node.parentNode.replaceChild(frag,node); }
+  return cnt;
+}
 
-      // toggle collapse/expand
-      let collapsed = false;
-      btn.addEventListener('click', ()=>{
-        collapsed = !collapsed;
-        btn.textContent = collapsed ? '▸' : '▾';
-        ul.classList.toggle('hidden', collapsed);
-      });
+// ===== Load + Search
+async function loadFile(){
+  const rel=(pathEl.value||'').trim(); if(!rel){ statusEl.innerHTML='<span class="error">請輸入檔案路徑。</span>'; return; }
+  const base=rawBase(); const full=encodeURI(base.url + rel);
+  let type=typeEl.value; const ext=extOf(rel); if(ext==='srt'||ext==='csv'||ext==='docx') type=ext;
+  statusEl.textContent = `載入中：${full}`; countsEl.textContent=''; resultEl.innerHTML='';
+  try{
+    if(type==='docx'){ await loadDocx(full); }
+    else { await loadTextFile(full, type); }
+    const ghUrl=`https://github.com/${base.o}/${base.r}/blob/${base.b}/${rel}`;
+    statusEl.innerHTML = `載入完成：<a href="${full}" target="_blank" rel="noopener">Raw</a> · <a href="${ghUrl}" target="_blank" rel="noopener">GitHub</a>`;
+    doSearch();
+  }catch(e){ statusEl.innerHTML=`<span class="error">載入失敗：${escapeHtml(e.message||String(e))}</span>`; }
+}
 
-      return li;
-    }
+async function loadTextFile(url, type){
+  const res=await fetch(url); if(!res.ok) throw new Error(`HTTP ${res.status}`);
+  const text=await res.text();
+  if(type==='srt'){ lastType='srt'; srtEntries=parseSrt(text); renderSrt(srtEntries); }
+  else if(type==='csv'){ lastType='csv'; csvData=parseCsv(text); renderCsv(csvData.header, csvData.rows); }
+}
+async function loadDocx(url){
+  const res=await fetch(url); if(!res.ok) throw new Error(`HTTP ${res.status}`);
+  const arrayBuffer=await res.arrayBuffer();
+  const out=await window.mammoth.convertToHtml({arrayBuffer});
+  lastType='docx'; docxHtmlOriginal = `<div class="docx-content">${out.value}</div>`; resultEl.innerHTML=docxHtmlOriginal;
+}
 
-    function renderClosedFolder(fullPath){
-      const li = document.createElement('li');
-      li.className='node dir';
-      const head = document.createElement('div');
-      head.className='node';
-      const btn = document.createElement('button'); btn.className='toggle'; btn.textContent='▸';
-      const span = document.createElement('span'); span.className='fname'; span.textContent='📁 '+fullPath.split('/').pop();
-      head.appendChild(btn); head.appendChild(span); li.appendChild(head);
-      const ul = document.createElement('ul'); ul.className='hidden'; li.appendChild(ul);
+function doSearch(){
+  const query=qEl.value.trim(); const re=buildRegex(query); countsEl.textContent='';
+  if(lastType==='srt'){
+    let data=srtEntries;
+    if(re && filterRowsEl.checked){ data = srtEntries.filter(e=> (new RegExp(re.source, re.flags)).test(e.text) || (new RegExp(re.source, re.flags)).test(e.start) || (new RegExp(re.source, re.flags)).test(e.end)); }
+    renderSrt(data, re);
+    if(re){ let hits=0; for(const e of data){ hits += countMatches(e.text,re); } countsEl.textContent=`字幕段落：${data.length} ，高亮次數：約 ${hits}`; }
+    else countsEl.textContent=`字幕段落：${data.length}`;
+  }
+  else if(lastType==='csv'){
+    let rows=csvData.rows;
+    if(re && filterRowsEl.checked){ rows = csvData.rows.filter(r=> r.some(c=> (new RegExp(re.source, re.flags)).test(String(c)))); }
+    renderCsv(csvData.header, rows, re);
+    if(re){ let hits=0; for(const r of rows){ for(const c of r){ hits += countMatches(c,re); } } countsEl.textContent=`列數：${rows.length} ，高亮次數：約 ${hits}`; }
+    else countsEl.textContent=`列數：${rows.length}`;
+  }
+  else if(lastType==='docx'){
+    restoreDocx(); const root=resultEl.firstElementChild||resultEl; const hits = re? highlightInElement(root,re) : 0; countsEl.textContent = re? `高亮次數：約 ${hits}` : '';
+  }
+}
 
-      let loaded = false; let collapsed = true;
-      async function expand(){
-        if(!loaded){
-          try{
-            const children = await fetchDir(fullPath);
-            for(const ent of children){
-              if(ent.type==='dir') ul.appendChild(renderClosedFolder(ent.path));
-              else ul.appendChild(renderFile(ent.path, ent.name));
-            }
-            loaded = true;
-            applyTreeFilters();
-          }catch(err){
-            const errLi = document.createElement('li');
-            errLi.innerHTML = `<span class="muted">無法讀取：${escapeHtml(err.message||String(err))}</span>`;
-            ul.appendChild(errLi);
-          }
-        }
-        collapsed = false; btn.textContent='▾'; ul.classList.remove('hidden');
-      }
-      function collapse(){ collapsed = true; btn.textContent='▸'; ul.classList.add('hidden'); }
+// Wire events
+loadBtn.addEventListener('click', loadFile);
+qEl.addEventListener('input', doSearch);
+searchBtn.addEventListener('click', doSearch);
+clearBtn.addEventListener('click', ()=>{ qEl.value=''; doSearch(); });
 
-      btn.addEventListener('click', ()=>{ collapsed?expand():collapse(); });
-      span.addEventListener('click', ()=>{ collapsed?expand():collapse(); });
-      return li;
-    }
-
-    function renderFile(fullPath, name){
-      const li = document.createElement('li');
-      li.className='node file';
-      li.dataset.fullPath = fullPath;
-      const row = document.createElement('div'); row.className='node';
-      const a = document.createElement('a'); a.href='#'; a.className='fname file'; a.textContent='📄 '+name; a.title=fullPath;
-      const badge = document.createElement('span'); badge.className='badge'; badge.textContent=extOf(name)||'file';
-      row.appendChild(a); row.appendChild(badge); li.appendChild(row);
-      a.addEventListener('click', (e)=>{ e.preventDefault(); openFileFromTree(fullPath, name); });
-      return li;
-    }
-
-    function applyTreeFilters(){
-      const q = nameFilter.value.trim().toLowerCase();
-      const items = treeRoot.querySelectorAll('li.node.file');
-      items.forEach(li=>{
-        const name = li.querySelector('.fname').textContent.toLowerCase();
-        const visibleExt = showByExt(name);
-        const visibleName = !q || name.includes(q);
-        li.style.display = (visibleExt && visibleName) ? '' : 'none';
-      });
-    }
-
-    function openFileFromTree(fullPath, name){
-      pathEl.value = fullPath;
-      const ext = extOf(name);
-      if(ext==='srt') typeEl.value='srt';
-      else if(ext==='csv') typeEl.value='csv';
-      else if(ext==='docx') typeEl.value='docx';
-      else typeEl.value='srt'; // fallback
-      loadFile();
-    }
-
-    // 初始載入 root 目錄
-    loadTree("");
-
-    // ====== Viewer Load/Search ======
-    function highlightText(text, regex){
-      if(!regex || !text) return escapeHtml(text);
-      let out = ""; let lastIndex = 0; const s = String(text); let m;
-      while((m = regex.exec(s))){
-        out += escapeHtml(s.slice(lastIndex, m.index));
-        out += `<mark>${escapeHtml(m[0])}</mark>`;
-        lastIndex = m.index + m[0].length;
-        if(!regex.global) break;
-      }
-      out += escapeHtml(s.slice(lastIndex));
-      return out;
-    }
-
-    let lastType=null; let srtEntries=[]; let csvData={header:[],rows:[]}; let docxHtmlOriginal="";
-
-    loadBtn.addEventListener('click', ()=>loadFile());
-    qEl.addEventListener('keydown', (e)=>{ if(e.key==='Enter') doSearch(); });
-    searchBtn.addEventListener('click', ()=>doSearch());
-    clearBtn.addEventListener('click', ()=>{ qEl.value=''; doSearch(); });
-
-    async function loadFile(){
-      const rel = pathEl.value.trim();
-      if(!rel){ statusEl.innerHTML='<span class="error">請輸入檔案路徑。</span>'; return; }
-      const {url} = rawBase();
-      const full = url + rel;
-      const type = typeEl.value;
-      statusEl.textContent = `載入中：${full}`; countsEl.textContent=''; resultEl.innerHTML='';
-      try{
-        if(type==='docx') await loadDocx(full);
-        else await loadTextFile(full, type);
-        statusEl.textContent = `載入完成：${full}`; doSearch();
-      }catch(err){
-        statusEl.innerHTML = `<span class="error">載入失敗：${escapeHtml(err.message||String(err))}</span>`;
-      }
-    }
-
-    async function loadTextFile(url, type){
-      const res = await fetch(url); if(!res.ok) throw new Error(`HTTP ${res.status}`);
-      const text = await res.text();
-      if(type==='srt'){ lastType='srt'; srtEntries=parseSrt(text); renderSrt(srtEntries); }
-      else if(type==='csv'){ lastType='csv'; csvData=parseCsv(text); renderCsv(csvData.header, csvData.rows); }
-    }
-
-    async function loadDocx(url){
-      const res = await fetch(url); if(!res.ok) throw new Error(`HTTP ${res.status}`);
-      const arrayBuffer = await res.arrayBuffer();
-      const { value: html } = await window.mammoth.convertToHtml({ arrayBuffer });
-      lastType='docx'; docxHtmlOriginal = `<div class="docx-content">${html}</div>`; resultEl.innerHTML = docxHtmlOriginal;
-    }
-
-    // ====== SRT ======
-    function parseSrt(text){
-      const norm = text.replace(/\r\n/g,"\n").replace(/\r/g,"\n");
-      const blocks = norm.split(/\n{2,}/);
-      const entries=[];
-      for(const block of blocks){
-        const lines = block.trim().split("\n"); if(lines.length<1) continue;
-        let index = lines[0].trim(); let timeLine=""; let textLines=[];
-        if(/^\d+$/.test(index) && lines.length>=2){ timeLine=lines[1].trim(); textLines=lines.slice(2); }
-        else { index=""; timeLine=lines[0].trim(); textLines=lines.slice(1); }
-        let start="", end=""; const m=timeLine.match(/(\d{2}:\d{2}:\d{2},\d{3})\s*-->\s*(\d{2}:\d{2}:\d{2},\d{3})/); if(m){ start=m[1]; end=m[2]; }
-        entries.push({ index, start, end, text: textLines.join("\n") });
-      }
-      return entries;
-    }
-    function renderSrt(entries, queryRegex){
-      let html = "<table><thead><tr><th>#</th><th>Start</th><th>End</th><th>Text</th></tr></thead><tbody>";
-      for(const e of entries){
-        html += "<tr>"+
-          `<td>${escapeHtml(e.index||"")}</td>`+
-          `<td>${escapeHtml(e.start)}</td>`+
-          `<td>${escapeHtml(e.end)}</td>`+
-          `<td><pre>${queryRegex?highlightText(e.text, queryRegex):escapeHtml(e.text)}</pre></td>`+
-          "</tr>`;
-      }
-      html += "</tbody></table>"; resultEl.innerHTML = html;
-    }
-
-    // ====== CSV ======
-    function parseCsv(text){
-      const norm = text.replace(/\r\n/g,"\n").replace(/\r/g,"\n");
-      const lines = norm.split("\n").filter(l=>l.trim()!==""); if(!lines.length) return {header:[],rows:[]};
-      const header = splitCsvLine(lines[0]); const rows = lines.slice(1).map(splitCsvLine); return { header, rows };
-    }
-    function splitCsvLine(line){
-      const out=[]; let cur=""; let inQ=false; for(let i=0;i<line.length;i++){
-        const ch=line[i]; if(inQ){ if(ch==='"'){ if(i+1<line.length && line[i+1]=='"'){ cur+='"'; i++; } else inQ=false; } else cur+=ch; }
-        else { if(ch==='"') inQ=true; else if(ch===','){ out.push(cur); cur=""; } else cur+=ch; }
-      } out.push(cur); return out;
-    }
-    function renderCsv(header, rows, queryRegex){
-      let html = "<table><thead><tr>" + header.map(h=>`<th>${escapeHtml(h)}</th>`).join("") + "</tr></thead><tbody>";
-      for(const row of rows){ html += "<tr>" + header.map((_,i)=>{ const cell=row[i]??""; return `<td>${queryRegex?highlightText(cell, queryRegex):escapeHtml(cell)}</td>`; }).join("") + "</tr>`; }
-      html += "</tbody></table>"; resultEl.innerHTML = html;
-    }
-
-    // ====== DOCX highlight ======
-    function clearDocxAndRestore(){ resultEl.innerHTML = docxHtmlOriginal; }
-    function highlightInElement(root, regex){
-      if(!regex) return 0; let count=0; const walker=document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null); const nodes=[]; while(walker.nextNode()) nodes.push(walker.currentNode);
-      for(const node of nodes){ const text=node.nodeValue; if(!regex.test(text)){ regex.lastIndex=0; continue; } regex.lastIndex=0; const frag=document.createDocumentFragment(); let lastIndex=0; let m; while((m = regex.exec(text))){ if(m.index>lastIndex) frag.appendChild(document.createTextNode(text.slice(lastIndex, m.index))); const mark=document.createElement('mark'); mark.textContent=m[0]; frag.appendChild(mark); lastIndex = m.index + m[0].length; count++; if(!regex.global) break; } if(lastIndex<text.length) frag.appendChild(document.createTextNode(text.slice(lastIndex))); node.parentNode.replaceChild(frag, node); }
-      return count;
-    }
-
-    // ====== Search dispatcher ======
-    function doSearch(){
-      const query = qEl.value.trim(); const regex = buildRegex(query); countsEl.textContent='';
-      if(lastType==='srt'){
-        let data = srtEntries; if(regex && filterRowsEl.checked){ data = srtEntries.filter(e => regex.test(e.text)||regex.test(e.start)||regex.test(e.end)); if(regex) regex.lastIndex=0; }
-        renderSrt(data, regex);
-        if(regex){ let hit=0; for(const e of data){ const m=e.text.match(regex); if(m) hit += m.length; if(regex.global) regex.lastIndex=0; } countsEl.textContent=`字幕段落：${data.length} ，高亮次數：約 ${hit}`; }
-        else countsEl.textContent=`字幕段落：${data.length}`;
-      }
-      else if(lastType==='csv'){
-        let rows = csvData.rows; if(regex && filterRowsEl.checked){ rows = csvData.rows.filter(r=> r.some(c => regex.test(String(c)))); if(regex) regex.lastIndex=0; }
-        renderCsv(csvData.header, rows, regex);
-        if(regex){ let hit=0; for(const r of rows){ for(const c of r){ const m=String(c).match(regex); if(m) hit += m.length; } if(regex.global) regex.lastIndex=0; } countsEl.textContent=`列數：${rows.length} ，高亮次數：約 ${hit}`; }
-        else countsEl.textContent=`列數：${rows.length}`;
-      }
-      else if(lastType==='docx'){
-        clearDocxAndRestore(); const root = resultEl.firstElementChild || resultEl; const hits = regex ? highlightInElement(root, regex) : 0; countsEl.textContent = regex ? `高亮次數：約 ${hits}` : '';
-      }
-    }
-  </script>
+// Init
+loadTree('');
+</script>
 </body>
 </html>
