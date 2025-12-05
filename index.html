@@ -58,7 +58,7 @@
   <div class="wrap">
     <div class="card">
       <h1>Movie English Sub / Words Viewer</h1>
-      <p class="sub">支援 <strong>.srt / .csv / .docx</strong> 的讀取、關鍵字搜尋（高亮/過濾），並新增 <strong>目錄式點讀</strong>（左側樹狀）。預設 repo：<span class="pill">alfredlu1986/movie-english-sub@main</span></p>
+      <p class="sub">支援 <strong>.srt / .csv / .docx</strong> 的讀取、關鍵字搜尋（高亮/過濾），並提供 <strong>目錄式點讀</strong>（左側樹狀）。預設 repo：<span class="pill">alfredlu1986/movie-english-sub@main</span></p>
 
       <div class="grid grid-3">
         <div>
@@ -150,21 +150,17 @@
   </div>
 
   <script>
-    // ====== Helpers ======
     const $ = (id)=>document.getElementById(id);
 
-    // Global els
     const ownerEl = $("owner"), repoEl=$("repo"), branchEl=$("branch");
     const pathEl=$("path"), typeEl=$("fileType"), loadBtn=$("loadBtn");
     const qEl=$("q"), matchCaseEl=$("matchCase"), wholeWordEl=$("wholeWord"), filterRowsEl=$("filterRows");
     const searchBtn=$("searchBtn"), clearBtn=$("clearBtn");
     const statusEl=$("status"), countsEl=$("counts"), resultEl=$("result");
 
-    // Tree els
     const treeRoot = $("treeRoot"), treeStatus=$("treeStatus"), treeLoad=$("treeLoad"), treePathEl=$("treePath");
     const showSRT=$("showSRT"), showCSV=$("showCSV"), showDOCX=$("showDOCX"), showOTHER=$("showOTHER"), nameFilter=$("nameFilter");
 
-    // ====== Utils ======
     function rawBase(){
       const o = ownerEl.value.trim() || "alfredlu1986";
       const r = repoEl.value.trim() || "movie-english-sub";
@@ -195,7 +191,6 @@
       return showOTHER.checked;
     }
 
-    // ====== Directory Tree ======
     treeLoad.addEventListener('click', () => loadTree(treePathEl.value.trim()));
     ownerEl.addEventListener('change', ()=>loadTree(treePathEl.value.trim()));
     repoEl.addEventListener('change', ()=>loadTree(treePathEl.value.trim()));
@@ -213,7 +208,7 @@
         const root = await fetchDir(path);
         const rootNode = renderDirNode(path || '/', root);
         treeRoot.appendChild(rootNode);
-        treeStatus.textContent = '完成。點擊資料夾展開/收合，點擊檔案即載入檢視。';
+        treeStatus.textContent = '完成。點資料夾展開/收合，點檔案即載入檢視。';
         applyTreeFilters();
       }catch(err){
         treeStatus.innerHTML = `<span class="error">載入失敗：${escapeHtml(err.message||String(err))}</span>`;
@@ -227,7 +222,6 @@
       if(!res.ok) throw new Error(`GitHub API ${res.status}`);
       const data = await res.json();
       if(!Array.isArray(data)) throw new Error('非目錄（或路徑不存在）');
-      // sort: dirs first, then files (name asc)
       data.sort((a,b)=> (a.type===b.type? a.name.localeCompare(b.name) : (a.type==='dir'?-1:1)) );
       return data;
     }
@@ -251,13 +245,11 @@
       ul.className = '';
       li.appendChild(ul);
 
-      // initial children
       for(const ent of entries){
         if(ent.type==='dir') ul.appendChild(renderClosedFolder(ent.path));
         else ul.appendChild(renderFile(ent.path, ent.name));
       }
 
-      // toggle collapse/expand
       let collapsed = false;
       btn.addEventListener('click', ()=>{
         collapsed = !collapsed;
@@ -291,7 +283,7 @@
             applyTreeFilters();
           }catch(err){
             const errLi = document.createElement('li');
-            errLi.innerHTML = `<span class="muted">無法讀取：${escapeHtml(err.message||String(err))}</span>`;
+            errLi.innerHTML = `<span class=\"muted\">無法讀取：${escapeHtml(err.message||String(err))}</span>`;
             ul.appendChild(errLi);
           }
         }
@@ -333,14 +325,12 @@
       if(ext==='srt') typeEl.value='srt';
       else if(ext==='csv') typeEl.value='csv';
       else if(ext==='docx') typeEl.value='docx';
-      else typeEl.value='srt'; // fallback
+      else typeEl.value='srt';
       loadFile();
     }
 
-    // 初始載入 root 目錄
     loadTree("");
 
-    // ====== Viewer Load/Search ======
     function highlightText(text, regex){
       if(!regex || !text) return escapeHtml(text);
       let out = ""; let lastIndex = 0; const s = String(text); let m;
@@ -364,16 +354,23 @@
     async function loadFile(){
       const rel = pathEl.value.trim();
       if(!rel){ statusEl.innerHTML='<span class="error">請輸入檔案路徑。</span>'; return; }
-      const {url} = rawBase();
-      const full = url + rel;
-      const type = typeEl.value;
+      const base = rawBase();
+      const full = encodeURI(base.url + rel);
+      let type = typeEl.value;
+      const lowerRel = rel.toLowerCase();
+      if(lowerRel.endsWith('.srt')) { type='srt'; typeEl.value='srt'; }
+      else if(lowerRel.endsWith('.csv')) { type='csv'; typeEl.value='csv'; }
+      else if(lowerRel.endsWith('.docx')) { type='docx'; typeEl.value='docx'; }
+
       statusEl.textContent = `載入中：${full}`; countsEl.textContent=''; resultEl.innerHTML='';
       try{
         if(type==='docx') await loadDocx(full);
         else await loadTextFile(full, type);
-        statusEl.textContent = `載入完成：${full}`; doSearch();
+        const ghUrl = `https://github.com/${base.o}/${base.r}/blob/${base.b}/${rel}`;
+        statusEl.innerHTML = `載入完成：<a href="${full}" target="_blank" rel="noopener">Raw</a> · <a href="${ghUrl}" target="_blank" rel="noopener">GitHub</a>`;
+        doSearch();
       }catch(err){
-        statusEl.innerHTML = `<span class="error">載入失敗：${escapeHtml(err.message||String(err))}</span>`;
+        statusEl.innerHTML = `<span class=\"error\">載入失敗：${escapeHtml(err.message||String(err))}</span>`;
       }
     }
 
@@ -388,10 +385,9 @@
       const res = await fetch(url); if(!res.ok) throw new Error(`HTTP ${res.status}`);
       const arrayBuffer = await res.arrayBuffer();
       const { value: html } = await window.mammoth.convertToHtml({ arrayBuffer });
-      lastType='docx'; docxHtmlOriginal = `<div class="docx-content">${html}</div>`; resultEl.innerHTML = docxHtmlOriginal;
+      lastType='docx'; docxHtmlOriginal = `<div class=\"docx-content\">${html}</div>`; resultEl.innerHTML = docxHtmlOriginal;
     }
 
-    // ====== SRT ======
     function parseSrt(text){
       const norm = text.replace(/\r\n/g,"\n").replace(/\r/g,"\n");
       const blocks = norm.split(/\n{2,}/);
@@ -414,15 +410,16 @@
           `<td>${escapeHtml(e.start)}</td>`+
           `<td>${escapeHtml(e.end)}</td>`+
           `<td><pre>${queryRegex?highlightText(e.text, queryRegex):escapeHtml(e.text)}</pre></td>`+
-          "</tr>`;
+          "</tr>";
       }
       html += "</tbody></table>"; resultEl.innerHTML = html;
     }
 
-    // ====== CSV ======
     function parseCsv(text){
       const norm = text.replace(/\r\n/g,"\n").replace(/\r/g,"\n");
-      const lines = norm.split("\n").filter(l=>l.trim()!==""); if(!lines.length) return {header:[],rows:[]};
+      const lines = norm.split("\n").filter(l=>l.trim()!=='');
+      if(lines.length && lines[0].charCodeAt(0) === 65279){ lines[0] = lines[0].slice(1); }
+      if(!lines.length) return {header:[],rows:[]};
       const header = splitCsvLine(lines[0]); const rows = lines.slice(1).map(splitCsvLine); return { header, rows };
     }
     function splitCsvLine(line){
@@ -433,11 +430,10 @@
     }
     function renderCsv(header, rows, queryRegex){
       let html = "<table><thead><tr>" + header.map(h=>`<th>${escapeHtml(h)}</th>`).join("") + "</tr></thead><tbody>";
-      for(const row of rows){ html += "<tr>" + header.map((_,i)=>{ const cell=row[i]??""; return `<td>${queryRegex?highlightText(cell, queryRegex):escapeHtml(cell)}</td>`; }).join("") + "</tr>`; }
+      for(const row of rows){ html += "<tr>" + header.map((_,i)=>{ const cell=row[i]??""; return `<td>${queryRegex?highlightText(cell, queryRegex):escapeHtml(cell)}</td>`; }).join("") + "</tr>"; }
       html += "</tbody></table>"; resultEl.innerHTML = html;
     }
 
-    // ====== DOCX highlight ======
     function clearDocxAndRestore(){ resultEl.innerHTML = docxHtmlOriginal; }
     function highlightInElement(root, regex){
       if(!regex) return 0; let count=0; const walker=document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null); const nodes=[]; while(walker.nextNode()) nodes.push(walker.currentNode);
@@ -445,7 +441,6 @@
       return count;
     }
 
-    // ====== Search dispatcher ======
     function doSearch(){
       const query = qEl.value.trim(); const regex = buildRegex(query); countsEl.textContent='';
       if(lastType==='srt'){
