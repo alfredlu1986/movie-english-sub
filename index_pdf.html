@@ -249,7 +249,7 @@ function apiBase(){
   const o = ownerEl.value.trim() || "alfredlu1986";
   const r = repoEl.value.trim() || "movie-english-sub";
   const b = branchEl.value.trim() || "main";
-  // ✅ 不能有尾斜線：/contents（而不是 /contents/）
+  // 不能有尾斜線：/contents（而不是 /contents/）
   return { o, r, b, url: `https://api.github.com/repos/${o}/${r}/contents`, ref: b };
 }
 
@@ -276,94 +276,93 @@ function showByExt(name){
 async function fetchDir(path){
   const { url, ref } = apiBase();
   const base = url; // 無尾斜線
-  // ✅ root 直接打 /contents，子路徑才接 /{path}
-  const target = (path && path.length)
-    ? `${base}/${encodeURIComponent(path).replace(/%2F/g,'/')}`
-    : base;
+  const target = path ? `${base}/${encodeURIComponent(path).replace(/%2F/g,'/')}` : base;
   const api = `${target}?ref=${encodeURIComponent(ref)}`;
   const res = await fetch(api);
   if(!res.ok) throw new Error(`GitHub API ${res.status}`);
   const data = await res.json();
   if(!Array.isArray(data)) throw new Error('非目錄或路徑不存在');
-  // 目錄優先顯示在上方
   data.sort((a,b)=> (a.type===b.type ? a.name.localeCompare(b.name) : (a.type==='dir' ? -1 : 1)));
   return data;
 }
 
 // ===== 目錄樹點擊委派（避免因樣式調整造成 listener 遺失） =====
-treeRoot.addEventListener('click', async (e) => {
-  const btn = e.target.closest('button.toggle');         // ▶ 或 ▾
-  const fileA = e.target.closest('.fname.file');         // 檔案名
-  const folderHead = (!btn && e.target.closest('.node') && e.target.closest('li.dir') && 
-                      e.target.closest('.node').querySelector('.toggle')) ? e.target.closest('li.dir') : null;
-
+// 一次掛好，避免 UI 美化改結構後 listener 跑掉
+treeRoot.addEventListener('click', async (e)=>{
   // 點檔案：直接載入
-  if (fileA) {
+  const fileA = e.target.closest('.fname.file');
+  if(fileA){
     e.preventDefault();
     const li = fileA.closest('li.node.file');
     const fullPath = li?.dataset?.fullPath || fileA.title;
-    if (fullPath) openFileFromTree(fullPath, fileA.textContent.replace(/^📄\s*/,''));
+    if(fullPath) openFileFromTree(fullPath, fileA.textContent.replace(/^📄\s*/,''));
     return;
   }
 
-  // 點 ▶/▾ 或資料夾列：展開/收合（必要時才載入 children）
-  if (btn || folderHead) {
-    e.preventDefault();
-    const li = (btn ? btn.closest('li.dir') : folderHead);
-    const ul = li.querySelector('ul');
-    const isCollapsed = ul.classList.contains('hidden');
+  // 點資料夾（按鈕或整列）
+  const liDir = e.target.closest('li.dir');
+  if(!liDir) return;
 
-    // 第一次展開才打 API
-    if (isCollapsed && ul.children.length === 0) {
-      const headerSpan = li.querySelector('.fname');
-      const fullPath = headerSpan.textContent.replace(/^📁\s*/, '').trim();
-      try {
-        const kids = await fetchDir(fullPath === '/' ? '' : fullPath);
-        for (const ent of kids) {
-          ul.appendChild(ent.type === 'dir'
-            ? renderClosedFolder(ent.path)
-            : renderFile(ent.path, ent.name));
-        }
-      } catch (err) {
-        const errLi = document.createElement('li');
-        errLi.innerHTML = `<span class="status">無法讀取：${escapeHtml(err.message||String(err))}</span>`;
-        ul.appendChild(errLi);
+  const btn = liDir.querySelector('button.toggle');
+  const ul  = liDir.querySelector('ul');
+  const collapsed = ul.classList.contains('hidden');
+
+  // 第一次展開才打 API
+  if (collapsed && ul.children.length === 0){
+    const folderPath = liDir.dataset.fullPath || '';      // ✅ 用 data-full-path
+    try{
+      const kids = await fetchDir(folderPath);
+      for(const ent of kids){
+        ul.appendChild(ent.type==='dir' ? renderClosedFolder(ent.path) : renderFile(ent.path, ent.name));
       }
-      applyTreeFilters(); // 展開後也套用過濾
+    }catch(err){
+      const errLi=document.createElement('li');
+      errLi.innerHTML=`<span class="status">無法讀取：${escapeHtml(err.message||String(err))}</span>`;
+      ul.appendChild(errLi);
     }
-
-    ul.classList.toggle('hidden');
-    const t = li.querySelector('button.toggle');
-    if (t) t.textContent = ul.classList.contains('hidden') ? '▸' : '▾';
+    applyTreeFilters();
   }
-});
 
+  ul.classList.toggle('hidden');
+  if(btn) btn.textContent = ul.classList.contains('hidden') ? '▸' : '▾';
+});
   
 function renderClosedFolder(fullPath){
-  const li=document.createElement('li'); li.className='node dir';
-  const head=document.createElement('div'); head.className='node';
-  const btn=document.createElement('button'); btn.className='toggle'; btn.textContent='▸';
-  const span=document.createElement('span'); span.className='fname'; span.textContent='📁 '+fullPath.split('/').pop();
+  const li = document.createElement('li');
+  li.className = 'node dir';
+  li.dataset.fullPath = fullPath;            // ✅ 存完整路徑
+  const head = document.createElement('div'); head.className='node';
+  const btn  = document.createElement('button'); btn.className='toggle'; btn.textContent='▸';
+  const span = document.createElement('span');   span.className='fname';  span.textContent='📁 '+ fullPath.split('/').pop();
   head.appendChild(btn); head.appendChild(span); li.appendChild(head);
-  const ul=document.createElement('ul'); ul.className='hidden'; li.appendChild(ul);
+
+  const ul = document.createElement('ul'); ul.className='hidden'; li.appendChild(ul);
   let loaded=false, collapsed=true;
+
   async function expand(){
     if(!loaded){
       try{
-        const kids=await fetchDir(fullPath);
-        for(const ent of kids){ (ent.type==='dir') ? ul.appendChild(renderClosedFolder(ent.path)) : ul.appendChild(renderFile(ent.path, ent.name)); }
-        loaded=true; applyTreeFilters();
-      }catch(e){
-        const errLi=document.createElement('li'); errLi.innerHTML=`<span class="status">無法讀取：${escapeHtml(e.message||String(e))}</span>`; ul.appendChild(errLi);
+        const kids = await fetchDir(fullPath);              // ✅ 用完整路徑
+        for(const ent of kids){
+          ul.appendChild(ent.type==='dir' ? renderClosedFolder(ent.path) : renderFile(ent.path, ent.name));
+        }
+        loaded = true;
+        applyTreeFilters();
+      }catch(err){
+        const errLi=document.createElement('li');
+        errLi.innerHTML=`<span class="status">無法讀取：${escapeHtml(err.message||String(err))}</span>`;
+        ul.appendChild(errLi);
       }
     }
     collapsed=false; btn.textContent='▾'; ul.classList.remove('hidden');
   }
   function collapse(){ collapsed=true; btn.textContent='▸'; ul.classList.add('hidden'); }
+
   btn.addEventListener('click', ()=> collapsed?expand():collapse());
   span.addEventListener('click', ()=> collapsed?expand():collapse());
   return li;
 }
+  
 function renderFile(fullPath, name){
   const li=document.createElement('li'); li.className='node file'; li.dataset.fullPath=fullPath;
   const row=document.createElement('div'); row.className='node';
@@ -374,16 +373,32 @@ function renderFile(fullPath, name){
   return li;
 }
 function renderDirNode(path, entries){
-  const li=document.createElement('li'); li.className='node dir';
-  const header=document.createElement('div'); header.className='node';
-  const btn=document.createElement('button'); btn.className='toggle'; btn.textContent='▾';
-  const span=document.createElement('span'); span.className='fname'; span.textContent='📁 '+(path||'/');
-  header.appendChild(btn); header.appendChild(span); li.appendChild(header);
-  const ul=document.createElement('ul'); li.appendChild(ul);
-  for(const ent of entries){ (ent.type==='dir')? ul.appendChild(renderClosedFolder(ent.path)) : ul.appendChild(renderFile(ent.path, ent.name)); }
-  let collapsed=false; btn.addEventListener('click',()=>{collapsed=!collapsed; btn.textContent=collapsed?'▸':'▾'; ul.classList.toggle('hidden',collapsed)});
+  const li = document.createElement('li');
+  li.className = 'node dir';
+  li.dataset.fullPath = path || '';          // ✅ 存真正路徑（root 用空字串）
+  const header = document.createElement('div');
+  header.className = 'node';
+  const btn  = document.createElement('button'); btn.className='toggle'; btn.textContent='▾';
+  const span = document.createElement('span');   span.className='fname';  span.textContent='📁 '+(path||'/');
+  header.appendChild(btn); header.appendChild(span);
+  li.appendChild(header);
+
+  const ul = document.createElement('ul'); li.appendChild(ul);
+  for(const ent of entries){
+    if(ent.type==='dir') ul.appendChild(renderClosedFolder(ent.path));
+    else                 ul.appendChild(renderFile(ent.path, ent.name));
+  }
+
+  let collapsed = false;
+  btn.addEventListener('click', ()=>{
+    collapsed = !collapsed;
+    btn.textContent = collapsed ? '▸' : '▾';
+    ul.classList.toggle('hidden', collapsed);
+  });
+
   return li;
 }
+  
 async function loadTree(path){
   treeStatus.textContent='讀取中…'; treeRoot.innerHTML='';
   try{
