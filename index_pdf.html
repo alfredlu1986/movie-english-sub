@@ -246,12 +246,13 @@ function rawBase(){
   return {o,r,b,url:`https://raw.githubusercontent.com/${o}/${r}/${b}/`};
 }
 function apiBase(){
-  const o=ownerEl.value.trim()||"alfredlu1986";
-  const r=repoEl.value.trim()||"movie-english-sub";
-  const b=branchEl.value.trim()||"main";
-  // 注意：結尾不可加斜線，root 應為 /contents
-  return {o,r,b,url:`https://api.github.com/repos/${o}/${r}/contents`, ref:b};
+  const o = ownerEl.value.trim() || "alfredlu1986";
+  const r = repoEl.value.trim() || "movie-english-sub";
+  const b = branchEl.value.trim() || "main";
+  // ✅ 不能有尾斜線：/contents（而不是 /contents/）
+  return { o, r, b, url: `https://api.github.com/repos/${o}/${r}/contents`, ref: b };
 }
+
 function escapeHtml(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/\"/g,"&quot;");}
 function escapeRegExp(s){return s.replace(/[.*+?^${}()|[\\]\\\\]/g,"\\\\$&");}
 function buildRegex(query){
@@ -273,17 +274,71 @@ function showByExt(name){
 
 /* ===== Directory Tree ===== */
 async function fetchDir(path){
-  const {url, ref} = apiBase();
-  const base=url;
-  const target = (path && path.length) ? `${base}/${encodeURIComponent(path).replace(/%2F/g,'/')}` : base;
+  const { url, ref } = apiBase();
+  const base = url; // 無尾斜線
+  // ✅ root 直接打 /contents，子路徑才接 /{path}
+  const target = (path && path.length)
+    ? `${base}/${encodeURIComponent(path).replace(/%2F/g,'/')}`
+    : base;
   const api = `${target}?ref=${encodeURIComponent(ref)}`;
   const res = await fetch(api);
   if(!res.ok) throw new Error(`GitHub API ${res.status}`);
   const data = await res.json();
   if(!Array.isArray(data)) throw new Error('非目錄或路徑不存在');
-  data.sort((a,b)=> (a.type===b.type? a.name.localeCompare(b.name) : (a.type==='dir'?-1:1)) );
+  // 目錄優先顯示在上方
+  data.sort((a,b)=> (a.type===b.type ? a.name.localeCompare(b.name) : (a.type==='dir' ? -1 : 1)));
   return data;
 }
+
+// ===== 目錄樹點擊委派（避免因樣式調整造成 listener 遺失） =====
+treeRoot.addEventListener('click', async (e) => {
+  const btn = e.target.closest('button.toggle');         // ▶ 或 ▾
+  const fileA = e.target.closest('.fname.file');         // 檔案名
+  const folderHead = (!btn && e.target.closest('.node') && e.target.closest('li.dir') && 
+                      e.target.closest('.node').querySelector('.toggle')) ? e.target.closest('li.dir') : null;
+
+  // 點檔案：直接載入
+  if (fileA) {
+    e.preventDefault();
+    const li = fileA.closest('li.node.file');
+    const fullPath = li?.dataset?.fullPath || fileA.title;
+    if (fullPath) openFileFromTree(fullPath, fileA.textContent.replace(/^📄\s*/,''));
+    return;
+  }
+
+  // 點 ▶/▾ 或資料夾列：展開/收合（必要時才載入 children）
+  if (btn || folderHead) {
+    e.preventDefault();
+    const li = (btn ? btn.closest('li.dir') : folderHead);
+    const ul = li.querySelector('ul');
+    const isCollapsed = ul.classList.contains('hidden');
+
+    // 第一次展開才打 API
+    if (isCollapsed && ul.children.length === 0) {
+      const headerSpan = li.querySelector('.fname');
+      const fullPath = headerSpan.textContent.replace(/^📁\s*/, '').trim();
+      try {
+        const kids = await fetchDir(fullPath === '/' ? '' : fullPath);
+        for (const ent of kids) {
+          ul.appendChild(ent.type === 'dir'
+            ? renderClosedFolder(ent.path)
+            : renderFile(ent.path, ent.name));
+        }
+      } catch (err) {
+        const errLi = document.createElement('li');
+        errLi.innerHTML = `<span class="status">無法讀取：${escapeHtml(err.message||String(err))}</span>`;
+        ul.appendChild(errLi);
+      }
+      applyTreeFilters(); // 展開後也套用過濾
+    }
+
+    ul.classList.toggle('hidden');
+    const t = li.querySelector('button.toggle');
+    if (t) t.textContent = ul.classList.contains('hidden') ? '▸' : '▾';
+  }
+});
+
+  
 function renderClosedFolder(fullPath){
   const li=document.createElement('li'); li.className='node dir';
   const head=document.createElement('div'); head.className='node';
