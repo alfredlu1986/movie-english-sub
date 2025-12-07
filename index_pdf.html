@@ -130,7 +130,7 @@
                 <label><input type="checkbox" id="showCSV" checked> .csv</label>
                 <label><input type="checkbox" id="showDOCX" checked> .docx</label>
                 <label><input type="checkbox" id="showPDF" checked> .pdf</label>
-                <label><input type="checkbox" id="showOTHER"> 其他</label>
+                <label><input type="checkbox" id="showOTHER" checked> 其他</label>
               </div>
               <div class="status" id="treeStatus"></div>
             </div>
@@ -252,6 +252,12 @@ function apiBase(){
   // 不能有尾斜線：/contents（而不是 /contents/）
   return { o, r, b, url: `https://api.github.com/repos/${o}/${r}/contents`, ref: b };
 }
+function normalizePath(p){
+  if(!p) return "";
+  // 去空白、去掉前導 "/"，末端的 "/" 也拿掉（GitHub API 對 "/" 視為非法路徑）
+  p = String(p).trim().replace(/^\/+/, "").replace(/\/+$/, "");
+  return p;
+}
 
 function escapeHtml(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/\"/g,"&quot;");}
 function escapeRegExp(s){return s.replace(/[.*+?^${}()|[\\]\\\\]/g,"\\\\$&");}
@@ -273,16 +279,31 @@ function showByExt(name){
 }
 
 /* ===== Directory Tree ===== */
+async function loadTree(path=""){
+  const clean = normalizePath(path);
+  treeStatus.textContent = '讀取中…';
+  treeRoot.innerHTML = '';
+  try{
+    const root = await fetchDir(clean);
+    const rootNode = renderDirNode(clean || '', root);
+    treeRoot.appendChild(rootNode);
+    treeStatus.textContent = '完成。點資料夾展開/收合，點檔案即載入。';
+    applyTreeFilters();
+  }catch(err){
+    treeStatus.innerHTML = `<span class="error">載入失敗：${escapeHtml(err.message||String(err))}</span>`;
+  }
+}
+
 async function fetchDir(path){
-  const { url, ref } = apiBase();
-  const base = url; // 無尾斜線
-  const target = path ? `${base}/${encodeURIComponent(path).replace(/%2F/g,'/')}` : base;
+  const { url, ref } = apiBase();           // url = .../contents（注意：無尾斜線）
+  const clean = normalizePath(path);
+  const target = clean ? `${url}/${encodeURIComponent(clean).replace(/%2F/g,'/')}` : url;
   const api = `${target}?ref=${encodeURIComponent(ref)}`;
   const res = await fetch(api);
   if(!res.ok) throw new Error(`GitHub API ${res.status}`);
   const data = await res.json();
-  if(!Array.isArray(data)) throw new Error('非目錄或路徑不存在');
-  data.sort((a,b)=> (a.type===b.type ? a.name.localeCompare(b.name) : (a.type==='dir' ? -1 : 1)));
+  if(!Array.isArray(data)) throw new Error('非目錄（或路徑不存在）');
+  data.sort((a,b)=> (a.type===b.type? a.name.localeCompare(b.name) : (a.type==='dir'?-1:1)) );
   return data;
 }
 
@@ -399,15 +420,6 @@ function renderDirNode(path, entries){
   return li;
 }
   
-async function loadTree(path){
-  treeStatus.textContent='讀取中…'; treeRoot.innerHTML='';
-  try{
-    const root=await fetchDir(path||'');
-    treeRoot.appendChild(renderDirNode(path||'/', root));
-    treeStatus.textContent='完成。點資料夾展開/收合，點檔案即載入。';
-    applyTreeFilters();
-  }catch(e){ treeStatus.innerHTML=`<span class="error">載入失敗：${escapeHtml(e.message||String(e))}</span>`; }
-}
 function applyTreeFilters(){
   const q=(nameFilter.value||'').toLowerCase();
   const items=treeRoot.querySelectorAll('li.node.file');
@@ -650,6 +662,16 @@ function highlightInElement(root, re){
 
 /* init */
 loadTree('');
+
+const showAllBtn = document.getElementById('showAllBtn');
+if(showAllBtn){
+  showAllBtn.addEventListener('click', ()=>{
+    showSRT.checked = showCSV.checked = showDOCX.checked = showPDF.checked = showOTHER.checked = true;
+    nameFilter.value = '';
+    applyTreeFilters();
+  });
+}
+
 </script>
 </body>
 </html>
